@@ -808,8 +808,9 @@
             <table class="data-table">
                 <thead>
                     <tr>
-                        <th style="width: 35%;">Projeto</th>
-                        <th style="width: 65%;">Sobre o projeto</th>
+                        <th style="width: 30%;">Projeto</th>
+                        <th style="width: 18%;">Status</th>
+                        <th style="width: 52%;">Sobre o projeto</th>
                     </tr>
                 </thead>
                 <tbody id="tableResumoBody"></tbody>
@@ -1071,16 +1072,18 @@ function render() {
         });
     }
 
-    // Render 📈 SOBRE (Lendo diretamente da coluna 'Resumo' do ClickUp)
+    // Render 📈 SOBRE (Lendo diretamente da coluna 'Resumo' do ClickUp + Coluna de Status com Cores)
     const tableBody = document.getElementById('tableResumoBody');
     tableBody.innerHTML = '';
 
     filtered.forEach(p => {
         const tr = document.createElement('tr');
         const resText = (p.resumo_raw && p.resumo_raw.trim() !== '') ? p.resumo_raw.trim() : 'Sem informação cadastrada.';
+        const statusBadgeHtml = `<span class="status-badge" style="background-color: ${getStatusColor(p.status)}; margin-bottom: 0; white-space: nowrap;">${p.status || 'SEM STATUS'}</span>`;
 
         tr.innerHTML = `
             <td><strong>${p.name}</strong></td>
+            <td>${statusBadgeHtml}</td>
             <td style="color: var(--text-secondary); white-space: pre-line; line-height: 1.6;">${resText}</td>
         `;
         tableBody.appendChild(tr);
