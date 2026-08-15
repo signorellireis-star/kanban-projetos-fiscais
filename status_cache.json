@@ -1,8 +1,8 @@
 {
   "86ajp65xa": {
-    "date_updated": "1786821867964",
-    "ultimo_status": "Demanda liberada para testes com evidências validadas, aguardando o início da homologação sob responsabilidade da analista Ellen.\nO cronograma oficial prevê homologação entre 10 e 14/08/2026, aprovação no CAB em 19/08 e Go-Live agendado para 25/08/2026.",
-    "status_updated_at": "15/08/2026 17:00"
+    "date_updated": "1786832442666",
+    "ultimo_status": "Demanda liberada para homologação sob responsabilidade de Ellen, após a conclusão e envio das evidências dos testes internos com sucesso.\nO cronograma oficial estabelece a fase de homologação de 10 a 14/08/2026, aprovação no CAB em 19/08/2026 e Go-Live em 25/08/2026.",
+    "status_updated_at": "15/08/2026 22:56"
   },
   "86ajnr5t7": {
     "date_updated": "1785766232109",
@@ -10,9 +10,9 @@
     "status_updated_at": "03/08/2026 17:14"
   },
   "86ajn2bf9": {
-    "date_updated": "1785766233528",
-    "ultimo_status": "A validação jurídica preliminar das minutas contratuais foi concluída, restando a análise de impactos regulatórios e tributários pelo time Fiscal.\nEsta avaliação pelo setor Fiscal está programada para iniciar após o fechamento mensal em 13/07, concomitante ao registro formal do projeto no portfólio.",
-    "status_updated_at": "03/08/2026 17:14"
+    "date_updated": "1786832996728",
+    "ultimo_status": "A minuta contratual e o plano de comunicação avançaram para revisão fiscal após parecer inicial do Jurídico sobre o novo fluxo de repasses.\nA análise dos impactos tributários foi agendada pela área Fiscal para após o fechamento de 13/07, com o projeto devidamente registrado no portfólio.",
+    "status_updated_at": "15/08/2026 22:56"
   },
   "86ajn2519": {
     "date_updated": "1785766228387",
@@ -25,8 +25,9 @@
     "status_updated_at": "15/08/2026 16:28"
   },
   "86ajmpzkk": {
-    "date_updated": "1785416177231",
-    "ultimo_status": "A proposta de projeto (PPM) contendo as considerações operacionais e os requisitos fiscais foi enviada ao requisitante em 27/07/2026.\nA iniciativa aguarda a validação do solicitante para o direcionamento dos próximos passos e início das adequações sistêmicas."
+    "date_updated": "1786833292750",
+    "ultimo_status": "A proposta de projeto (PPM) com as premissas e os requisitos fiscais foi enviada ao requisitante em 27/07/2026 para análise.\nO projeto aguarda o retorno da área demandante para validação das condições propostas e posterior avanço no planejamento do fluxo logístico B2B.",
+    "status_updated_at": "15/08/2026 22:56"
   },
   "86ajd31ab": {
     "date_updated": "1785766257751",
