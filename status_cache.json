@@ -1,0 +1,105 @@
+{
+  "86ajp65xa": {
+    "date_updated": "1786821867964",
+    "ultimo_status": "Demanda liberada para testes com evidências validadas, aguardando o início da homologação sob responsabilidade da analista Ellen.\nO cronograma oficial prevê homologação entre 10 e 14/08/2026, aprovação no CAB em 19/08 e Go-Live agendado para 25/08/2026.",
+    "status_updated_at": "15/08/2026 17:00"
+  },
+  "86ajnr5t7": {
+    "date_updated": "1785766232109",
+    "ultimo_status": "Sem registros de justificativa, histórico de interações ou progresso documentados para a iniciativa até o momento.\nRecomenda-se a definição imediata do escopo estrutural e o alinhamento com os stakeholders para a realização do kick-off.",
+    "status_updated_at": "03/08/2026 17:14"
+  },
+  "86ajn2bf9": {
+    "date_updated": "1785766233528",
+    "ultimo_status": "A validação jurídica preliminar das minutas contratuais foi concluída, restando a análise de impactos regulatórios e tributários pelo time Fiscal.\nEsta avaliação pelo setor Fiscal está programada para iniciar após o fechamento mensal em 13/07, concomitante ao registro formal do projeto no portfólio.",
+    "status_updated_at": "03/08/2026 17:14"
+  },
+  "86ajn2519": {
+    "date_updated": "1785766228387",
+    "ultimo_status": "Atividades atualmente suspensas devido à pendência de esclarecimentos cruciais por parte de Murata sobre as diretrizes do escopo.\nAguarda-se este alinhamento técnico para o desbloqueio das próximas etapas de execução e avanço da equipe.",
+    "status_updated_at": "03/08/2026 17:14"
+  },
+  "86ajn24ga": {
+    "date_updated": "1785772406364",
+    "ultimo_status": "Fase de inicialização sem registro de interações ou detalhamento de justificativa no sistema até o momento.\nAguardam-se as definições preliminares de escopo e o alinhamento da equipe para o início das atividades.",
+    "status_updated_at": "15/08/2026 16:28"
+  },
+  "86ajmpzkk": {
+    "date_updated": "1785416177231",
+    "ultimo_status": "A proposta de projeto (PPM) contendo as considerações operacionais e os requisitos fiscais foi enviada ao requisitante em 27/07/2026.\nA iniciativa aguarda a validação do solicitante para o direcionamento dos próximos passos e início das adequações sistêmicas."
+  },
+  "86ajd31ab": {
+    "date_updated": "1785766257751",
+    "ultimo_status": "Disponibilizada a versão 7 do planejamento PPM CIOT (julho/2026), avançando na estruturação do processo de conformidade regulatória.\nO foco prioritário é a implantação célere da plataforma de automação de documentos de transporte para mitigar o passivo de multas diárias junto à ANTT.",
+    "status_updated_at": "03/08/2026 17:15"
+  },
+  "86ajc7q9w": {
+    "date_updated": "1786821980379",
+    "ultimo_status": "A base do SAP foi extraída pela TI e disponibilizada no Databricks, aguardando o download pela responsável.\nA próxima ação consiste no envio deste arquivo para a EY para dar continuidade às atividades.",
+    "status_updated_at": "15/08/2026 16:30"
+  },
+  "86ajc7hu3": {
+    "date_updated": "1785842760054",
+    "ultimo_status": "A homologação e os testes sistêmicos encontram-se suspensos aguardando parecer jurídico sobre a coexistência tributária e a definição do CNPJ da Dark Store de Cajamar.\nA área de TI estima duas semanas de esforço para desenvolvimento e retestes assim que sanadas as pendências fiscais e regulatórias do projeto.",
+    "status_updated_at": "15/08/2026 16:28"
+  },
+  "86ahw2uge": {
+    "date_updated": "1785766225520",
+    "ultimo_status": "Com o Business Case e a documentação preliminar estruturados, a área responsável realiza o estudo de viabilidade sistêmica para a emissão de CTe em todos os processos.\nA modelagem operacional em avaliação assemelha-se ao formato FBA e prevê a utilização de certificado digital próprio para viabilizar as transações.",
+    "status_updated_at": "03/08/2026 17:15"
+  },
+  "86ahfje7y": {
+    "date_updated": "1784845132103",
+    "ultimo_status": "Apresentada a tela de simulação de serviço e recebido o alinhamento dos ajustes acordados com a Neogrid para aprovação.\nO andamento atual foca na validação desse resumo de ajustes para subsidiar a estruturação da proposta do projeto (PPM)."
+  },
+  "86ahe92c9": {
+    "date_updated": "1784845129036",
+    "ultimo_status": "Tratativa em andamento conduzida por Alexander junto a Medeiros para evitar o potencial bloqueio da PPM.\nA continuidade das atividades do projeto depende da resolução deste alinhamento interno pendente."
+  },
+  "86aghx74e": {
+    "date_updated": "1786736817040",
+    "ultimo_status": "Propostas comerciais em validação pelo departamento Jurídico (Projuris), restando a definição do cronograma para o avanço do projeto.\nPróxima etapa agendada para 18/08/26 para a apresentação técnica da plataforma Cloud pela Addvisor.",
+    "status_updated_at": "15/08/2026 16:29"
+  },
+  "86af3zqga": {
+    "date_updated": "1784845130493",
+    "ultimo_status": "Ajustes para emissão de documentos fiscais de transferências (CST e cClassTrib) foram implantados no ambiente de homologação.\nPendente o retorno de Carol Godoy a Alexander referente à validação e acordo sobre a proposta comercial da ELO."
+  },
+  "86af3zj95": {
+    "date_updated": "1785694444831",
+    "ultimo_status": "Definição estratégica sobre a criação de um novo e-commerce (CjJ 4) segue pendente, impactando o direcionamento das próximas etapas do projeto.\nAtualmente, as atividades aguardam posicionamento oficial da liderança para a retomada do planejamento e detalhamento técnico."
+  },
+  "86ae39yjg": {
+    "date_updated": "1785766229801",
+    "ultimo_status": "A criação do novo CNPJ com CNAE de Atacadista em Cajamar (SP) encontra-se em aguardo de definição de priorização corporativa.\nAté o momento, não há atualizações recentes sobre o andamento da demanda ou direcionamentos para o início das próximas etapas.",
+    "status_updated_at": "03/08/2026 17:16"
+  },
+  "86a88zqpx": {
+    "date_updated": "1785707829792",
+    "ultimo_status": "A EF foi validada em 20/07/2026 após atualização da PPM para refletir a exclusão do IPI e inclusão do processo de revenda.\nO cronograma do projeto permanece pendente de definição para o direcionamento das próximas etapas operacionais.",
+    "status_updated_at": "03/08/2026 09:12"
+  },
+  "86a3vz587": {
+    "date_updated": "1785412718321",
+    "ultimo_status": "Implantação reprogramada para 04/08 devido ao congelamento de TI, exigindo finalização das homologações de SAP ECC e AddTax até 24/07 para aprovação no CAB em 29/07.\nA frente SAP ECC aguarda resolução de chamado de inconsistência no Mercado Eletrônico, enquanto os testes do AddTax estão agendados para o dia 13/07."
+  },
+  "864ee7nrp": {
+    "date_updated": "1785948901980",
+    "ultimo_status": "Homologação suspensa devido a alterações nos processos de transferências e divergências nos dados cadastrais dos centros de distribuição da Amazon.\nMedidas corretivas estão sendo adotadas junto ao parceiro para mitigar as inconsistências e viabilizar o reinício dos testes de validação.",
+    "status_updated_at": "15/08/2026 17:02"
+  },
+  "864e98d8y": {
+    "date_updated": "1785432799516",
+    "ultimo_status": "Conclusão da PPM e definição das regras fiscais de ICMS para mitigar riscos em operações internas de uso e consumo.\nPróximo passo consiste na validação do documento de especificação técnica EF_DMND0002001_v1.1, entregue para revisão."
+  },
+  "86ajqc9ph": {
+    "date_updated": "1786823197698",
+    "ultimo_status": "Solicitada a elaboração do Documento Técnico (TD) para estruturação do fluxo de chamados fiscais e paralegais na plataforma HALO.\nO próximo passo consiste no desenho da solução para centralizar as demandas de e-mails e do sistema FCchamados, visando gerar indicadores da área.",
+    "status_updated_at": "15/08/2026 17:00"
+  },
+  "86ah3zc5g": {
+    "date_updated": "1786138886854",
+    "ultimo_status": "Alinhamento da reestruturação iniciado com o envio de insumo visual por Sergio Sanchez, sem impedimentos registrados.\nAguardam-se o detalhamento do escopo e a definição formal das próximas etapas para dar sequência ao cronograma de entregas.",
+    "status_updated_at": "15/08/2026 16:28"
+  }
+}

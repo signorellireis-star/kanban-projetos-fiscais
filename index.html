@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanban Projetos Fiscais - Painel Gerencial</title>
+<meta name="description" content="Painel Kanban de controle e visibilidade dos projetos fiscais sincronizados com a API do ClickUp.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+    :root {
+        /* Light Theme (Default) */
+        --bg-main: #f8fafc;
+        --card-bg: #ffffff;
+        --card-hover: #f1f5f9;
+        --card-inner: #f1f5f9;
+        --border-color: #e2e8f0;
+        --border-highlight: #3b82f6;
+        --text-primary: #0f172a;
+        --text-secondary: #475569;
+        --text-dim: #64748b;
+        --header-bg: #ffffff;
+        --table-header-bg: #f8fafc;
+        
+        --brand-blue: #0284c7;
+        --brand-amber: #d97706;
+        --brand-green: #16a34a;
+        --brand-red: #dc2626;
+        --brand-purple: #4f46e5;
+    }
+
+    [data-theme="dark"] {
+        /* Dark Theme */
+        --bg-main: #0b0f19;
+        --card-bg: #111827;
+        --card-hover: #1f2937;
+        --card-inner: #0b0f19;
+        --border-color: #1f293d;
+        --border-highlight: #38bdf8;
+        --text-primary: #f9fafb;
+        --text-secondary: #9ca3af;
+        --text-dim: #6b7280;
+        --header-bg: rgba(17, 24, 39, 0.85);
+        --table-header-bg: rgba(11, 15, 25, 0.9);
+        
+        --brand-blue: #38bdf8;
+        --brand-amber: #f59e0b;
+        --brand-green: #10b981;
+        --brand-red: #ef4444;
+        --brand-purple: #818cf8;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: var(--bg-main);
+        color: var(--text-primary);
+        padding: 32px 24px;
+        line-height: 1.5;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    /* Header Banner */
+    .app-header {
+        background: var(--header-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 22px 32px;
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+
+    .app-header h1 {
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        color: var(--text-primary);
+    }
+
+    .app-header p {
+        font-size: 13px;
+        color: var(--text-secondary);
+        margin-top: 4px;
+    }
+
+    .header-controls {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .theme-toggle-btn {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        color: var(--text-primary);
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.2s ease;
+        font-family: inherit;
+    }
+
+    .theme-toggle-btn:hover {
+        border-color: var(--brand-blue);
+        transform: translateY(-1px);
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        padding: 16px 20px;
+        margin-bottom: 28px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+    .filter-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        flex-grow: 1;
+        min-width: 200px;
+    }
+
+    .filter-group label {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        letter-spacing: 0.5px;
+    }
+
+    .filter-control {
+        background: var(--bg-main);
+        border: 1px solid var(--border-color);
+        color: var(--text-primary);
+        padding: 10px 14px;
+        border-radius: 8px;
+        font-size: 13px;
+        outline: none;
+        transition: border-color 0.2s ease;
+        font-family: inherit;
+    }
+
+    .filter-control:focus {
+        border-color: var(--brand-blue);
+    }
+
+    /* Section Separator */
+    .section-title {
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        color: var(--text-primary);
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    hr.divider {
+        border: none;
+        height: 1px;
+        background: var(--border-color);
+        margin: 32px 0;
+    }
+
+    /* 📌 INDICADORES DA CARTEIRA */
+    .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+        margin-bottom: 28px;
+    }
+
+    .kpi-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        padding: 22px;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.2s ease;
+    }
+
+    .kpi-card:hover {
+        border-color: var(--border-highlight);
+        transform: translateY(-2px);
+    }
+
+    .kpi-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+    }
+
+    .kpi-total::before { background: linear-gradient(90deg, #38bdf8, #818cf8); }
+    .kpi-fazendo::before { background: var(--brand-amber); }
+    .kpi-concluido::before { background: var(--brand-green); }
+    .kpi-taxa::before { background: var(--brand-blue); }
+
+    .kpi-label {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        letter-spacing: 0.5px;
+    }
+
+    .kpi-value {
+        font-size: 34px;
+        font-weight: 800;
+        color: var(--text-primary);
+        margin-top: 8px;
+        line-height: 1;
+    }
+
+    /* 📋 LISTA PROJETOS */
+    .lista-box {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        padding: 16px 20px;
+        transition: all 0.3s ease;
+    }
+
+    .lista-item {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12.5px;
+        padding: 9px 12px;
+        border-bottom: 1px solid var(--border-color);
+        color: var(--text-primary);
+    }
+
+    .lista-item:last-child {
+        border-bottom: none;
+    }
+
+    /* 📊 KANBAN BOARD */
+    .kanban-board {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .kanban-column {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        max-height: 900px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .kanban-header {
+        padding: 16px 20px;
+        border-bottom: 1px solid var(--border-color);
+        background: var(--card-inner);
+    }
+
+    .kanban-title {
+        font-size: 14px;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .kanban-sub {
+        font-size: 12px;
+        color: var(--text-secondary);
+        margin-top: 4px;
+        font-weight: 600;
+    }
+
+    .kanban-body {
+        padding: 16px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        flex-grow: 1;
+    }
+
+    /* Cards Limpos (Sem Infográficos / Barras) */
+    .kanban-card {
+        background: var(--card-inner);
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        padding: 12px 14px;
+        transition: all 0.2s ease;
+    }
+
+    .kanban-card:hover {
+        border-color: var(--brand-blue);
+        transform: translateY(-2px);
+    }
+
+    .card-name {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--text-primary);
+        line-height: 1.35;
+    }
+
+    .card-line {
+        font-size: 12px;
+        color: var(--brand-blue);
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    .card-desc {
+        font-size: 12px;
+        color: var(--text-secondary);
+        margin-top: 4px;
+        line-height: 1.4;
+    }
+
+    .card-ppm {
+        font-size: 11px;
+        color: var(--text-dim);
+        margin-top: 2px;
+        font-weight: 600;
+    }
+
+    /* 🔴 ATENÇÕES PARA A GERÊNCIA */
+    .atencao-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 18px;
+    }
+
+    .atencao-card {
+        background: var(--card-bg);
+        border-left: 4px solid var(--brand-red);
+        border-top: 1px solid var(--border-color);
+        border-right: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        border-radius: 0 12px 12px 0;
+        padding: 18px 20px;
+        transition: all 0.3s ease;
+    }
+
+    .atencao-card h3 {
+        font-size: 14.5px;
+        font-weight: 700;
+        color: var(--brand-red);
+        margin-bottom: 8px;
+    }
+
+    .atencao-card p {
+        font-size: 13px;
+        color: var(--text-secondary);
+        line-height: 1.5;
+    }
+
+    /* 📈 RESUMO DOS PROJETOS */
+    .table-container {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    table.data-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+    table.data-table th {
+        background: var(--table-header-bg);
+        padding: 14px 20px;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    table.data-table td {
+        padding: 12px 20px;
+        border-bottom: 1px solid var(--border-color);
+        font-size: 13px;
+        vertical-align: top;
+    }
+
+    table.data-table tr:hover {
+        background: var(--card-hover);
+    }
+
+
+
+    @media (max-width: 900px) {
+        .kanban-board {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* 📌 STATUS BADGE */
+    .status-badge {
+        color: white;
+        padding: 4px 8px;
+        border-radius: 6px;
+        font-size: 10px;
+        font-weight: 800;
+        text-transform: uppercase;
+        display: inline-block;
+        letter-spacing: 0.3px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-bottom: 8px;
+    }
+
+    /* 📌 MODAL DE INSTRUÇÕES DE ATUALIZAÇÃO */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        z-index: 1000;
+    }
+
+    .modal-overlay.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modal-content {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 28px;
+        max-width: 480px;
+        width: 90%;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        transform: scale(0.95);
+        transition: transform 0.3s ease;
+        position: relative;
+    }
+
+    .modal-overlay.active .modal-content {
+        transform: scale(1);
+    }
+
+    .modal-header {
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--text-primary);
+    }
+
+    .modal-body {
+        font-size: 13.5px;
+        color: var(--text-secondary);
+        line-height: 1.6;
+        margin-bottom: 24px;
+    }
+
+    .modal-body ol {
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+
+    .modal-body li {
+        margin-bottom: 8px;
+    }
+
+    .modal-close-btn {
+        background: var(--brand-blue);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        width: 100%;
+        transition: opacity 0.2s;
+        font-family: inherit;
+    }
+
+    .modal-close-btn:hover {
+        opacity: 0.9;
+    }
+
+    /* 🖨️ ESTILOS EXCLUSIVOS PARA IMPRESSÃO / SALVAR EM PDF (FORMATO A3) */
+    @media print {
+        @page {
+            size: A3 landscape;
+            margin: 12mm;
+        }
+
+        body {
+            background: #ffffff !important;
+            color: #0f172a !important;
+            padding: 0 !important;
+            font-size: 12px !important;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        .container {
+            max-width: 100% !important;
+            width: 100% !important;
+            margin: 0 !important;
+        }
+
+        /* Oculta botões de controle, filtros e modais na impressão */
+        .header-controls,
+        .filter-bar,
+        .modal-overlay,
+        .theme-toggle-btn,
+        button {
+            display: none !important;
+        }
+
+        .app-header {
+            box-shadow: none !important;
+            border: 1px solid #cbd5e1 !important;
+            background: #ffffff !important;
+            padding: 16px 22px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .app-header h1 {
+            font-size: 22px !important;
+            color: #0f172a !important;
+        }
+
+        .app-header p {
+            font-size: 13px !important;
+            color: #475569 !important;
+        }
+
+        /* Expande o Kanban completamente sem barras de rolagem ou cortes */
+        .kanban-board {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 16px !important;
+            page-break-inside: auto !important;
+        }
+
+        .kanban-column {
+            max-height: none !important;
+            height: auto !important;
+            overflow: visible !important;
+            border: 1px solid #cbd5e1 !important;
+            background: #ffffff !important;
+            page-break-inside: auto !important;
+        }
+
+        .kanban-header {
+            background: #f1f5f9 !important;
+            padding: 12px 16px !important;
+        }
+
+        .kanban-body {
+            max-height: none !important;
+            height: auto !important;
+            overflow: visible !important;
+            padding: 12px !important;
+            gap: 10px !important;
+        }
+
+        .kanban-card {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+            margin-bottom: 10px !important;
+            border: 1px solid #cbd5e1 !important;
+            background: #f8fafc !important;
+            box-shadow: none !important;
+            padding: 12px 14px !important;
+        }
+
+        .atencao-card {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+            background: #ffffff !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        .table-container {
+            border: 1px solid #cbd5e1 !important;
+            background: #ffffff !important;
+            page-break-inside: auto !important;
+        }
+
+        .data-table th {
+            background: #f1f5f9 !important;
+            color: #0f172a !important;
+            font-size: 12px !important;
+        }
+
+        .data-table td {
+            font-size: 12px !important;
+        }
+
+        .data-table tr {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+        }
+
+        .lista-box {
+            border: 1px solid #cbd5e1 !important;
+            background: #ffffff !important;
+            page-break-inside: auto !important;
+        }
+
+        .lista-item {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+            padding: 8px 12px !important;
+            font-size: 12px !important;
+        }
+
+        .section-title {
+            page-break-after: avoid !important;
+            break-after: avoid !important;
+            margin-top: 10px !important;
+            margin-bottom: 14px !important;
+            font-size: 17px !important;
+            color: #0f172a !important;
+        }
+
+        /* Força quebra de página antes de cada grupo principal */
+        .print-page-break {
+            page-break-before: always !important;
+            break-before: page !important;
+            padding-top: 8px !important;
+        }
+
+        hr.divider {
+            display: none !important;
+        }
+    }
+</style>
+<!-- Script de carregamento dinâmico dos dados sincronizados do ClickUp -->
+<script src="data.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header com Seleção de Tema (Light Mode / Dark Mode) e Sincronização -->
+    <div class="app-header">
+        <div>
+            <h1>RESUMO GERENCIAL KANBAN | PROJETOS FISCAIS</h1>
+            <p>Painel Gerencial Executivo e Acompanhamento do Portfólio (ClickUp API Sync) | Atualizado em: <span id="lastUpdateSpan">Carregando...</span></p>
+        </div>
+        <div class="header-controls">
+            <button class="theme-toggle-btn" onclick="exportToPDF()" style="border-color: var(--brand-amber); color: var(--brand-amber);" title="Imprimir ou Salvar página em PDF">
+                <span>📄</span> <span>Salvar em PDF</span>
+            </button>
+            <button class="theme-toggle-btn" onclick="triggerFullSync(event)" style="border-color: var(--brand-blue); color: var(--brand-blue);">
+                <span>🔄</span> <span>Sincronizar ClickUp</span>
+            </button>
+            <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()">
+                <span id="themeIcon">☀️</span> <span id="themeLabel">Modo Escuro</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Filter Controls -->
+    <div class="filter-bar">
+        <div class="filter-group">
+            <label>🔍 Buscar Projeto ou Palavra-chave</label>
+            <input type="text" id="searchInput" class="filter-control" placeholder="Digite para filtrar instantaneamente...">
+        </div>
+        <div class="filter-group">
+            <label>📊 Status Kanban</label>
+            <select id="statusFilter" class="filter-control">
+                <option value="ALL">Todos os Status</option>
+                <option value="A FAZER">🟦 A FAZER</option>
+                <option value="EM ANDAMENTO">🟨 EM ANDAMENTO (Fazendo)</option>
+                <option value="CONCLUIDO">🟩 CONCLUÍDO</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>🏢 Área Responsável</label>
+            <select id="areaFilter" class="filter-control">
+                <option value="ALL">Todas as Áreas</option>
+                <option value="Fiscal">Fiscal</option>
+                <option value="Terceiros">Terceiros</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- 📌 INDICADORES DA CARTEIRA -->
+    <div class="section-title">📌 INDICADORES DA CARTEIRA</div>
+    <div class="kpi-grid">
+        <div class="kpi-card kpi-total">
+            <div class="kpi-label">Total de Projetos</div>
+            <div class="kpi-value" id="kpiTotal">0</div>
+        </div>
+        <div class="kpi-card kpi-fazendo">
+            <div class="kpi-label">Em Execução</div>
+            <div class="kpi-value" id="kpiFazendo" style="color: var(--brand-amber);">0</div>
+        </div>
+        <div class="kpi-card kpi-concluido">
+            <div class="kpi-label">Concluídos</div>
+            <div class="kpi-value" id="kpiConcluido" style="color: var(--brand-green);">0</div>
+        </div>
+        <div class="kpi-card kpi-taxa">
+            <div class="kpi-label">Taxa de Conclusão</div>
+            <div class="kpi-value" id="kpiTaxa" style="color: var(--brand-blue);">0%</div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- 📊 KANBAN | PROJETOS FISCAIS -->
+    <div class="section-title">📊 KANBAN | PROJETOS FISCAIS</div>
+    <div class="kanban-board">
+        <!-- Coluna A FAZER -->
+        <div class="kanban-column">
+            <div class="kanban-header">
+                <div class="kanban-title" style="color: var(--brand-blue);">
+                    <span>🟦 A FAZER</span>
+                    <span id="badgeAFazer">0</span>
+                </div>
+                <div class="kanban-sub" id="subAFazer">0 projetos - 0% da carteira</div>
+            </div>
+            <div class="kanban-body" id="colAFazer"></div>
+        </div>
+
+        <!-- Coluna FAZENDO -->
+        <div class="kanban-column">
+            <div class="kanban-header">
+                <div class="kanban-title" style="color: var(--brand-amber);">
+                    <span>🟨 FAZENDO</span>
+                    <span id="badgeFazendo">0</span>
+                </div>
+                <div class="kanban-sub" id="subFazendo">0 projetos - 0% da carteira</div>
+            </div>
+            <div class="kanban-body" id="colFazendo"></div>
+        </div>
+
+        <!-- Coluna CONCLUÍDO -->
+        <div class="kanban-column">
+            <div class="kanban-header">
+                <div class="kanban-title" style="color: var(--brand-green);">
+                    <span>🟩 CONCLUÍDO</span>
+                    <span id="badgeConcluido">0</span>
+                </div>
+                <div class="kanban-sub" id="subConcluido">0 projetos - 0% da carteira</div>
+            </div>
+            <div class="kanban-body" id="colConcluido"></div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- 🔴 PROJETOS - ÚLTIMO STATUS -->
+    <div class="print-page-break">
+        <div class="section-title">🔴 PROJETOS - ÚLTIMO STATUS</div>
+        <div class="atencao-grid" id="atencaoGrid"></div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- 📈 SOBRE -->
+    <div class="print-page-break">
+        <div class="section-title">📈 SOBRE</div>
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th style="width: 35%;">Projeto</th>
+                        <th style="width: 65%;">Sobre o projeto</th>
+                    </tr>
+                </thead>
+                <tbody id="tableResumoBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- 📋 LISTA PROJETOS -->
+    <div class="print-page-break">
+        <div class="section-title">📋 LISTA PROJETOS</div>
+        <div class="lista-box" id="listaProjetos"></div>
+    </div>
+
+</div>
+
+<script>
+// Garante que as variáveis existem caso data.js falhe ou não tenha sido gerado
+if (typeof rawData === 'undefined') {
+    window.rawData = [];
+}
+if (typeof resumosMap === 'undefined') {
+    window.resumosMap = {};
+}
+
+// Mapeamento de cores de status
+function getStatusColor(status) {
+    if (!status) return '#8d8d8d';
+    const s = status.toLowerCase().trim();
+    const colors = {
+        'criando ppm': '#3e63dd',
+        't.i trabalhando': '#a39f54',
+        'aguardo inicio homol': '#1090e0',
+        'em homologacao': '#4466ff',
+        'em reunioes': '#c0866c',
+        'aguardo subida producao': '#489c8c',
+        'enviado ao requisitante': '#ab4aba',
+        'nao prior (relevante)': '#e93d82',
+        'ideia congelada': '#aa8d80',
+        'parado': '#b660e0',
+        'arquivado': '#8d8d8d',
+        'iniciar desenvolvimento': '#f8ae00',
+        'priorizadas': '#d6d436',
+        'concluido': '#16a34a',
+        'concluído': '#16a34a'
+    };
+    return colors[s] || '#64748b';
+}
+
+// Alternador de Tema (Light Mode / Dark Mode)
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    
+    const icon = document.getElementById('themeIcon');
+    const label = document.getElementById('themeLabel');
+    
+    if (newTheme === 'dark') {
+        icon.innerText = '🌙';
+        label.innerText = 'Modo Claro';
+    } else {
+        icon.innerText = '☀️';
+        label.innerText = 'Modo Escuro';
+    }
+}
+
+function render() {
+    const searchVal = document.getElementById('searchInput').value.toLowerCase();
+    const statusVal = document.getElementById('statusFilter').value;
+    const areaVal = document.getElementById('areaFilter').value;
+
+    const filtered = rawData.filter(p => {
+        const matchSearch = p.name.toLowerCase().includes(searchVal) || 
+                            (p.status && p.status.toLowerCase().includes(searchVal)) ||
+                            (p.status_ppm && p.status_ppm.toLowerCase().includes(searchVal)) ||
+                            (p.area && p.area.toLowerCase().includes(searchVal)) ||
+                            (p.ultimo_status && p.ultimo_status.toLowerCase().includes(searchVal)) ||
+                            (p.resumo_raw && p.resumo_raw.toLowerCase().includes(searchVal));
+        const matchStatus = (statusVal === 'ALL') || (p.kanban_status === statusVal);
+        const matchArea = (areaVal === 'ALL') || (p.area === areaVal);
+        return matchSearch && matchStatus && matchArea;
+    });
+
+    const total = filtered.length;
+    const fazendo = filtered.filter(p => p.kanban_status === 'EM ANDAMENTO').length;
+    const concluido = filtered.filter(p => p.kanban_status === 'CONCLUIDO').length;
+    const afazer = filtered.filter(p => p.kanban_status === 'A FAZER').length;
+
+    const taxa = total > 0 ? Math.round((concluido / total) * 100) : 0;
+    const pctFaz = total > 0 ? Math.round((fazendo / total) * 100) : 0;
+    const pctAFaz = total > 0 ? Math.round((afazer / total) * 100) : 0;
+
+    // Update KPIs
+    document.getElementById('kpiTotal').innerText = total;
+    document.getElementById('kpiFazendo').innerText = fazendo;
+    document.getElementById('kpiConcluido').innerText = concluido;
+    document.getElementById('kpiTaxa').innerText = taxa + '%';
+
+    // Subtitles
+    document.getElementById('badgeAFazer').innerText = afazer;
+    document.getElementById('subAFazer').innerText = `${afazer} projetos - ${pctAFaz}% da carteira`;
+
+    document.getElementById('badgeFazendo').innerText = fazendo;
+    document.getElementById('subFazendo').innerText = `${fazendo} projetos - ${pctFaz}% da carteira`;
+
+    document.getElementById('badgeConcluido').innerText = concluido;
+    document.getElementById('subConcluido').innerText = `${concluido} projetos - ${taxa}% da carteira`;
+
+    // Render 📋 LISTA PROJETOS (Exibição completa)
+    const listaBox = document.getElementById('listaProjetos');
+    listaBox.innerHTML = '';
+
+    const listAFazer = filtered.filter(p => p.kanban_status === 'A FAZER');
+    const listFazendo = filtered.filter(p => p.kanban_status === 'EM ANDAMENTO');
+    const listConcluido = filtered.filter(p => p.kanban_status === 'CONCLUIDO');
+
+    listAFazer.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'lista-item';
+        div.innerHTML = `🟦 A FAZER - ${p.name} - ⚠️ ${p.status || 'Sem status'}`;
+        listaBox.appendChild(div);
+    });
+
+    listFazendo.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'lista-item';
+        let goStr = p.golive ? ` - 📅 GoLive: ${p.golive}` : '';
+        div.innerHTML = `🟨 FAZENDO - ${p.name} - ⚠️ ${p.status || 'Sem status'}${goStr}`;
+        listaBox.appendChild(div);
+    });
+
+    listConcluido.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'lista-item';
+        let goStr = p.golive ? ` - 📅 GoLive: ${p.golive}` : '';
+        div.innerHTML = `🟩 CONCLUÍDO - ${p.name}${goStr}`;
+        listaBox.appendChild(div);
+    });
+
+    if (filtered.length === 0) {
+        listaBox.innerHTML = '<div style="color: var(--text-secondary); text-align: center; padding: 12px;">Nenhum projeto encontrado.</div>';
+    }
+
+    // Render 📊 KANBAN BOARD (CARTÕES LIMPOS COM STATUS PPM E ÁREA RESPONSÁVEL)
+    const colAFazer = document.getElementById('colAFazer');
+    const colFazendo = document.getElementById('colFazendo');
+    const colConcluido = document.getElementById('colConcluido');
+
+    colAFazer.innerHTML = '';
+    colFazendo.innerHTML = '';
+    colConcluido.innerHTML = '';
+
+    if (afazer === 0) {
+        colAFazer.innerHTML = '<div style="text-align: center; color: var(--text-dim); padding: 20px 0; font-size: 12px;">(Nenhum projeto)</div>';
+    }
+    if (fazendo === 0) {
+        colFazendo.innerHTML = '<div style="text-align: center; color: var(--text-dim); padding: 20px 0; font-size: 12px;">(Nenhum projeto)</div>';
+    }
+    if (concluido === 0) {
+        colConcluido.innerHTML = '<div style="text-align: center; color: var(--text-dim); padding: 20px 0; font-size: 12px;">(Nenhum projeto)</div>';
+    }
+
+    filtered.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'kanban-card';
+
+        const statusPpmHtml = p.status_ppm ? `<div style="font-size: 11.5px; color: var(--text-secondary); margin-top: 2px;"><strong>Status PPM:</strong> <span style="color: var(--text-primary); font-weight: 600;">${p.status_ppm}</span></div>` : `<div style="font-size: 11.5px; color: var(--text-dim); margin-top: 2px;"><strong>Status PPM:</strong> Não informado</div>`;
+        const areaHtml = p.area ? `<div style="font-size: 11.5px; color: var(--text-secondary); margin-top: 2px;"><strong>Área Responsável:</strong> <span style="color: var(--text-primary); font-weight: 600;">${p.area}</span></div>` : `<div style="font-size: 11.5px; color: var(--text-dim); margin-top: 2px;"><strong>Área Responsável:</strong> Não informada</div>`;
+
+        if (p.kanban_status === 'EM ANDAMENTO') {
+            let prazoHtml = p.prazo ? `<div class="card-line">📅 prazo ${p.prazo}</div>` : '';
+            let statusDescHtml = p.ultimo_status ? `<div class="card-desc">📌 ${p.ultimo_status}</div>` : '';
+            let ppmHtml = p.ano_ppm ? `<div class="card-ppm">⏱️ AnoPPM: ${p.ano_ppm}</div>` : '';
+            let dateHtml = p.status_updated_at ? `<div class="card-date" style="font-size: 10px; color: var(--text-dim); margin-top: 6px; border-top: 1px dotted var(--border-color); padding-top: 4px;">🕒 Status em: ${p.status_updated_at}</div>` : '';
+
+            card.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 6px;">
+                    <div class="card-name" style="margin-bottom: 0;">${p.name}</div>
+                    <button onclick="updateSingleTask('${p.id}', event)" class="theme-toggle-btn" style="padding: 2px 6px; font-size: 10px; border-radius: 4px; flex-shrink: 0;" title="Sincronizar apenas este projeto com ClickUp + Gemini">🔄</button>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <span class="status-badge" style="background-color: ${getStatusColor(p.status)}; margin-bottom: 4px;">${p.status || 'SEM STATUS'}</span>
+                    ${statusPpmHtml}
+                    ${areaHtml}
+                </div>
+                ${prazoHtml}
+                ${statusDescHtml}
+                ${ppmHtml}
+                ${dateHtml}
+            `;
+            colFazendo.appendChild(card);
+        } else if (p.kanban_status === 'CONCLUIDO') {
+            let prazoHtml = p.prazo ? `<div class="card-line">📅 prazo ${p.prazo}</div>` : '';
+            let goliveHtml = p.golive ? `<div class="card-line" style="color: var(--brand-green);">📅 GoLive: ${p.golive}</div>` : '';
+
+            card.innerHTML = `
+                <div class="card-name">${p.name}</div>
+                <div style="margin-bottom: 8px;">
+                    <span class="status-badge" style="background-color: ${getStatusColor(p.status || 'CONCLUÍDO')}; margin-bottom: 4px;">${p.status || 'CONCLUÍDO'}</span>
+                    ${statusPpmHtml}
+                    ${areaHtml}
+                </div>
+                ${prazoHtml}
+                ${goliveHtml}
+            `;
+            colConcluido.appendChild(card);
+        } else {
+            let statusDescHtml = p.ultimo_status ? `<div class="card-desc">📌 ${p.ultimo_status}</div>` : '';
+            let ppmHtml = p.ano_ppm ? `<div class="card-ppm">⏱️ AnoPPM: ${p.ano_ppm}</div>` : '';
+            let dateHtml = p.status_updated_at ? `<div class="card-date" style="font-size: 10px; color: var(--text-dim); margin-top: 6px; border-top: 1px dotted var(--border-color); padding-top: 4px;">🕒 Status em: ${p.status_updated_at}</div>` : '';
+
+            card.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 6px;">
+                    <div class="card-name" style="margin-bottom: 0;">${p.name}</div>
+                    <button onclick="updateSingleTask('${p.id}', event)" class="theme-toggle-btn" style="padding: 2px 6px; font-size: 10px; border-radius: 4px; flex-shrink: 0;" title="Sincronizar apenas este projeto com ClickUp + Gemini">🔄</button>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <span class="status-badge" style="background-color: ${getStatusColor(p.status)}; margin-bottom: 4px;">${p.status || 'SEM STATUS'}</span>
+                    ${statusPpmHtml}
+                    ${areaHtml}
+                </div>
+                ${statusDescHtml}
+                ${ppmHtml}
+                ${dateHtml}
+            `;
+            colAFazer.appendChild(card);
+        }
+    });
+
+    // Render 🔴 PROJETOS - ÚLTIMO STATUS (Apenas projetos em andamento/a fazer com último status)
+    const atencaoGrid = document.getElementById('atencaoGrid');
+    atencaoGrid.innerHTML = '';
+    
+    const projetosAtencao = filtered.filter(p => p.kanban_status !== 'CONCLUIDO' && p.ultimo_status && p.ultimo_status.trim() !== '');
+    
+    // Ordenar projetos por nome de "Status" (ClickUp status)
+    projetosAtencao.sort((a, b) => {
+        const statusA = (a.status || '').toUpperCase();
+        const statusB = (b.status || '').toUpperCase();
+        return statusA.localeCompare(statusB);
+    });
+    
+    if (projetosAtencao.length === 0) {
+        atencaoGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: var(--text-secondary); padding: 12px;">Nenhum ponto de atenção registrado.</div>';
+    } else {
+        projetosAtencao.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'atencao-card';
+            card.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 8px;">
+                    <h3 style="margin-bottom: 0;">${p.name}</h3>
+                    <span class="status-badge" style="background-color: ${getStatusColor(p.status)}; margin-bottom: 0; flex-shrink: 0;">${p.status || 'SEM STATUS'}</span>
+                </div>
+                <p style="white-space: pre-line;">${p.ultimo_status}</p>
+            `;
+            atencaoGrid.appendChild(card);
+        });
+    }
+
+    // Render 📈 SOBRE (Lendo diretamente da coluna 'Resumo' do ClickUp)
+    const tableBody = document.getElementById('tableResumoBody');
+    tableBody.innerHTML = '';
+
+    filtered.forEach(p => {
+        const tr = document.createElement('tr');
+        const resText = (p.resumo_raw && p.resumo_raw.trim() !== '') ? p.resumo_raw.trim() : 'Sem informação cadastrada.';
+
+        tr.innerHTML = `
+            <td><strong>${p.name}</strong></td>
+            <td style="color: var(--text-secondary); white-space: pre-line; line-height: 1.6;">${resText}</td>
+        `;
+        tableBody.appendChild(tr);
+    });
+}
+
+document.getElementById('searchInput').addEventListener('input', render);
+document.getElementById('statusFilter').addEventListener('change', render);
+document.getElementById('areaFilter').addEventListener('change', render);
+
+// Funções do Modal de Atualização
+function showUpdateInstructions() {
+    document.getElementById('updateModalOverlay').classList.add('active');
+}
+
+function closeUpdateInstructions() {
+    document.getElementById('updateModalOverlay').classList.remove('active');
+}
+
+// Função para atualizar uma única tarefa via API do servidor local
+function updateSingleTask(taskId, event) {
+    const btn = event.currentTarget;
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '⏳';
+    btn.disabled = true;
+    
+    const card = btn.closest('.kanban-card');
+    if (card) {
+        card.style.opacity = '0.5';
+    }
+    
+    fetch('http://localhost:8000/update-task?id=' + taskId, { method: 'POST' })
+        .then(res => {
+            if (!res.ok) throw new Error('Servidor local fora do ar.');
+            return res.json();
+        })
+        .then(updatedTask => {
+            // Atualiza a tarefa no rawData
+            const idx = rawData.findIndex(item => item.id === taskId);
+            if (idx !== -1) {
+                rawData[idx] = updatedTask;
+            }
+            render();
+        })
+        .catch(err => {
+            console.error(err);
+            alert('Aviso: O sincronizador local não está rodando. Certifique-se de que clicou duas vezes no arquivo "atualizar.bat" e que a janela preta está aberta em segundo plano para poder atualizar tarefas individuais!');
+        })
+        .finally(() => {
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+            if (card) {
+                card.style.opacity = '1';
+            }
+        });
+}
+
+// Função para acionar a sincronização completa via API local
+function triggerFullSync(event) {
+    const btn = event.currentTarget;
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span>⏳</span> <span>Sincronizando...</span>';
+    btn.disabled = true;
+    
+    fetch('http://localhost:8000/sync-all', { method: 'POST' })
+        .then(res => {
+            if (!res.ok) throw new Error('Servidor local offline.');
+            return res.json();
+        })
+        .then(result => {
+            // Recarrega a página para puxar os dados atualizados do data.js reescrito
+            location.reload();
+        })
+        .catch(err => {
+            console.error(err);
+            // Se o servidor local estiver offline, abre o modal explicativo
+            showUpdateInstructions();
+        })
+        .finally(() => {
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        });
+}
+
+// Função para Exportar / Salvar em PDF
+function exportToPDF() {
+    window.print();
+}
+
+// Inicializa a renderização assim que o script carregar
+window.onload = function() {
+    render();
+    
+    // Atualiza a data de sincronização no cabeçalho
+    if (typeof lastUpdate !== 'undefined') {
+        document.getElementById('lastUpdateSpan').innerText = lastUpdate;
+    } else {
+        document.getElementById('lastUpdateSpan').innerText = '02/08/2026 15:46:55';
+    }
+};
+</script>
+
+<!-- Modal de Instruções de Sincronização -->
+<div class="modal-overlay" id="updateModalOverlay">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span>🔄</span> Sincronizar com ClickUp
+        </div>
+        <div class="modal-body">
+            <p>Por questões de segurança e restrições do navegador (CORS), a sincronização direta de dados via web não é suportada de arquivos locais.</p>
+            <p><strong>Para atualizar os dados e gerar novos resumos de status com a IA do Gemini:</strong></p>
+            <ol>
+                <li>Abra a pasta do projeto no seu computador.</li>
+                <li>Dê um duplo clique no arquivo <strong><code>atualizar.bat</code></strong>.</li>
+                <li>O script rodará a sincronização em segundo plano e abrirá esta página atualizada automaticamente!</li>
+            </ol>
+        </div>
+        <button class="modal-close-btn" onclick="closeUpdateInstructions()">Entendido</button>
+    </div>
+</div>
+
+</body>
+</html>
