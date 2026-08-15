@@ -1072,11 +1072,29 @@ function render() {
         });
     }
 
-    // Render 📈 SOBRE (Lendo diretamente da coluna 'Resumo' do ClickUp + Coluna de Status com Cores)
+    // Render 📈 SOBRE (Lendo diretamente da coluna 'Resumo' do ClickUp + Coluna de Status com Cores + Ordenação com CONCLUIDO ao final)
     const tableBody = document.getElementById('tableResumoBody');
     tableBody.innerHTML = '';
 
-    filtered.forEach(p => {
+    const sobreProjects = [...filtered].sort((a, b) => {
+        const isAConcluido = (a.status || '').toUpperCase().includes('CONCLU');
+        const isBConcluido = (b.status || '').toUpperCase().includes('CONCLU');
+
+        // Se um é concluído e o outro não, o concluído vai para o final
+        if (isAConcluido && !isBConcluido) return 1;
+        if (!isAConcluido && isBConcluido) return -1;
+
+        // Se ambos forem do mesmo tipo, ordena alfabeticamente pelo Status
+        const statusA = (a.status || '').toUpperCase();
+        const statusB = (b.status || '').toUpperCase();
+        const compStatus = statusA.localeCompare(statusB);
+        if (compStatus !== 0) return compStatus;
+
+        // Desempate por nome do projeto
+        return (a.name || '').localeCompare(b.name || '');
+    });
+
+    sobreProjects.forEach(p => {
         const tr = document.createElement('tr');
         const resText = (p.resumo_raw && p.resumo_raw.trim() !== '') ? p.resumo_raw.trim() : 'Sem informação cadastrada.';
         const statusBadgeHtml = `<span class="status-badge" style="background-color: ${getStatusColor(p.status)}; margin-bottom: 0; white-space: nowrap;">${p.status || 'SEM STATUS'}</span>`;
