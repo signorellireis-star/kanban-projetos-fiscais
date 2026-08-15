@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 15/08/2026 22:57:12
-const lastUpdate = '15/08/2026 22:57:12';
+// Gerado automaticamente via ClickUp API + Gemini em 15/08/2026 23:05:00
+const lastUpdate = '15/08/2026 23:05:00';
 const rawData = [
   {
     "id": "86ajqc9ph",
@@ -110,8 +110,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "A ANTT vem ampliando os requisitos de controle das operações de transporte, desde maio de 2026 passou a exigir a emissão de: CIOT, PEF, MDF-e, e CT-e. O não atendimento dessas exigências pode ocasionar em autuações e multas. (R$252K/dia ou R$5.5MM/mês), porém a empresa não possui solução para emissão dos documentos, correndo risco de autuação.\nConsiderando o volume de operação da companhia, e a necessidade de garantir a conformidade legal e eficiência operacional, torna-se necessária a implantação de uma solução para automatizar e gerenciar, os documentos obrigatórios de transporte. Implantar uma plataforma que venha a atender as normativas vigentes e realizando automatização do processo.\n1.1 PROCESSO AS IS\nO processo de contratação e pagamento de fretes, consiste na gestão operacional e financeira, desde o envio da roteirização e execução das entregas, feito pelas transportadoras até o fechamento semanal dos valores de frete. As informações operacionais são consolidadas e validadas para cálculo dos pagamentos, permitindo a emissão de CT-es e faturas pelas transportadoras, porém no processo realizado hoje as transportadoras TAC EQUIPARADO: Não emite o MDFe por falta do CIOT e as transportadoras com mais de 3 veículos não possuem estrutura para emitir as documentações exigidas pela ANTT antes do carregamento. Após isso, o time de fretes analisa a conformidade dos documentos, aprovando-os para liquidação financeira ou encaminhando-os para ajustes quando são identificadas inconsistências. E o pagamento do frete é realizado para todas as transportadoras seja TAC equiparado e transportadoras com mais de 3 veículos via deposito em conta (TED) semanal, sendo que seria necessário para TAC EQUIPARADO pagamento via PEF\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Compartilhada a versão v7 do plano do projeto (PPM CIOT) e evidências associadas para validação do modelo de conformidade com a ANTT.\nO andamento atual concentra-se na revisão desta proposta para viabilizar a automação dos fluxos de pagamentos e emissão de documentos.",
+    "status_updated_at": "15/08/2026 23:04"
   },
   {
     "id": "86ajc7q9w",
@@ -124,8 +124,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Geração de documentação solicitada pela EY para efetuar a refificação da EFD Contribuição de diversos periodos. Foi solicitado bases de contas contábeis, extraidas pelo SAP (Razão das contas contábeis em estrutura analitica).\n",
-    "ultimo_status": "A base do SAP foi extraída pela TI e disponibilizada no Databricks, aguardando o download pela responsável.\nA próxima ação consiste no envio deste arquivo para a EY para dar continuidade às atividades.",
-    "status_updated_at": "15/08/2026 16:30"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ajc7hu3",
