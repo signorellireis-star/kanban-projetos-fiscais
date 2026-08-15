@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 15/08/2026 17:02:47
-const lastUpdate = '15/08/2026 17:02:47';
+// Gerado automaticamente via ClickUp API + Gemini em 15/08/2026 21:25:22
+const lastUpdate = '15/08/2026 21:25:22';
 const rawData = [
   {
     "id": "86ajqc9ph",
@@ -334,8 +334,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "A EF foi validada em 20/07/2026 após a adequação da PPM para 2026, contemplando a exclusão do IPI e a inclusão do processo de revenda.\nO projeto atualmente aguarda a definição e a formalização do cronograma de trabalho para o direcionamento das próximas etapas.",
+    "status_updated_at": "15/08/2026 21:25"
   },
   {
     "id": "86a7p7uwv",
