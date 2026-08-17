@@ -50,8 +50,9 @@
     "status_updated_at": "17/08/2026 11:02"
   },
   "86ahfje7y": {
-    "date_updated": "1784845132103",
-    "ultimo_status": "Apresentada a tela de simulação de serviço e recebido o alinhamento dos ajustes acordados com a Neogrid para aprovação.\nO andamento atual foca na validação desse resumo de ajustes para subsidiar a estruturação da proposta do projeto (PPM)."
+    "date_updated": "1786833472565",
+    "ultimo_status": "Apresentada a tela de simulação do serviço, o projeto avançou para a etapa de revisão dos ajustes acordados com a Neogrid.\nO próximo passo consiste na validação do resumo de alterações para apoiar a elaboração da documentação de aprovação (PPM).",
+    "status_updated_at": "17/08/2026 15:53"
   },
   "86ahe92c9": {
     "date_updated": "1786833625621",
@@ -64,8 +65,9 @@
     "status_updated_at": "15/08/2026 16:29"
   },
   "86af3zqga": {
-    "date_updated": "1784845130493",
-    "ultimo_status": "Ajustes para emissão de documentos fiscais de transferências (CST e cClassTrib) foram implantados no ambiente de homologação.\nPendente o retorno de Carol Godoy a Alexander referente à validação e acordo sobre a proposta comercial da ELO."
+    "date_updated": "1786833538016",
+    "ultimo_status": "Ajustes para emissão de documentos fiscais de transferência (CST e cClassTrib) foram implantados e seguem em homologação com suporte da consultoria ABACO.\nO avanço do projeto depende do posicionamento pendente de Carol Godoy para Alexander referente à validação da proposta da ELO.",
+    "status_updated_at": "17/08/2026 15:53"
   },
   "86af3zj95": {
     "date_updated": "1786832696816",
@@ -88,9 +90,9 @@
     "status_updated_at": "17/08/2026 11:04"
   },
   "864ee7nrp": {
-    "date_updated": "1785948901980",
-    "ultimo_status": "Homologação suspensa devido a alterações nos processos de transferências e divergências nos dados cadastrais dos centros de distribuição da Amazon.\nMedidas corretivas estão sendo adotadas junto ao parceiro para mitigar as inconsistências e viabilizar o reinício dos testes de validação.",
-    "status_updated_at": "15/08/2026 17:02"
+    "date_updated": "1786832531750",
+    "ultimo_status": "A homologação do fluxo FBA está temporariamente suspensa devido a divergências cadastrais e alterações unilaterais nos processos de transferência da Amazon.\nA equipe de projeto atua na implementação de medidas corretivas junto ao parceiro para mitigar os impactos e viabilizar a retomada dos testes.",
+    "status_updated_at": "17/08/2026 15:53"
   },
   "864e98d8y": {
     "date_updated": "1785432799516",
@@ -105,5 +107,20 @@
     "date_updated": "1786832640027",
     "ultimo_status": "O projeto registra como última movimentação o compartilhamento de uma imagem por Sergio Sanchez, sem detalhamento textual de progresso no histórico.\nAguardam-se a definição da justificativa formal e a análise do arquivo enviado para o direcionamento das próximas etapas e alinhamento do escopo.",
     "status_updated_at": "17/08/2026 11:03"
+  },
+  "86ahgemnb": {
+    "date_updated": "1786970916788",
+    "ultimo_status": "A integração da carteira digital NuPay aguarda o retorno da área responsável quanto ao status de validação do requisito fiscal enviado.\nEsta indefinição sobre o andamento do processo fiscal constitui o principal ponto de atenção e risco para o cronograma do projeto.",
+    "status_updated_at": "17/08/2026 15:53"
+  },
+  "86ah40j3y": {
+    "date_updated": "1786970911661",
+    "ultimo_status": "A integração do Pix Parcelado (PagaLeve) aguarda o posicionamento da área fiscal sobre os requisitos regulatórios que já foram encaminhados.\nA ausência de visibilidade sobre o status desta pendência tributária configura o principal ponto de atenção para o avanço do cronograma.",
+    "status_updated_at": "17/08/2026 15:53"
+  },
+  "86afkdv17": {
+    "date_updated": "1786970941385",
+    "ultimo_status": "Aguardando definição sobre o requisito fiscal enviado para a área responsável, cujo status atual e andamento são desconhecidos.\nAdicionalmente, pendente o retorno de Sergio Sanchez sobre a verificação da documentação da PPM e criação de pasta de identificação.",
+    "status_updated_at": "17/08/2026 15:53"
   }
 }

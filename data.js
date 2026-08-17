@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 17/08/2026 11:05:30
-const lastUpdate = '17/08/2026 11:05:30';
+// Gerado automaticamente via ClickUp API + Gemini em 17/08/2026 15:53:59
+const lastUpdate = '17/08/2026 15:53:59';
 const rawData = [
   {
     "id": "86ajqc9ph",
@@ -156,6 +156,20 @@ const rawData = [
     "status_updated_at": "17/08/2026 11:02"
   },
   {
+    "id": "86ahgemnb",
+    "name": "[PRJ]-NUPAY",
+    "status": "ENVIADO AO REQUISITANTE",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Terceiros",
+    "resumo_raw": "",
+    "ultimo_status": "A integração da carteira digital NuPay aguarda o retorno da área responsável quanto ao status de validação do requisito fiscal enviado.\nEsta indefinição sobre o andamento do processo fiscal constitui o principal ponto de atenção e risco para o cronograma do projeto.",
+    "status_updated_at": "17/08/2026 15:53"
+  },
+  {
     "id": "86ahfje7y",
     "name": "[PRJ:]-Reforma Tributária - NFSe Nacional GAN Fase 2",
     "status": "T.I TRABALHANDO",
@@ -166,8 +180,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Apresentada a tela de simulação do serviço, o projeto avançou para a etapa de revisão dos ajustes acordados com a Neogrid.\nO próximo passo consiste na validação do resumo de alterações para apoiar a elaboração da documentação de aprovação (PPM).",
+    "status_updated_at": "17/08/2026 15:53"
   },
   {
     "id": "86ahfj7dm",
@@ -198,6 +212,20 @@ const rawData = [
     "status_updated_at": "17/08/2026 11:03"
   },
   {
+    "id": "86ah40j3y",
+    "name": "[PRJ]-PAGALEVE (Pix Parcelado)",
+    "status": "ENVIADO AO REQUISITANTE",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Terceiros",
+    "resumo_raw": "",
+    "ultimo_status": "A integração do Pix Parcelado (PagaLeve) aguarda o posicionamento da área fiscal sobre os requisitos regulatórios que já foram encaminhados.\nA ausência de visibilidade sobre o status desta pendência tributária configura o principal ponto de atenção para o avanço do cronograma.",
+    "status_updated_at": "17/08/2026 15:53"
+  },
+  {
     "id": "86ah3zc5g",
     "name": "[PRJ]-Reestruturar processo de cancelamento NFCe",
     "status": "EM REUNIOES",
@@ -226,6 +254,20 @@ const rawData = [
     "status_updated_at": "15/08/2026 16:29"
   },
   {
+    "id": "86afkdv17",
+    "name": "[PRJ]-PPM \"Compre Junto\" Brinde/Bonificação",
+    "status": "ENVIADO AO REQUISITANTE",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Terceiros",
+    "resumo_raw": "",
+    "ultimo_status": "Aguardando definição sobre o requisito fiscal enviado para a área responsável, cujo status atual e andamento são desconhecidos.\nAdicionalmente, pendente o retorno de Sergio Sanchez sobre a verificação da documentação da PPM e criação de pasta de identificação.",
+    "status_updated_at": "17/08/2026 15:53"
+  },
+  {
     "id": "86af8w8j1",
     "name": "[PRJ:]-CBENEF GAN e SAP",
     "status": "CONCLUIDO",
@@ -250,8 +292,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Ajustes para emissão de documentos fiscais de transferência (CST e cClassTrib) foram implantados e seguem em homologação com suporte da consultoria ABACO.\nO avanço do projeto depende do posicionamento pendente de Carol Godoy para Alexander referente à validação da proposta da ELO.",
+    "status_updated_at": "17/08/2026 15:53"
   },
   {
     "id": "86af3zj95",
@@ -418,8 +460,8 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Terceiros",
     "resumo_raw": " A adoção do modelo de Fulfillment no marketplace Amazon (FBA) consiste no envio de parte do estoque da Fast Shop para os centros de distribuição da Amazon, que passa a ser responsável por toda a operação logística — incluindo armazenamento, separação, expedição, entrega, atendimento ao cliente (SAC logístico) e logística reversa.\nEsse modelo potencializa a competitividade ao proporcionar melhores níveis de serviço (SLA), elegibilidade ao programa Prime, aumento da taxa de conversão nas vitrines e fortalecimento da reputação nas plataformas, além de possibilitar ganhos de eficiência operacional e otimização de custos logísticos. A adoção do modelo FBA visa ganho de competitividade (Prime, SLA, conversão), porém o modelo atual apresenta inviabilidade tributária no cenário SP (CJ63 → CJ05), exigindo revisão da malha logística e do modelo fiscal para viabilização econômica. Diante disso, foi aprovada a utilização de Santa Catarina (SC) como centro consolidador logístico, com o objetivo de viabilizar economicamente o modelo FBA.\n    \n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "A homologação do fluxo FBA está temporariamente suspensa devido a divergências cadastrais e alterações unilaterais nos processos de transferência da Amazon.\nA equipe de projeto atua na implementação de medidas corretivas junto ao parceiro para mitigar os impactos e viabilizar a retomada dos testes.",
+    "status_updated_at": "17/08/2026 15:53"
   },
   {
     "id": "864e98d8y",
