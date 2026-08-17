@@ -35,27 +35,28 @@
     "status_updated_at": "15/08/2026 23:04"
   },
   "86ajc7q9w": {
-    "date_updated": "1786821980379",
-    "ultimo_status": "A base do SAP foi extraída pela TI e disponibilizada no Databricks, aguardando o download pela responsável.\nA próxima ação consiste no envio deste arquivo para a EY para dar continuidade às atividades.",
-    "status_updated_at": "15/08/2026 16:30"
+    "date_updated": "1786833777641",
+    "ultimo_status": "A base de dados do SAP foi gerada com sucesso pela TI e disponibilizada na plataforma Databricks.\nA pendência atual consiste no download dos dados pela área de negócios para envio subsequente à consultoria EY.",
+    "status_updated_at": "17/08/2026 11:01"
   },
   "86ajc7hu3": {
-    "date_updated": "1785842760054",
-    "ultimo_status": "A homologação e os testes sistêmicos encontram-se suspensos aguardando parecer jurídico sobre a coexistência tributária e a definição do CNPJ da Dark Store de Cajamar.\nA área de TI estima duas semanas de esforço para desenvolvimento e retestes assim que sanadas as pendências fiscais e regulatórias do projeto.",
-    "status_updated_at": "15/08/2026 16:28"
+    "date_updated": "1786833198162",
+    "ultimo_status": "A homologação encontra-se suspensa devido a inconsistências identificadas nos testes recentes, demandando correções sistêmicas imediatas da equipe de desenvolvimento.\nO avanço do cronograma depende também da emissão do parecer jurídico sobre a coexistência tributária e da definição do CNPJ da Dark Store de Cajamar.",
+    "status_updated_at": "17/08/2026 11:01"
   },
   "86ahw2uge": {
-    "date_updated": "1785766225520",
-    "ultimo_status": "Com o Business Case e a documentação preliminar estruturados, a área responsável realiza o estudo de viabilidade sistêmica para a emissão de CTe em todos os processos.\nA modelagem operacional em avaliação assemelha-se ao formato FBA e prevê a utilização de certificado digital próprio para viabilizar as transações.",
-    "status_updated_at": "03/08/2026 17:15"
+    "date_updated": "1786833231043",
+    "ultimo_status": "Documentação inicial (PPM e Business Case) estruturada, com o projeto atualmente focado no estudo de viabilidade pela área responsável para implantação de sistema de emissão de CTE em todos os processos.\nA modelagem operacional proposta prevê a utilização de certificado próprio da empresa, assemelhando-se ao fluxo de FBA para a consolidação logística.",
+    "status_updated_at": "17/08/2026 11:02"
   },
   "86ahfje7y": {
     "date_updated": "1784845132103",
     "ultimo_status": "Apresentada a tela de simulação de serviço e recebido o alinhamento dos ajustes acordados com a Neogrid para aprovação.\nO andamento atual foca na validação desse resumo de ajustes para subsidiar a estruturação da proposta do projeto (PPM)."
   },
   "86ahe92c9": {
-    "date_updated": "1784845129036",
-    "ultimo_status": "Tratativa em andamento conduzida por Alexander junto a Medeiros para evitar o potencial bloqueio da PPM.\nA continuidade das atividades do projeto depende da resolução deste alinhamento interno pendente."
+    "date_updated": "1786833625621",
+    "ultimo_status": "Sob responsabilidade de Alexander, a iniciativa passa por alinhamento com Medeiros para mitigar o risco de bloqueio da PPM.\nO avanço das atividades aguarda a conclusão dessa validação interna para a desmobilização do potencial impedimento.",
+    "status_updated_at": "17/08/2026 11:03"
   },
   "86aghx74e": {
     "date_updated": "1786736817040",
@@ -67,22 +68,24 @@
     "ultimo_status": "Ajustes para emissão de documentos fiscais de transferências (CST e cClassTrib) foram implantados no ambiente de homologação.\nPendente o retorno de Carol Godoy a Alexander referente à validação e acordo sobre a proposta comercial da ELO."
   },
   "86af3zj95": {
-    "date_updated": "1785694444831",
-    "ultimo_status": "Definição estratégica sobre a criação de um novo e-commerce (CjJ 4) segue pendente, impactando o direcionamento das próximas etapas do projeto.\nAtualmente, as atividades aguardam posicionamento oficial da liderança para a retomada do planejamento e detalhamento técnico."
+    "date_updated": "1786832696816",
+    "ultimo_status": "Aguardando definição estratégica referente à potencial criação de um novo e-commerce (CjJ 4).\nAs etapas seguintes do projeto permanecem sem direcionamento conclusivo até a homologação desta decisão.",
+    "status_updated_at": "17/08/2026 11:04"
   },
   "86ae39yjg": {
-    "date_updated": "1785766229801",
-    "ultimo_status": "A criação do novo CNPJ com CNAE de Atacadista em Cajamar (SP) encontra-se em aguardo de definição de priorização corporativa.\nAté o momento, não há atualizações recentes sobre o andamento da demanda ou direcionamentos para o início das próximas etapas.",
-    "status_updated_at": "03/08/2026 17:16"
+    "date_updated": "1786833017975",
+    "ultimo_status": "A iniciativa para o estabelecimento do novo CNPJ atacadista em Cajamar (SP) permanece sem atualizações de status ou definição de prioridade até o momento.\nO projeto aguarda direcionamento estratégico sobre sua priorização para que as atividades de implantação possam ser iniciadas.",
+    "status_updated_at": "17/08/2026 11:04"
   },
   "86a88zqpx": {
-    "date_updated": "1785772697143",
-    "ultimo_status": "A EF foi validada em 20/07/2026 após a adequação da PPM para 2026, contemplando a exclusão do IPI e a inclusão do processo de revenda.\nO projeto atualmente aguarda a definição e a formalização do cronograma de trabalho para o direcionamento das próximas etapas.",
-    "status_updated_at": "15/08/2026 21:25"
+    "date_updated": "1786833376588",
+    "ultimo_status": "A EF foi validada em 20/07/2026 após o ajuste da PPM para 2026 em decorrência da exclusão do IPI do escopo operacional.\nO cronograma do projeto permanece pendente de definição, restando ainda estruturar e incorporar o fluxo para o processo de revenda.",
+    "status_updated_at": "17/08/2026 11:04"
   },
   "86a3vz587": {
-    "date_updated": "1785412718321",
-    "ultimo_status": "Implantação reprogramada para 04/08 devido ao congelamento de TI, exigindo finalização das homologações de SAP ECC e AddTax até 24/07 para aprovação no CAB em 29/07.\nA frente SAP ECC aguarda resolução de chamado de inconsistência no Mercado Eletrônico, enquanto os testes do AddTax estão agendados para o dia 13/07."
+    "date_updated": "1786833128057",
+    "ultimo_status": "Implantação reprogramada para 04/08 devido ao congelamento de julho, exigindo a finalização dos testes integrados até 24/07 e aprovação no CAB em 29/07.\nA frente SAP ECC aguarda correção de chamado pelo Mercado Eletrônico para prosseguir com os cenários, enquanto a frente AddTax possui testes agendados para 13/07.",
+    "status_updated_at": "17/08/2026 11:04"
   },
   "864ee7nrp": {
     "date_updated": "1785948901980",
@@ -99,8 +102,8 @@
     "status_updated_at": "15/08/2026 17:00"
   },
   "86ah3zc5g": {
-    "date_updated": "1786138886854",
-    "ultimo_status": "Alinhamento da reestruturação iniciado com o envio de insumo visual por Sergio Sanchez, sem impedimentos registrados.\nAguardam-se o detalhamento do escopo e a definição formal das próximas etapas para dar sequência ao cronograma de entregas.",
-    "status_updated_at": "15/08/2026 16:28"
+    "date_updated": "1786832640027",
+    "ultimo_status": "O projeto registra como última movimentação o compartilhamento de uma imagem por Sergio Sanchez, sem detalhamento textual de progresso no histórico.\nAguardam-se a definição da justificativa formal e a análise do arquivo enviado para o direcionamento das próximas etapas e alinhamento do escopo.",
+    "status_updated_at": "17/08/2026 11:03"
   }
 }
