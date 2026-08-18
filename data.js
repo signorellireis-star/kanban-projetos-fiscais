@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 18/08/2026 10:59:59
-const lastUpdate = '18/08/2026 10:59:59';
+// Gerado automaticamente via ClickUp API + Gemini em 18/08/2026 16:01:32
+const lastUpdate = '18/08/2026 16:01:32';
 const rawData = [
   {
     "id": "86ajqc9ph",
@@ -18,7 +18,7 @@ const rawData = [
   {
     "id": "86ajp65xa",
     "name": "[PRJ:DMND2148]-Reforma Tributária Devolução FinNfe= 4 DfeReferencia",
-    "status": "EM HOMOLOGACAO",
+    "status": "AGUARDO SUBIDA PRODUCAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "Ago/2026",
@@ -26,8 +26,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Com a reforma tributária são necessários ajustes nos processos de emissão de Notas Fiscais Eletrônicas. \nDe acordo com a publicação da NT_2025.002_v1.50, será necessário antecipar algumas funcionalidades previstas na PPM da Reforma Tributária em desenvolvimento, que passará a vigorar em ambiente de produção a partir de 05/10/2026. Uma delas é o referenciamento de chave origem a nível de item. Se não ocorrer a implementação as notas serão rejeitadas.\n    \n",
-    "ultimo_status": "Demanda liberada para homologação sob responsabilidade de Ellen, após a conclusão e envio das evidências dos testes internos com sucesso.\nO cronograma oficial estabelece a fase de homologação de 10 a 14/08/2026, aprovação no CAB em 19/08/2026 e Go-Live em 25/08/2026.",
-    "status_updated_at": "15/08/2026 22:56"
+    "ultimo_status": "Fase de homologação finalizada com sucesso e validada, tendo a formalização por e-mail já enviada ao responsável Claudio Murozaki.\nOs próximos marcos previstos são a aprovação no CAB em 19/08/2026 e a implantação em produção (Go-Live) no dia 25/08/2026.",
+    "status_updated_at": "18/08/2026 16:01"
   },
   {
     "id": "86ajnr5t7",
