@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 18/08/2026 16:01:32
-const lastUpdate = '18/08/2026 16:01:32';
+// Gerado automaticamente via ClickUp API + Gemini em 18/08/2026 20:56:40
+const lastUpdate = '18/08/2026 20:56:40';
 const rawData = [
   {
     "id": "86ajqc9ph",
@@ -26,8 +26,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Com a reforma tributária são necessários ajustes nos processos de emissão de Notas Fiscais Eletrônicas. \nDe acordo com a publicação da NT_2025.002_v1.50, será necessário antecipar algumas funcionalidades previstas na PPM da Reforma Tributária em desenvolvimento, que passará a vigorar em ambiente de produção a partir de 05/10/2026. Uma delas é o referenciamento de chave origem a nível de item. Se não ocorrer a implementação as notas serão rejeitadas.\n    \n",
-    "ultimo_status": "Fase de homologação finalizada com sucesso e validada, tendo a formalização por e-mail já enviada ao responsável Claudio Murozaki.\nOs próximos marcos previstos são a aprovação no CAB em 19/08/2026 e a implantação em produção (Go-Live) no dia 25/08/2026.",
-    "status_updated_at": "18/08/2026 16:01"
+    "ultimo_status": "A homologação foi concluída e validada com sucesso, tendo as evidências e o e-mail de aprovação já direcionados à gestão.\nO projeto agora aguarda aprovação no CAB (19/08) para seguir para o Go-Live em 25/08/2026, com parametrização inicial para 01/01/2027.",
+    "status_updated_at": "18/08/2026 20:54"
   },
   {
     "id": "86ajnr5t7",
@@ -92,7 +92,7 @@ const rawData = [
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
-    "prazo": "07/2026",
+    "prazo": "",
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "A implementação do processo de Venda com entrega em Operador Logístico representa uma evolução estratégica para o canal B2B, ampliando significativamente a capacidade comercial da empresa sem a necessidade de aumento proporcional dos estoques ou da complexidade logística. Esse modelo permite que a empresa atue como fornecedora de mercadorias para parceiros comerciais que solicitam entrega diretamente em operadores logísticos como a operação Full do Mercado Livre e Amazon. Além de expandir o alcance comercial e possibilitar novos modelos de parceria, essa operação simplifica a operação logística da cadeia de suprimento, diminuindo custos de movimentação e armazenamento. Por se tratar de uma operação com requisitos fiscais e logísticos específicos, sua implantação exige a adequação de processos, sistemas e controles internos, garantindo conformidade tributária, rastreabilidade das operações e escalabilidade para suportar o crescimento futuro do canal B2B. \nBenefícios Esperados:\n• Expansão do alcance comercial; \n• Aumento do faturamento B2B sem ampliação relevante da estrutura;\n• Criação de novos modelos de negócio; \n• Maior competitividade e velocidade de atendimento. \n",
@@ -134,7 +134,7 @@ const rawData = [
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "Ago/2026",
-    "prazo": "07/2026",
+    "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": " A Diretoria Fiscal solicitou a criação de uma PPM para implementar a funcionalidade de não calcular o ICMS-ST nas remessas destinadas às lojas do Estado de São Paulo, quando a operação tiver origem na filial ES-Atacadista.\nAS IS\nAtualmente, em uma remessa de transferência da filial ES-Atacadista para qualquer loja localizada no Estado de São Paulo, há obrigatoriedade de recolhimento do ICMS-ST, seja por destaque na nota fiscal, seja por recolhimento na entrada da mercadoria no recebimento. Como não há protocolo firmado entre os Estados do Espírito Santo e de São Paulo, o recolhimento ocorre, em 100% dos casos, na entrada. Esse recolhimento aumenta o custo da mercadoria e impacta o fluxo de caixa. Posteriormente, a venda da mercadoria ocorre sem tributação de ICMS, uma vez que o recolhimento já foi realizado anteriormente.\nTO BE\nO objetivo do projeto é permitir que o sistema interprete essa operação como produto sem regra de ICMS-ST, sem a necessidade de remover ou alterar as regras tributárias dos produtos nos cadastros fiscais.\nEm junho de 2023, foi homologado o projeto “Sangria”, que realiza esse mesmo processo.\nNa ocasião, foram criadas telas de parametrização para vincular as filiais de origem e destino abrangidas pela funcionalidade. Essas telas foram desenvolvidas de forma parametrizável, permitindo novos cadastros conforme a necessidade dos usuários, sem configuração fixa em código. O projeto foi homologado e disponibilizado em produção; porém, em razão de alteração na malha fiscal, acabou não sendo utilizado.\nDessa forma, a presente solicitação já se encontra aproximadamente 80% concluída, restando apenas:\n·         Retestar integralmente o projeto para confirmar se a funcionalidade está 100% utilizável.\n·         Considerar um novo requisito para bloquear a transferência de mercadorias da filial 0063 e Filial 05 para as lojas, para os produtos cadastrados como “Sangria”.\n",
@@ -166,8 +166,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "",
-    "ultimo_status": "A integração da carteira digital NuPay aguarda o retorno da área responsável quanto ao status de validação do requisito fiscal enviado.\nEsta indefinição sobre o andamento do processo fiscal constitui o principal ponto de atenção e risco para o cronograma do projeto.",
-    "status_updated_at": "17/08/2026 15:53"
+    "ultimo_status": "A integração do NuPay avança com ponto de atenção referente à indefinição do status do requisito fiscal enviado à área responsável.\nA resolução dessa pendência é prioritária para mitigar riscos ao cronograma de implementação do novo método de pagamento digital.",
+    "status_updated_at": "18/08/2026 20:54"
   },
   {
     "id": "86ahfje7y",
@@ -208,8 +208,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
-    "ultimo_status": "Sob responsabilidade de Alexander, a iniciativa passa por alinhamento com Medeiros para mitigar o risco de bloqueio da PPM.\nO avanço das atividades aguarda a conclusão dessa validação interna para a desmobilização do potencial impedimento.",
-    "status_updated_at": "17/08/2026 11:03"
+    "ultimo_status": "Liberada a geração de dados para testes no ambiente SAP-QA (transação ZFI165) conforme os parâmetros acordados de filial e mês.\nParalelamente, aguarda-se o alinhamento entre Alexander e Medeiros para solucionar a pendência referente ao potencial bloqueio da PPM.",
+    "status_updated_at": "18/08/2026 20:54"
   },
   {
     "id": "86ah40j3y",
@@ -250,8 +250,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "Propostas comerciais em validação pelo departamento Jurídico (Projuris), restando a definição do cronograma para o avanço do projeto.\nPróxima etapa agendada para 18/08/26 para a apresentação técnica da plataforma Cloud pela Addvisor.",
-    "status_updated_at": "15/08/2026 16:29"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86afkdv17",
@@ -292,8 +292,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
-    "ultimo_status": "Ajustes para emissão de documentos fiscais de transferência (CST e cClassTrib) foram implantados e seguem em homologação com suporte da consultoria ABACO.\nO avanço do projeto depende do posicionamento pendente de Carol Godoy para Alexander referente à validação da proposta da ELO.",
-    "status_updated_at": "17/08/2026 15:53"
+    "ultimo_status": "Ajustes de parametrização para emissão de documentos fiscais (CST e cClassTrib) foram implantados para suporte à homologação.\nAprovado o escopo da proposta da ELO referente às atualizações da NT 002.2025, abrangendo integrações de MM, FI, CO e automações fiscais.",
+    "status_updated_at": "18/08/2026 20:55"
   },
   {
     "id": "86af3zj95",
@@ -325,17 +325,17 @@ const rawData = [
   },
   {
     "id": "86ae39yjg",
-    "name": "[PRJ]:-Atacadistas São Paulo Cajamar",
-    "status": "EM REUNIOES",
+    "name": "[PRJ]:Atacadistas São Paulo Cajamar",
+    "status": "CRIANDO PPM",
     "status_ppm": "PPM não iniciada",
-    "kanban_status": "A FAZER",
+    "kanban_status": "EM ANDAMENTO",
     "golive": "",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Cajamar 1 efetuar venda por Atacado\n",
-    "ultimo_status": "A iniciativa para o estabelecimento do novo CNPJ atacadista em Cajamar (SP) permanece sem atualizações de status ou definição de prioridade até o momento.\nO projeto aguarda direcionamento estratégico sobre sua priorização para que as atividades de implantação possam ser iniciadas.",
-    "status_updated_at": "17/08/2026 11:04"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ae39wp7",
@@ -376,8 +376,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "A EF foi validada em 20/07/2026 após o ajuste da PPM para 2026 em decorrência da exclusão do IPI do escopo operacional.\nO cronograma do projeto permanece pendente de definição, restando ainda estruturar e incorporar o fluxo para o processo de revenda.",
-    "status_updated_at": "17/08/2026 11:04"
+    "ultimo_status": "Especificação Funcional validada em 20/07/2026 após ajuste da PPM por exclusão de IPI, com modelo de tela do requisito 12 enviado para desenvolvimento.\nO cronograma de implantação permanece pendente de definição, constituindo o principal marco a ser estabelecido para o avanço do projeto.",
+    "status_updated_at": "18/08/2026 20:56"
   },
   {
     "id": "86a7p7uwv",
@@ -418,8 +418,8 @@ const rawData = [
     "ano_ppm": "2024",
     "area": "Fiscal",
     "resumo_raw": "Esta PPM tem como objetivo regulatório atender mudança na regra de criação de CNPJ que passarão ser criados com caracteres alfanuméricos para a Receita Federal ampliar a capacidade de números de CNPJ para abertura de novas empresas devido o esgotamento do modelo atual.\nA Publicação da Nota Técnica 2025.001 Versão 1.00 de 25 de abril de 2025, abrange os ambientes de autorização de documentos fiscais eletrônicos sob a coordenaçãomdo ENCAT: NFe, NFCe, CTe, CTe OS, GTVe, MDFe, BPe, BPe TM, NF3e e NFCom.\nAs adequações dos sistemas se fazem necessário devido o CNPJ ser responsável pela identificação do emitente/destinatário além de compor a chave de acesso do documento fiscal.\nEsta alteração já está prevista na nova estrutura no schema XML conforme nota técnica da Reforma Tributária.\n",
-    "ultimo_status": "Implantação reprogramada para 04/08 devido ao congelamento de julho, exigindo a finalização dos testes integrados até 24/07 e aprovação no CAB em 29/07.\nA frente SAP ECC aguarda correção de chamado pelo Mercado Eletrônico para prosseguir com os cenários, enquanto a frente AddTax possui testes agendados para 13/07.",
-    "status_updated_at": "17/08/2026 11:04"
+    "ultimo_status": "Frentes SAP ECC e AddTax enfrentam impedimentos na geração da SAFX e na integração com o Mercado Eletrônico, atualmente sob análise técnica.\nO cronograma foca na conclusão dos testes homologatórios até 24/07 para garantir a aprovação no CAB (29/07) e a implantação em produção em 04/08.",
+    "status_updated_at": "18/08/2026 20:56"
   },
   {
     "id": "86a359uda",
@@ -450,6 +450,20 @@ const rawData = [
     "status_updated_at": ""
   },
   {
+    "id": "86a214c63",
+    "name": "[PRJ:]-Ressarcimento - Rio de Janeiro (Empresa RVC)",
+    "status": "EM REUNIOES",
+    "status_ppm": "Sem PPM",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2022",
+    "area": "Fiscal",
+    "resumo_raw": "",
+    "ultimo_status": "Liberado o início dos lançamentos de ressarcimento no SPED conforme procedimento da RVC, com foco na validação final das regras sistêmicas.\nComo ponto de atenção crítico, identificou-se a necessidade de deduzir créditos já utilizados anteriormente do montante de R$ 24 milhões antes da escrituração.",
+    "status_updated_at": "18/08/2026 20:56"
+  },
+  {
     "id": "864ee7nrp",
     "name": "[PRJ:]-Fullfilment Amazon (FBA)",
     "status": "EM HOMOLOGACAO",
@@ -474,7 +488,7 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Fiscal",
     "resumo_raw": "Permitir que a Filial X3 Atacadista efetue vendas para revenda.\nAtualmente apenas efetua transferência.\n\n",
-    "ultimo_status": "Conclusão da PPM e definição das regras fiscais de ICMS para mitigar riscos em operações internas de uso e consumo.\nPróximo passo consiste na validação do documento de especificação técnica EF_DMND0002001_v1.1, entregue para revisão.",
+    "ultimo_status": "",
     "status_updated_at": ""
   },
   {
@@ -506,7 +520,7 @@ const resumosMap = {
   "[PRJ]-Reestruturar processo de cancelamento NFCe": "  Objetivo: Reestruturar conceito de chamada de cancelamento ou inutilização das NFCe no Gan.\nEstamos identificando ocorrências em que a NFC-e consta como cancelada no Gan, embora permaneça aprovada/autorizada na Sefaz.\nEssa situação ocorre em razão do atraso na comunicação entre Gan e NDD, o que pode levar o sistema a interpretar incorretamente o status final do documento fiscal. Quando uma NFC-e é emitida, existe um tempo limite para retorno do processamento. Se esse prazo for excedido, o Gan pode acionar automaticamente o cancelamento da NFC-e. No entanto, em determinados casos, a nota já foi autorizada pela Sefaz, gerando divergência entre o status registrado no Gan e a situação real do documento fiscal.\nO impacto dessa falha se reflete em diversas etapas de ajuste interno, entre elas:\n·         Abertura de chamado para que o Gan volte a considerar a NFC-e como ativa.\n·         Ajuste de estoque. Caso esse processo não seja realizado, o saldo permanece incorreto.\n·         Em determinadas situações, o Gan cancela a nota e é realizado um refaturamento. Nesses casos, duas notas ficam autorizadas para o mesmo SKU vendido. Para regularização, torna-se necessário gerar uma DV ficta para neutralizar a venda da NFC-e original, processo que atualmente não faz parte da rotina do time fiscal.\nTodo esse processo consome tempo do time fiscal, embora essa área não seja a responsável por executar ajustes sistêmicos nem por realizar abertura de chamados.\nCaso real: em 04/2026, fomos notificados pela BA em razão de confronto de estoque, no qual foram identificadas divergências entre a movimentação das notas fiscais e a declaração do SPED. Na análise de um dos casos, verificou-se que a nota fiscal estava aprovada na Sefaz, porém permanecia cancelada no Gan. Como o sistema manteve o status incorreto, o estoque final do mês foi fechado com 1 peça a maior. Consequentemente, foi declarado no SPED Fiscal, bloco H, o saldo de 1 peça em estoque, quando o correto seria saldo zero. Considerando o conjunto de SKUs afetados, houve notificação no valor aproximado de R$ 9 mil relacionada a essas ocorrências.\nO aumento dessas ocorrências está relacionado à implementação do projeto que direcionou todas as notas de vendas presenciais para emissão via NFC-e. Como o Estado de São Paulo não estava contemplado originalmente na regra, houve ampliação da exposição a esse tipo de falha.\nPrecisamos efetuar ajuste no Gan + NDD para identificar a falha.\nNa análise realizada, identificamos casos em que a autorização da Sefaz ocorreu cerca de 2 minutos após o envio do pedido de cancelamento, evidenciando a defasagem de comunicação que origina a inconsistência de status.\n    \n",
   "[PRJ]-Reforma Tributária SAP - Fase 2": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
   "[PRJ]-Operador Logístico Fase 2 - Cajamar Abastacer": "Efetuar abastecimento dos operadores logisticos pela filial Cajamar 1 (63)\n",
-  "[PRJ]:-Atacadistas São Paulo Cajamar": "Cajamar 1 efetuar venda por Atacado\n",
+  "[PRJ]:Atacadistas São Paulo Cajamar": "Cajamar 1 efetuar venda por Atacado\n",
   "[PRJ]-Importação por encomenda 2026": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
   "[PRJ:]-CNPJ Alfanumérico": "Esta PPM tem como objetivo regulatório atender mudança na regra de criação de CNPJ que passarão ser criados com caracteres alfanuméricos para a Receita Federal ampliar a capacidade de números de CNPJ para abertura de novas empresas devido o esgotamento do modelo atual.\nA Publicação da Nota Técnica 2025.001 Versão 1.00 de 25 de abril de 2025, abrange os ambientes de autorização de documentos fiscais eletrônicos sob a coordenaçãomdo ENCAT: NFe, NFCe, CTe, CTe OS, GTVe, MDFe, BPe, BPe TM, NF3e e NFCom.\nAs adequações dos sistemas se fazem necessário devido o CNPJ ser responsável pela identificação do emitente/destinatário além de compor a chave de acesso do documento fiscal.\nEsta alteração já está prevista na nova estrutura no schema XML conforme nota técnica da Reforma Tributária.\n",
   "[PRJ:]-Destacar ICMS PRÓPRIO FL 63 para Fl 05 (Pacote)": "Na operação de transferência entre 63 e 05, não está sendo destacado o ICMS ST.\nFoi identificado uma falha na regra. Inicialmente foi aberto um chamado que será usado para montar a PPM.\n\nO Impacto é a falta de recolhimento de Imposto. Precisamos ajustar o quanto antes.\n\n\n",

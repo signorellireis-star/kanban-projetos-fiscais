@@ -1,8 +1,8 @@
 {
   "86ajp65xa": {
-    "date_updated": "1787061776886",
-    "ultimo_status": "Fase de homologação finalizada com sucesso e validada, tendo a formalização por e-mail já enviada ao responsável Claudio Murozaki.\nOs próximos marcos previstos são a aprovação no CAB em 19/08/2026 e a implantação em produção (Go-Live) no dia 25/08/2026.",
-    "status_updated_at": "18/08/2026 16:01"
+    "date_updated": "1787079265368",
+    "ultimo_status": "A homologação foi concluída e validada com sucesso, tendo as evidências e o e-mail de aprovação já direcionados à gestão.\nO projeto agora aguarda aprovação no CAB (19/08) para seguir para o Go-Live em 25/08/2026, com parametrização inicial para 01/01/2027.",
+    "status_updated_at": "18/08/2026 20:54"
   },
   "86ajnr5t7": {
     "date_updated": "1785766232109",
@@ -55,9 +55,9 @@
     "status_updated_at": "17/08/2026 15:53"
   },
   "86ahe92c9": {
-    "date_updated": "1786833625621",
-    "ultimo_status": "Sob responsabilidade de Alexander, a iniciativa passa por alinhamento com Medeiros para mitigar o risco de bloqueio da PPM.\nO avanço das atividades aguarda a conclusão dessa validação interna para a desmobilização do potencial impedimento.",
-    "status_updated_at": "17/08/2026 11:03"
+    "date_updated": "1787082102266",
+    "ultimo_status": "Liberada a geração de dados para testes no ambiente SAP-QA (transação ZFI165) conforme os parâmetros acordados de filial e mês.\nParalelamente, aguarda-se o alinhamento entre Alexander e Medeiros para solucionar a pendência referente ao potencial bloqueio da PPM.",
+    "status_updated_at": "18/08/2026 20:54"
   },
   "86aghx74e": {
     "date_updated": "1786736817040",
@@ -65,9 +65,9 @@
     "status_updated_at": "15/08/2026 16:29"
   },
   "86af3zqga": {
-    "date_updated": "1786833538016",
-    "ultimo_status": "Ajustes para emissão de documentos fiscais de transferência (CST e cClassTrib) foram implantados e seguem em homologação com suporte da consultoria ABACO.\nO avanço do projeto depende do posicionamento pendente de Carol Godoy para Alexander referente à validação da proposta da ELO.",
-    "status_updated_at": "17/08/2026 15:53"
+    "date_updated": "1787084570400",
+    "ultimo_status": "Ajustes de parametrização para emissão de documentos fiscais (CST e cClassTrib) foram implantados para suporte à homologação.\nAprovado o escopo da proposta da ELO referente às atualizações da NT 002.2025, abrangendo integrações de MM, FI, CO e automações fiscais.",
+    "status_updated_at": "18/08/2026 20:55"
   },
   "86af3zj95": {
     "date_updated": "1786832696816",
@@ -80,14 +80,14 @@
     "status_updated_at": "17/08/2026 11:04"
   },
   "86a88zqpx": {
-    "date_updated": "1786833376588",
-    "ultimo_status": "A EF foi validada em 20/07/2026 após o ajuste da PPM para 2026 em decorrência da exclusão do IPI do escopo operacional.\nO cronograma do projeto permanece pendente de definição, restando ainda estruturar e incorporar o fluxo para o processo de revenda.",
-    "status_updated_at": "17/08/2026 11:04"
+    "date_updated": "1787086005910",
+    "ultimo_status": "Especificação Funcional validada em 20/07/2026 após ajuste da PPM por exclusão de IPI, com modelo de tela do requisito 12 enviado para desenvolvimento.\nO cronograma de implantação permanece pendente de definição, constituindo o principal marco a ser estabelecido para o avanço do projeto.",
+    "status_updated_at": "18/08/2026 20:56"
   },
   "86a3vz587": {
-    "date_updated": "1786833128057",
-    "ultimo_status": "Implantação reprogramada para 04/08 devido ao congelamento de julho, exigindo a finalização dos testes integrados até 24/07 e aprovação no CAB em 29/07.\nA frente SAP ECC aguarda correção de chamado pelo Mercado Eletrônico para prosseguir com os cenários, enquanto a frente AddTax possui testes agendados para 13/07.",
-    "status_updated_at": "17/08/2026 11:04"
+    "date_updated": "1787081969010",
+    "ultimo_status": "Frentes SAP ECC e AddTax enfrentam impedimentos na geração da SAFX e na integração com o Mercado Eletrônico, atualmente sob análise técnica.\nO cronograma foca na conclusão dos testes homologatórios até 24/07 para garantir a aprovação no CAB (29/07) e a implantação em produção em 04/08.",
+    "status_updated_at": "18/08/2026 20:56"
   },
   "864ee7nrp": {
     "date_updated": "1786832531750",
@@ -109,9 +109,9 @@
     "status_updated_at": "17/08/2026 11:03"
   },
   "86ahgemnb": {
-    "date_updated": "1786970916788",
-    "ultimo_status": "A integração da carteira digital NuPay aguarda o retorno da área responsável quanto ao status de validação do requisito fiscal enviado.\nEsta indefinição sobre o andamento do processo fiscal constitui o principal ponto de atenção e risco para o cronograma do projeto.",
-    "status_updated_at": "17/08/2026 15:53"
+    "date_updated": "1787081907781",
+    "ultimo_status": "A integração do NuPay avança com ponto de atenção referente à indefinição do status do requisito fiscal enviado à área responsável.\nA resolução dessa pendência é prioritária para mitigar riscos ao cronograma de implementação do novo método de pagamento digital.",
+    "status_updated_at": "18/08/2026 20:54"
   },
   "86ah40j3y": {
     "date_updated": "1786970911661",
@@ -122,5 +122,10 @@
     "date_updated": "1786970941385",
     "ultimo_status": "Aguardando definição sobre o requisito fiscal enviado para a área responsável, cujo status atual e andamento são desconhecidos.\nAdicionalmente, pendente o retorno de Sergio Sanchez sobre a verificação da documentação da PPM e criação de pasta de identificação.",
     "status_updated_at": "17/08/2026 15:53"
+  },
+  "86a214c63": {
+    "date_updated": "1787077428564",
+    "ultimo_status": "Liberado o início dos lançamentos de ressarcimento no SPED conforme procedimento da RVC, com foco na validação final das regras sistêmicas.\nComo ponto de atenção crítico, identificou-se a necessidade de deduzir créditos já utilizados anteriormente do montante de R$ 24 milhões antes da escrituração.",
+    "status_updated_at": "18/08/2026 20:56"
   }
 }
