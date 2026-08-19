@@ -60,9 +60,9 @@
     "status_updated_at": "18/08/2026 20:54"
   },
   "86aghx74e": {
-    "date_updated": "1787082286300",
-    "ultimo_status": "Definido o escopo inicial mantendo a infraestrutura atual com integração Cloud restrita ao Portal NFS-e, estando a proposta comercial em aprovação no jurídico (Projuris) e pendente de cronograma.\nOs próximos passos envolvem o detalhamento de segurança da arquitetura, negociação de piloto para suporte contratual e apresentação da plataforma Cloud agendada para 18/08.",
-    "status_updated_at": "19/08/2026 11:00"
+    "date_updated": "1787171162448",
+    "ultimo_status": "O escopo atual seguirá com a infraestrutura existente para integração da NFS-e, estando a proposta comercial em validação no departamento jurídico (Projuris).\nOs próximos passos prioritários envolvem a definição do cronograma do projeto e o retorno da Addvisor sobre a negociação do contrato de suporte.",
+    "status_updated_at": "19/08/2026 20:58"
   },
   "86af3zqga": {
     "date_updated": "1787084570400",
@@ -75,9 +75,9 @@
     "status_updated_at": "17/08/2026 11:04"
   },
   "86ae39yjg": {
-    "date_updated": "1787082910549",
-    "ultimo_status": "Com o CNPJ constituído, o projeto avança com a solicitação do regime de substituto tributário e a validação do cronograma macro de implantação.\nAs próximas etapas prioritárias contemplam o planejamento do setup de sistemas integrados e o levantamento das estimativas de custo e esforço.",
-    "status_updated_at": "19/08/2026 11:00"
+    "date_updated": "1787167865818",
+    "ultimo_status": "Com o CNPJ constituído, o projeto de abertura do CD Cajamar está suspenso temporariamente em agosto de 2026 devido à concorrência de outras prioridades fiscais.\nA retomada das atividades, incluindo a implementação do regime de substituto tributário e o setup dos sistemas, está agendada para setembro de 2026.",
+    "status_updated_at": "19/08/2026 20:59"
   },
   "86a88zqpx": {
     "date_updated": "1787086005910",
@@ -90,9 +90,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "864ee7nrp": {
-    "date_updated": "1786832531750",
-    "ultimo_status": "A homologação do fluxo FBA está temporariamente suspensa devido a divergências cadastrais e alterações unilaterais nos processos de transferência da Amazon.\nA equipe de projeto atua na implementação de medidas corretivas junto ao parceiro para mitigar os impactos e viabilizar a retomada dos testes.",
-    "status_updated_at": "17/08/2026 15:53"
+    "date_updated": "1787167808607",
+    "ultimo_status": "A homologação encontra-se suspensa devido a alterações de processos logísticos e divergências cadastrais nos centros de distribuição da Amazon.\nA equipe técnica atualmente atua na tratativa de inconsistências fiscais relacionadas à parametrização de tags de ICMS ST (CST 60) nas notas de venda.",
+    "status_updated_at": "19/08/2026 20:59"
   },
   "864e98d8y": {
     "date_updated": "1787148957675",
@@ -130,8 +130,8 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "86ak2jcnd": {
-    "date_updated": "1787086984892",
-    "ultimo_status": "Plano de testes enviado para validação das partes interessadas, aguardando retornos e consolidação dos cenários de teste até o dia 19/08.\nA etapa de homologação está programada para o período de 17/09 a 02/10, com o processo de reserva de agendas em andamento.",
-    "status_updated_at": "19/08/2026 10:59"
+    "date_updated": "1787172589736",
+    "ultimo_status": "Concluída a avaliação fiscal do plano de testes com a identificação de lacunas em cenários críticos de logística (cliente ausente/sinistro) e escrituração de NFSe (tarifas e comissão) no SAP.\nOs ajustes demandados pelo setor fiscal devem ser consolidados no plano de testes para viabilizar a validação contábil e garantir o cronograma de homologação.",
+    "status_updated_at": "19/08/2026 20:58"
   }
 }
