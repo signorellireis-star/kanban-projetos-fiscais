@@ -35,9 +35,9 @@
     "status_updated_at": "15/08/2026 23:04"
   },
   "86ajc7q9w": {
-    "date_updated": "1786833777641",
-    "ultimo_status": "A base de dados do SAP foi gerada com sucesso pela TI e disponibilizada na plataforma Databricks.\nA pendência atual consiste no download dos dados pela área de negócios para envio subsequente à consultoria EY.",
-    "status_updated_at": "17/08/2026 11:01"
+    "date_updated": "1787086828109",
+    "ultimo_status": "Conclusão da extração da base SAP pela TI e disponibilização dos dados na plataforma Databricks.\nO próximo passo do projeto é o download desses arquivos pela equipe interna para envio à consultoria EY.",
+    "status_updated_at": "19/08/2026 10:59"
   },
   "86ajc7hu3": {
     "date_updated": "1786833198162",
@@ -60,9 +60,9 @@
     "status_updated_at": "18/08/2026 20:54"
   },
   "86aghx74e": {
-    "date_updated": "1786736817040",
-    "ultimo_status": "Propostas comerciais em validação pelo departamento Jurídico (Projuris), restando a definição do cronograma para o avanço do projeto.\nPróxima etapa agendada para 18/08/26 para a apresentação técnica da plataforma Cloud pela Addvisor.",
-    "status_updated_at": "15/08/2026 16:29"
+    "date_updated": "1787082286300",
+    "ultimo_status": "Definido o escopo inicial mantendo a infraestrutura atual com integração Cloud restrita ao Portal NFS-e, estando a proposta comercial em aprovação no jurídico (Projuris) e pendente de cronograma.\nOs próximos passos envolvem o detalhamento de segurança da arquitetura, negociação de piloto para suporte contratual e apresentação da plataforma Cloud agendada para 18/08.",
+    "status_updated_at": "19/08/2026 11:00"
   },
   "86af3zqga": {
     "date_updated": "1787084570400",
@@ -75,9 +75,9 @@
     "status_updated_at": "17/08/2026 11:04"
   },
   "86ae39yjg": {
-    "date_updated": "1786833017975",
-    "ultimo_status": "A iniciativa para o estabelecimento do novo CNPJ atacadista em Cajamar (SP) permanece sem atualizações de status ou definição de prioridade até o momento.\nO projeto aguarda direcionamento estratégico sobre sua priorização para que as atividades de implantação possam ser iniciadas.",
-    "status_updated_at": "17/08/2026 11:04"
+    "date_updated": "1787082910549",
+    "ultimo_status": "Com o CNPJ constituído, o projeto avança com a solicitação do regime de substituto tributário e a validação do cronograma macro de implantação.\nAs próximas etapas prioritárias contemplam o planejamento do setup de sistemas integrados e o levantamento das estimativas de custo e esforço.",
+    "status_updated_at": "19/08/2026 11:00"
   },
   "86a88zqpx": {
     "date_updated": "1787086005910",
@@ -95,8 +95,9 @@
     "status_updated_at": "17/08/2026 15:53"
   },
   "864e98d8y": {
-    "date_updated": "1785432799516",
-    "ultimo_status": "Conclusão da PPM e definição das regras fiscais de ICMS para mitigar riscos em operações internas de uso e consumo.\nPróximo passo consiste na validação do documento de especificação técnica EF_DMND0002001_v1.1, entregue para revisão."
+    "date_updated": "1787078768239",
+    "ultimo_status": "Finalizada a revisão da matriz com cenários de testes e enviada para consolidação do plano final por Vitor Binotti.\nO documento de especificação funcional (EF_DMND0002001) foi disponibilizado e segue em fase de validação pela equipe.",
+    "status_updated_at": "19/08/2026 11:00"
   },
   "86ajqc9ph": {
     "date_updated": "1786823197698",
@@ -127,5 +128,10 @@
     "date_updated": "1787077428564",
     "ultimo_status": "Liberado o início dos lançamentos de ressarcimento no SPED conforme procedimento da RVC, com foco na validação final das regras sistêmicas.\nComo ponto de atenção crítico, identificou-se a necessidade de deduzir créditos já utilizados anteriormente do montante de R$ 24 milhões antes da escrituração.",
     "status_updated_at": "18/08/2026 20:56"
+  },
+  "86ak2jcnd": {
+    "date_updated": "1787086984892",
+    "ultimo_status": "Plano de testes enviado para validação das partes interessadas, aguardando retornos e consolidação dos cenários de teste até o dia 19/08.\nA etapa de homologação está programada para o período de 17/09 a 02/10, com o processo de reserva de agendas em andamento.",
+    "status_updated_at": "19/08/2026 10:59"
   }
 }
