@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 20/08/2026 16:04:20
-const lastUpdate = '20/08/2026 16:04:20';
+// Gerado automaticamente via ClickUp API + Gemini em 20/08/2026 21:01:52
+const lastUpdate = '20/08/2026 21:01:52';
 const rawData = [
   {
     "id": "86ak2jcnd",
@@ -194,8 +194,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
-    "ultimo_status": "Apresentada a tela de simulação do serviço, o projeto avançou para a etapa de revisão dos ajustes acordados com a Neogrid.\nO próximo passo consiste na validação do resumo de alterações para apoiar a elaboração da documentação de aprovação (PPM).",
-    "status_updated_at": "17/08/2026 15:53"
+    "ultimo_status": "Análise do resumo de ajustes da Neogrid está em andamento para estruturação da PPM e validação das telas de simulação de serviço.\nAguarda-se confirmação crítica sobre a automaticidade do webservice de Barueri, cuja operação semiautomática inviabilizaria o processo.",
+    "status_updated_at": "20/08/2026 21:01"
   },
   {
     "id": "86ahfj7dm",
