@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 20/08/2026 11:02:43
-const lastUpdate = '20/08/2026 11:02:43';
+// Gerado automaticamente via ClickUp API + Gemini em 20/08/2026 16:04:20
+const lastUpdate = '20/08/2026 16:04:20';
 const rawData = [
   {
     "id": "86ak2jcnd",
@@ -12,8 +12,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Terceiros",
     "resumo_raw": "Atualmente, o canal B2B realiza vendas de produtos 1P Fast Shop utilizando os canais online (via site/jornada do cliente) como também o offline (via GAN ou site na função Sales Representative, este último é operado pelo time de backoffice B2B). Os meios de pagamento mais utilizados são Cartão de Crédito, Depósito à Vista, Faturado e Boleto. A opção de pagamento pelo Cartão de Crédito só é possível ocorrer pela plataforma Vtex, por intermediação do time de backoffice do B2B que realiza a venda de forma “assistida ou personalizada”. Todas as vendas do B2B são atribuídas à Tab.74.\n As vendas B2B consomem os estoques disponíveis da Fast Shop, entretanto as notas fiscais são emitidas com a finalidade “uso e consumo”, o que não reflete corretamente a natureza da operação.\n Essa limitação faz com que clientes B2B — especialmente de médio e grande porte, com maior rigor nos seus processos fiscais — deixem de comprar da Fast Shop por não receberem a nota fiscal com a finalidade “revenda”.\n Além disso, há um direcionamento estratégico na Fast Shop para priorizar a captura de benefícios fiscais oferecidos pelos Estados. Atualmente, os pedidos B2B não utilizam a operação do CD do Espírito Santo (filial 2F), mesmo sendo esse Estado um importante polo de benefícios fiscais mediante a ampliação de novas operações fiscais e de transporte.\n O CD Atacadista filial 2F possui regime especial de atacadista, mas desde sua implementação e parametrização no sistema GAN, apenas foram liberadas operações de recebimento de mercadorias (compras) e abastecimento para lojas ou outros CDs (transferências).\n Esta próxima fase será focada na liberação para que a filial 2F possa efetuar vendas na forma de atacadista, ou seja, com característica de revenda.\n Apenas o CD Paraíba já realizou vendas para revenda anteriormente, mas há tempos essa operação não é realizada e não se tem clareza sobre o comportamento atual do sistema.\n Para o CD ES, poderão ser copiadas as regras existentes e atualizados os pontos conforme definidos nesta PPM.\n A Fast Shop estabeleceu como um dos pilares para este ano o fortalecimento da operação B2B, com foco em atrair novos negócios e adequar os sistemas para atender com excelência as necessidades desse segmento. O modelo atacadista é um destes pilares e parte fundamental dessa estratégia, e a decisão de implementar a operação de revenda no Estado do ES é estratégica para evitar a perda de vendas em volumes significativos, garantindo a emissão correta das notas fiscais e o alinhamento com as exigências fiscais dos clientes.\n    \n",
-    "ultimo_status": "Concluída a avaliação fiscal do plano de testes com a identificação de lacunas em cenários críticos de logística (cliente ausente/sinistro) e escrituração de NFSe (tarifas e comissão) no SAP.\nOs ajustes demandados pelo setor fiscal devem ser consolidados no plano de testes para viabilizar a validação contábil e garantir o cronograma de homologação.",
-    "status_updated_at": "19/08/2026 20:58"
+    "ultimo_status": "Alinhamento concluído com as áreas Fiscal e B2B para inclusão dos cenários de escrituração de NFSe e relatórios (Req. 14 e 15) no plano de testes.\nO cronograma do projeto segue mantido, com a etapa de homologação confirmada para o período de 17/09 a 02/10.",
+    "status_updated_at": "20/08/2026 16:04"
   },
   {
     "id": "86ajqc9ph",

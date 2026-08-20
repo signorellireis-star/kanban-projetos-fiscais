@@ -130,8 +130,8 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "86ak2jcnd": {
-    "date_updated": "1787172589736",
-    "ultimo_status": "Concluída a avaliação fiscal do plano de testes com a identificação de lacunas em cenários críticos de logística (cliente ausente/sinistro) e escrituração de NFSe (tarifas e comissão) no SAP.\nOs ajustes demandados pelo setor fiscal devem ser consolidados no plano de testes para viabilizar a validação contábil e garantir o cronograma de homologação.",
-    "status_updated_at": "19/08/2026 20:58"
+    "date_updated": "1787233442867",
+    "ultimo_status": "Alinhamento concluído com as áreas Fiscal e B2B para inclusão dos cenários de escrituração de NFSe e relatórios (Req. 14 e 15) no plano de testes.\nO cronograma do projeto segue mantido, com a etapa de homologação confirmada para o período de 17/09 a 02/10.",
+    "status_updated_at": "20/08/2026 16:04"
   }
 }
