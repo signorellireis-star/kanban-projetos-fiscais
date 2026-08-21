@@ -133,5 +133,25 @@
     "date_updated": "1787233442867",
     "ultimo_status": "Alinhamento concluído com as áreas Fiscal e B2B para inclusão dos cenários de escrituração de NFSe e relatórios (Req. 14 e 15) no plano de testes.\nO cronograma do projeto segue mantido, com a etapa de homologação confirmada para o período de 17/09 a 02/10.",
     "status_updated_at": "20/08/2026 16:04"
+  },
+  "86ae39wp7": {
+    "date_updated": "1787263282880",
+    "ultimo_status": "Cancelamento da iniciativa por decisão da Diretoria, motivado por viabilidade de custos logísticos e descontinuação de Substituição Tributária (ST) em determinados itens.\nA proposta de escopo (PPM) chegou a ser estruturada e disponibilizada pela equipe, mas o processo foi formalmente encerrado sem aprovação.",
+    "status_updated_at": "21/08/2026 11:02"
+  },
+  "86abvcamy": {
+    "date_updated": "1787263379364",
+    "ultimo_status": "Mapeada divergência de somatória na tag <vPag> associada ao tipo de pagamento 90, que causará rejeições sob as novas regras da NT 2025.001.\nCom a publicação da versão 1.03 da NT para implementação futura, o foco está no planejamento do ajuste preventivo da regra no GAN (REQ.1).",
+    "status_updated_at": "21/08/2026 11:02"
+  },
+  "86a8tt4p9": {
+    "date_updated": "1787262153059",
+    "ultimo_status": "Concluída a análise de impacto fiscal no GAN com a identificação de desvios nos cálculos de ICMS-ST e MVA em Pernambuco.\nOs próximos passos contemplam a abertura de PPM para ajustes sistêmicos e a reparametrização das NCMs para a Regra 2 até 10/11/2023.",
+    "status_updated_at": "21/08/2026 11:02"
+  },
+  "86a1fhjcb": {
+    "date_updated": "1787263132500",
+    "ultimo_status": "Após suspensão por determinação da TI, a iniciativa foi integrada ao escopo da PPM da Reforma Tributária para a continuidade de suas entregas.\nO histórico recente registrava o mapeamento de novos cenários de falhas no cancelamento de NF-e reportados pela área de negócios.",
+    "status_updated_at": "21/08/2026 11:03"
   }
 }

@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 20/08/2026 21:01:52
-const lastUpdate = '20/08/2026 21:01:52';
+// Gerado automaticamente via ClickUp API + Gemini em 21/08/2026 11:03:02
+const lastUpdate = '21/08/2026 11:03:02';
 const rawData = [
   {
     "id": "86ak2jcnd",
@@ -354,16 +354,30 @@ const rawData = [
   {
     "id": "86ae39wp7",
     "name": "[DMND0002244]-Compra e Ordem em operação com Operador Logistico",
-    "status": "ARQUIVADO",
+    "status": "IDEIA CONGELADA",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "CONCLUIDO",
+    "kanban_status": "EM ANDAMENTO",
     "golive": "",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "Concluido",
-    "status_updated_at": ""
+    "ultimo_status": "Cancelamento da iniciativa por decisão da Diretoria, motivado por viabilidade de custos logísticos e descontinuação de Substituição Tributária (ST) em determinados itens.\nA proposta de escopo (PPM) chegou a ser estruturada e disponibilizada pela equipe, mas o processo foi formalmente encerrado sem aprovação.",
+    "status_updated_at": "21/08/2026 11:02"
+  },
+  {
+    "id": "86abvcamy",
+    "name": "[PRJ]-Somatória_TAG_vPag_x_vNF_NT 2025.001",
+    "status": "IDEIA CONGELADA",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2025",
+    "area": "Fiscal",
+    "resumo_raw": "",
+    "ultimo_status": "Mapeada divergência de somatória na tag <vPag> associada ao tipo de pagamento 90, que causará rejeições sob as novas regras da NT 2025.001.\nCom a publicação da versão 1.03 da NT para implementação futura, o foco está no planejamento do ajuste preventivo da regra no GAN (REQ.1).",
+    "status_updated_at": "21/08/2026 11:02"
   },
   {
     "id": "86aav1b9d",
@@ -378,6 +392,20 @@ const rawData = [
     "resumo_raw": "",
     "ultimo_status": "Concluido",
     "status_updated_at": ""
+  },
+  {
+    "id": "86a8tt4p9",
+    "name": "Raquel - Regras de Exceção de Entrada - Regra 1 e 2 - efeito para as Entradas no Estado de PE e Regra 7 - para os demais Estados.",
+    "status": "INICIAR DESENVOLVIMENTO",
+    "status_ppm": "",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "",
+    "area": "Fiscal",
+    "resumo_raw": "",
+    "ultimo_status": "Concluída a análise de impacto fiscal no GAN com a identificação de desvios nos cálculos de ICMS-ST e MVA em Pernambuco.\nOs próximos passos contemplam a abertura de PPM para ajustes sistêmicos e a reparametrização das NCMs para a Regra 2 até 10/11/2023.",
+    "status_updated_at": "21/08/2026 11:02"
   },
   {
     "id": "86a88zqpx",
@@ -476,6 +504,20 @@ const rawData = [
     "resumo_raw": "",
     "ultimo_status": "Liberado o início dos lançamentos de ressarcimento no SPED conforme procedimento da RVC, com foco na validação final das regras sistêmicas.\nComo ponto de atenção crítico, identificou-se a necessidade de deduzir créditos já utilizados anteriormente do montante de R$ 24 milhões antes da escrituração.",
     "status_updated_at": "18/08/2026 20:56"
+  },
+  {
+    "id": "86a1fhjcb",
+    "name": "[PRJ:]-NFe-Rejeição de pedido de cancelamento",
+    "status": "T.I TRABALHANDO",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2023",
+    "area": "Fiscal",
+    "resumo_raw": "",
+    "ultimo_status": "Após suspensão por determinação da TI, a iniciativa foi integrada ao escopo da PPM da Reforma Tributária para a continuidade de suas entregas.\nO histórico recente registrava o mapeamento de novos cenários de falhas no cancelamento de NF-e reportados pela área de negócios.",
+    "status_updated_at": "21/08/2026 11:03"
   },
   {
     "id": "864ee7nrp",
