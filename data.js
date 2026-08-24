@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 24/08/2026 11:13:46
-const lastUpdate = '24/08/2026 11:13:46';
+// Gerado automaticamente via ClickUp API + Gemini em 24/08/2026 16:20:01
+const lastUpdate = '24/08/2026 16:20:01';
 const rawData = [
   {
     "id": "86ak2jcnd",
@@ -418,8 +418,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "Especificação Funcional validada em 20/07/2026 após ajuste da PPM por exclusão de IPI, com modelo de tela do requisito 12 enviado para desenvolvimento.\nO cronograma de implantação permanece pendente de definição, constituindo o principal marco a ser estabelecido para o avanço do projeto.",
-    "status_updated_at": "18/08/2026 20:56"
+    "ultimo_status": "Com a Especificação Funcional (EF) validada e o cronograma de TI definido, o início das atividades de negócio e plano de testes está previsto para 31/08.\nOs gestores das áreas devem indicar os respectivos Key Users para validação de documentos e homologação de sistemas até o dia 27/08.",
+    "status_updated_at": "24/08/2026 16:20"
   },
   {
     "id": "86a7p7uwv",
