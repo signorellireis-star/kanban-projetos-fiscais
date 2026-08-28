@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 26/08/2026 11:15:45
-const lastUpdate = '26/08/2026 11:15:45';
+// Gerado automaticamente via ClickUp API + Gemini em 28/08/2026 01:00:52
+const lastUpdate = '28/08/2026 01:00:52';
 const rawData = [
   {
     "id": "86ak2jcnd",
@@ -306,8 +306,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
-    "ultimo_status": "Ajustes de parametrização para emissão de documentos fiscais (CST e cClassTrib) foram implantados para suporte à homologação.\nAprovado o escopo da proposta da ELO referente às atualizações da NT 002.2025, abrangendo integrações de MM, FI, CO e automações fiscais.",
-    "status_updated_at": "18/08/2026 20:55"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86af3zj95",
@@ -418,8 +418,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "Com a Especificação Funcional (EF) validada e o cronograma de TI definido, o início das atividades de negócio e plano de testes está previsto para 31/08.\nOs gestores das áreas devem indicar os respectivos Key Users para validação de documentos e homologação de sistemas até o dia 27/08.",
-    "status_updated_at": "24/08/2026 16:20"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86a7p7uwv",
