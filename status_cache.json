@@ -10,9 +10,9 @@
     "status_updated_at": "03/08/2026 17:14"
   },
   "86ajn2bf9": {
-    "date_updated": "1786832996728",
-    "ultimo_status": "A minuta contratual e o plano de comunicação avançaram para revisão fiscal após parecer inicial do Jurídico sobre o novo fluxo de repasses.\nA análise dos impactos tributários foi agendada pela área Fiscal para após o fechamento de 13/07, com o projeto devidamente registrado no portfólio.",
-    "status_updated_at": "15/08/2026 22:56"
+    "date_updated": "1787929465711",
+    "ultimo_status": "A minuta de split de pagamento recebeu orientações preliminares do Jurídico, necessitando de ajustes operacionais e de comunicação.\nA análise dos impactos tributários foi direcionada à área Fiscal, que iniciará a avaliação do fluxo financeiro e da reforma tributária após 13/07.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86ajn2519": {
     "date_updated": "1785766228387",
@@ -35,9 +35,9 @@
     "status_updated_at": "15/08/2026 23:04"
   },
   "86ajc7q9w": {
-    "date_updated": "1787086828109",
-    "ultimo_status": "Conclusão da extração da base SAP pela TI e disponibilização dos dados na plataforma Databricks.\nO próximo passo do projeto é o download desses arquivos pela equipe interna para envio à consultoria EY.",
-    "status_updated_at": "19/08/2026 10:59"
+    "date_updated": "1787932792619",
+    "ultimo_status": "A TI concluiu a geração da base SAP e disponibilizou os dados no Databricks.\nO próximo passo consiste no download do arquivo por parte da Carol para o envio subsequente à EY.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86ajc7hu3": {
     "date_updated": "1786833198162",
@@ -50,14 +50,14 @@
     "status_updated_at": "17/08/2026 11:02"
   },
   "86ahfje7y": {
-    "date_updated": "1787253673357",
-    "ultimo_status": "Análise do resumo de ajustes da Neogrid está em andamento para estruturação da PPM e validação das telas de simulação de serviço.\nAguarda-se confirmação crítica sobre a automaticidade do webservice de Barueri, cuja operação semiautomática inviabilizaria o processo.",
-    "status_updated_at": "20/08/2026 21:01"
+    "date_updated": "1787932794109",
+    "ultimo_status": "Elaboração da PPM em andamento com base no resumo de ajustes da Neogrid, pendendo de validação técnica sobre a automatização do webservice de Barueri.\nA viabilidade do projeto está condicionada à confirmação do retorno automático da NFS-e, eliminando o risco de processos manuais de download de XMLs.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86ahe92c9": {
-    "date_updated": "1787082102266",
-    "ultimo_status": "Liberada a geração de dados para testes no ambiente SAP-QA (transação ZFI165) conforme os parâmetros acordados de filial e mês.\nParalelamente, aguarda-se o alinhamento entre Alexander e Medeiros para solucionar a pendência referente ao potencial bloqueio da PPM.",
-    "status_updated_at": "18/08/2026 20:54"
+    "date_updated": "1787932792109",
+    "ultimo_status": "Iniciada a fase de testes e geração de dados no ambiente SAP-QA (transação ZFI165) com base nos parâmetros acordados de filial e mês.\nParalelamente, segue em andamento o alinhamento conduzido por Alexander junto a Medeiros para mitigar o risco de bloqueio da PPM.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86aghx74e": {
     "date_updated": "1787171162448",
@@ -65,9 +65,9 @@
     "status_updated_at": "19/08/2026 20:58"
   },
   "86af3zqga": {
-    "date_updated": "1787084570400",
-    "ultimo_status": "Ajustes de parametrização para emissão de documentos fiscais (CST e cClassTrib) foram implantados para suporte à homologação.\nAprovado o escopo da proposta da ELO referente às atualizações da NT 002.2025, abrangendo integrações de MM, FI, CO e automações fiscais.",
-    "status_updated_at": "18/08/2026 20:55"
+    "date_updated": "1787932237617",
+    "ultimo_status": "Ajustes para emissão de documentos de transferência foram implantados e a proposta técnica da ELO para a Fase I foi validada pela área de negócios.\nOs próximos passos pendentes envolvem o envio à ELO das definições de eventos de NF-e no SAP e dos layouts dos relatórios para o livro fiscal.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86af3zj95": {
     "date_updated": "1786832696816",
@@ -80,9 +80,9 @@
     "status_updated_at": "19/08/2026 20:59"
   },
   "86a88zqpx": {
-    "date_updated": "1787586133964",
-    "ultimo_status": "Com a Especificação Funcional (EF) validada e o cronograma de TI definido, o início das atividades de negócio e plano de testes está previsto para 31/08.\nOs gestores das áreas devem indicar os respectivos Key Users para validação de documentos e homologação de sistemas até o dia 27/08.",
-    "status_updated_at": "24/08/2026 16:20"
+    "date_updated": "1787915599881",
+    "ultimo_status": "Cronograma de TI estabelecido com validação da EF e plano de testes iniciando em 31/08, restando a definição dos Key Users pelas áreas até 27/08.\nEm paralelo, avança a especificação técnica para viabilizar a entrada de NFe complementar junto à Trading, mapeando impactos tributários e financeiros no MVP.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
@@ -145,13 +145,28 @@
     "status_updated_at": "21/08/2026 11:02"
   },
   "86a8tt4p9": {
-    "date_updated": "1787262153059",
-    "ultimo_status": "Concluída a análise de impacto fiscal no GAN com a identificação de desvios nos cálculos de ICMS-ST e MVA em Pernambuco.\nOs próximos passos contemplam a abertura de PPM para ajustes sistêmicos e a reparametrização das NCMs para a Regra 2 até 10/11/2023.",
-    "status_updated_at": "21/08/2026 11:02"
+    "date_updated": "1787932842608",
+    "ultimo_status": "Concluída a análise de impacto com identificação de inconsistências fiscais no GAN, avançando para abertura de PPM para ajustes sistêmicos nas Regras 1, 2 e 7.\nO time de Planejamento iniciará as adequações de parametrização das regras de exceção de entrada para PE, com entrega prevista para 10/11/2023.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   "86a1fhjcb": {
-    "date_updated": "1787263132500",
-    "ultimo_status": "Após suspensão por determinação da TI, a iniciativa foi integrada ao escopo da PPM da Reforma Tributária para a continuidade de suas entregas.\nO histórico recente registrava o mapeamento de novos cenários de falhas no cancelamento de NF-e reportados pela área de negócios.",
-    "status_updated_at": "21/08/2026 11:03"
+    "date_updated": "1787932787050",
+    "ultimo_status": "O projeto foi suspenso pela área de TI e seu escopo foi formalmente integrado à PPM da Reforma Tributária.\nO andamento das entregas e o mapeamento de novos cenários de rejeição seguem consolidados sob a gestão desta nova iniciativa.",
+    "status_updated_at": "28/08/2026 21:59"
+  },
+  "86ak7un50": {
+    "date_updated": "1787934809638",
+    "ultimo_status": "Ausência de informações de escopo, justificativa ou histórico de interações registradas no sistema até o momento.\nPróximas etapas requerem a estruturação inicial da proposta, definição de cronograma e alinhamento para kickoff.",
+    "status_updated_at": "28/08/2026 21:57"
+  },
+  "86ak7tejr": {
+    "date_updated": "1787933062670",
+    "ultimo_status": "Realizado alinhamento de escopo com a ELO para refinamento da proposta da Reforma Tributária 2027, identificando-se riscos de prazo frente ao *freeze* de fim de ano e alta complexidade na automação de notas.\nComo próximos passos, a Fast Shop enviará cenários de negócio complementares para que a ELO consolide a estimativa de esforço e apresente a proposta comercial até o fim desta semana.",
+    "status_updated_at": "28/08/2026 21:57"
+  },
+  "86ak7rpe7": {
+    "date_updated": "1787929706806",
+    "ultimo_status": "Fase preliminar de estruturação iniciada sem histórico de interações ou documentação de escopo registradas até o momento.\nPróximos passos requerem a definição formal da justificativa de negócio e o alinhamento inicial com as partes interessadas.",
+    "status_updated_at": "28/08/2026 21:57"
   }
 }

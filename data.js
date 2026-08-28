@@ -1,6 +1,48 @@
-// Gerado automaticamente via ClickUp API + Gemini em 28/08/2026 01:00:52
-const lastUpdate = '28/08/2026 01:00:52';
+// Gerado automaticamente via ClickUp API + Gemini em 28/08/2026 21:59:04
+const lastUpdate = '28/08/2026 21:59:04';
 const rawData = [
+  {
+    "id": "86ak7un50",
+    "name": "[PRJ]-Projeto para emissão de NFSe sobre Locação",
+    "status": "INICIAR DESENVOLVIMENTO",
+    "status_ppm": "PPM não iniciada",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Fiscal",
+    "resumo_raw": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
+    "ultimo_status": "Ausência de informações de escopo, justificativa ou histórico de interações registradas no sistema até o momento.\nPróximas etapas requerem a estruturação inicial da proposta, definição de cronograma e alinhamento para kickoff.",
+    "status_updated_at": "28/08/2026 21:57"
+  },
+  {
+    "id": "86ak7tejr",
+    "name": "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO",
+    "status": "EM REUNIOES",
+    "status_ppm": "PPM em Andamento",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Fiscal",
+    "resumo_raw": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
+    "ultimo_status": "Realizado alinhamento de escopo com a ELO para refinamento da proposta da Reforma Tributária 2027, identificando-se riscos de prazo frente ao *freeze* de fim de ano e alta complexidade na automação de notas.\nComo próximos passos, a Fast Shop enviará cenários de negócio complementares para que a ELO consolide a estimativa de esforço e apresente a proposta comercial até o fim desta semana.",
+    "status_updated_at": "28/08/2026 21:57"
+  },
+  {
+    "id": "86ak7rpe7",
+    "name": "[PRJ}-Apple Pay",
+    "status": "CONCLUIDO",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Terceiros",
+    "resumo_raw": "Objetivo:\n\nPermitir que clientes realizem pagamentos utilizando a carteira digital da Apple, promovendo agilidade, segurança e\nmodernização no atendimento. A orquestração do pagamento será realizada pela solução nativa (Tuna), garantindo\nconformidade e redução de atrito.\n\n1.1. PROCESSO AS IS e TO BE:\n\nAtualmente, a empresa não disponibiliza carteiras digitais como método de pagamento. As transações são realizadas apenas\npor meio de cartões de crédito, lista de casamento, voucher e PIX.\n\nAS IS: Empresa não disponibiliza carteiras digitais. Pagamentos limitados a cartão, PIX, voucher e lista de casamento. Impacto\nna conversão devido à fricção na digitação de dados.\nTO BE: Apple Pay disponível nativamente no Safari e via QR Code em outros navegadores/dispositivos, com jornada de\ncheckout otimizada.\n",
+    "ultimo_status": "Fase preliminar de estruturação iniciada sem histórico de interações ou documentação de escopo registradas até o momento.\nPróximos passos requerem a definição formal da justificativa de negócio e o alinhamento inicial com as partes interessadas.",
+    "status_updated_at": "28/08/2026 21:57"
+  },
   {
     "id": "86ak2jcnd",
     "name": "[PRJ]-Cessão de crédito TradeMaster",
@@ -59,7 +101,7 @@ const rawData = [
   },
   {
     "id": "86ajn2bf9",
-    "name": "[PRJ]- Migração para modelo de Split de Pagamento no Marketplace",
+    "name": "[PRJ]-Migração para modelo de Split de Pagamento no Marketplace",
     "status": "EM REUNIOES",
     "status_ppm": "PPM não iniciada",
     "kanban_status": "A FAZER",
@@ -68,8 +110,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "",
-    "ultimo_status": "A minuta contratual e o plano de comunicação avançaram para revisão fiscal após parecer inicial do Jurídico sobre o novo fluxo de repasses.\nA análise dos impactos tributários foi agendada pela área Fiscal para após o fechamento de 13/07, com o projeto devidamente registrado no portfólio.",
-    "status_updated_at": "15/08/2026 22:56"
+    "ultimo_status": "A minuta de split de pagamento recebeu orientações preliminares do Jurídico, necessitando de ajustes operacionais e de comunicação.\nA análise dos impactos tributários foi direcionada à área Fiscal, que iniciará a avaliação do fluxo financeiro e da reforma tributária após 13/07.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86ajn2519",
@@ -138,8 +180,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Geração de documentação solicitada pela EY para efetuar a refificação da EFD Contribuição de diversos periodos. Foi solicitado bases de contas contábeis, extraidas pelo SAP (Razão das contas contábeis em estrutura analitica).\n",
-    "ultimo_status": "Conclusão da extração da base SAP pela TI e disponibilização dos dados na plataforma Databricks.\nO próximo passo do projeto é o download desses arquivos pela equipe interna para envio à consultoria EY.",
-    "status_updated_at": "19/08/2026 10:59"
+    "ultimo_status": "A TI concluiu a geração da base SAP e disponibilizou os dados no Databricks.\nO próximo passo consiste no download do arquivo por parte da Carol para o envio subsequente à EY.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86ajc7hu3",
@@ -194,8 +236,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
-    "ultimo_status": "Análise do resumo de ajustes da Neogrid está em andamento para estruturação da PPM e validação das telas de simulação de serviço.\nAguarda-se confirmação crítica sobre a automaticidade do webservice de Barueri, cuja operação semiautomática inviabilizaria o processo.",
-    "status_updated_at": "20/08/2026 21:01"
+    "ultimo_status": "Elaboração da PPM em andamento com base no resumo de ajustes da Neogrid, pendendo de validação técnica sobre a automatização do webservice de Barueri.\nA viabilidade do projeto está condicionada à confirmação do retorno automático da NFS-e, eliminando o risco de processos manuais de download de XMLs.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86ahfj7dm",
@@ -222,8 +264,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
-    "ultimo_status": "Liberada a geração de dados para testes no ambiente SAP-QA (transação ZFI165) conforme os parâmetros acordados de filial e mês.\nParalelamente, aguarda-se o alinhamento entre Alexander e Medeiros para solucionar a pendência referente ao potencial bloqueio da PPM.",
-    "status_updated_at": "18/08/2026 20:54"
+    "ultimo_status": "Iniciada a fase de testes e geração de dados no ambiente SAP-QA (transação ZFI165) com base nos parâmetros acordados de filial e mês.\nParalelamente, segue em andamento o alinhamento conduzido por Alexander junto a Medeiros para mitigar o risco de bloqueio da PPM.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86ah40j3y",
@@ -297,7 +339,7 @@ const rawData = [
   },
   {
     "id": "86af3zqga",
-    "name": "[PRJ]-Reforma Tributária SAP - Fase 2",
+    "name": "[PRJ]-Reforma Tributária SAP - Fase 2 (GAN)",
     "status": "T.I TRABALHANDO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
@@ -306,8 +348,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Ajustes para emissão de documentos de transferência foram implantados e a proposta técnica da ELO para a Fase I foi validada pela área de negócios.\nOs próximos passos pendentes envolvem o envio à ELO das definições de eventos de NF-e no SAP e dos layouts dos relatórios para o livro fiscal.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86af3zj95",
@@ -397,15 +439,15 @@ const rawData = [
     "id": "86a8tt4p9",
     "name": "Raquel - Regras de Exceção de Entrada - Regra 1 e 2 - efeito para as Entradas no Estado de PE e Regra 7 - para os demais Estados.",
     "status": "INICIAR DESENVOLVIMENTO",
-    "status_ppm": "",
+    "status_ppm": "PPM não iniciada",
     "kanban_status": "A FAZER",
     "golive": "",
     "prazo": "",
-    "ano_ppm": "",
+    "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "Concluída a análise de impacto fiscal no GAN com a identificação de desvios nos cálculos de ICMS-ST e MVA em Pernambuco.\nOs próximos passos contemplam a abertura de PPM para ajustes sistêmicos e a reparametrização das NCMs para a Regra 2 até 10/11/2023.",
-    "status_updated_at": "21/08/2026 11:02"
+    "ultimo_status": "Concluída a análise de impacto com identificação de inconsistências fiscais no GAN, avançando para abertura de PPM para ajustes sistêmicos nas Regras 1, 2 e 7.\nO time de Planejamento iniciará as adequações de parametrização das regras de exceção de entrada para PE, com entrega prevista para 10/11/2023.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86a88zqpx",
@@ -418,8 +460,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Cronograma de TI estabelecido com validação da EF e plano de testes iniciando em 31/08, restando a definição dos Key Users pelas áreas até 27/08.\nEm paralelo, avança a especificação técnica para viabilizar a entrada de NFe complementar junto à Trading, mapeando impactos tributários e financeiros no MVP.",
+    "status_updated_at": "28/08/2026 21:58"
   },
   {
     "id": "86a7p7uwv",
@@ -516,8 +558,8 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "Após suspensão por determinação da TI, a iniciativa foi integrada ao escopo da PPM da Reforma Tributária para a continuidade de suas entregas.\nO histórico recente registrava o mapeamento de novos cenários de falhas no cancelamento de NF-e reportados pela área de negócios.",
-    "status_updated_at": "21/08/2026 11:03"
+    "ultimo_status": "O projeto foi suspenso pela área de TI e seu escopo foi formalmente integrado à PPM da Reforma Tributária.\nO andamento das entregas e o mapeamento de novos cenários de rejeição seguem consolidados sob a gestão desta nova iniciativa.",
+    "status_updated_at": "28/08/2026 21:59"
   },
   {
     "id": "864ee7nrp",
@@ -564,6 +606,9 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-Projeto para emissão de NFSe sobre Locação": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
+  "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
+  "[PRJ}-Apple Pay": "Objetivo:\n\nPermitir que clientes realizem pagamentos utilizando a carteira digital da Apple, promovendo agilidade, segurança e\nmodernização no atendimento. A orquestração do pagamento será realizada pela solução nativa (Tuna), garantindo\nconformidade e redução de atrito.\n\n1.1. PROCESSO AS IS e TO BE:\n\nAtualmente, a empresa não disponibiliza carteiras digitais como método de pagamento. As transações são realizadas apenas\npor meio de cartões de crédito, lista de casamento, voucher e PIX.\n\nAS IS: Empresa não disponibiliza carteiras digitais. Pagamentos limitados a cartão, PIX, voucher e lista de casamento. Impacto\nna conversão devido à fricção na digitação de dados.\nTO BE: Apple Pay disponível nativamente no Safari e via QR Code em outros navegadores/dispositivos, com jornada de\ncheckout otimizada.\n",
   "[PRJ]-Cessão de crédito TradeMaster": "Atualmente, o canal B2B realiza vendas de produtos 1P Fast Shop utilizando os canais online (via site/jornada do cliente) como também o offline (via GAN ou site na função Sales Representative, este último é operado pelo time de backoffice B2B). Os meios de pagamento mais utilizados são Cartão de Crédito, Depósito à Vista, Faturado e Boleto. A opção de pagamento pelo Cartão de Crédito só é possível ocorrer pela plataforma Vtex, por intermediação do time de backoffice do B2B que realiza a venda de forma “assistida ou personalizada”. Todas as vendas do B2B são atribuídas à Tab.74.\n As vendas B2B consomem os estoques disponíveis da Fast Shop, entretanto as notas fiscais são emitidas com a finalidade “uso e consumo”, o que não reflete corretamente a natureza da operação.\n Essa limitação faz com que clientes B2B — especialmente de médio e grande porte, com maior rigor nos seus processos fiscais — deixem de comprar da Fast Shop por não receberem a nota fiscal com a finalidade “revenda”.\n Além disso, há um direcionamento estratégico na Fast Shop para priorizar a captura de benefícios fiscais oferecidos pelos Estados. Atualmente, os pedidos B2B não utilizam a operação do CD do Espírito Santo (filial 2F), mesmo sendo esse Estado um importante polo de benefícios fiscais mediante a ampliação de novas operações fiscais e de transporte.\n O CD Atacadista filial 2F possui regime especial de atacadista, mas desde sua implementação e parametrização no sistema GAN, apenas foram liberadas operações de recebimento de mercadorias (compras) e abastecimento para lojas ou outros CDs (transferências).\n Esta próxima fase será focada na liberação para que a filial 2F possa efetuar vendas na forma de atacadista, ou seja, com característica de revenda.\n Apenas o CD Paraíba já realizou vendas para revenda anteriormente, mas há tempos essa operação não é realizada e não se tem clareza sobre o comportamento atual do sistema.\n Para o CD ES, poderão ser copiadas as regras existentes e atualizados os pontos conforme definidos nesta PPM.\n A Fast Shop estabeleceu como um dos pilares para este ano o fortalecimento da operação B2B, com foco em atrair novos negócios e adequar os sistemas para atender com excelência as necessidades desse segmento. O modelo atacadista é um destes pilares e parte fundamental dessa estratégia, e a decisão de implementar a operação de revenda no Estado do ES é estratégica para evitar a perda de vendas em volumes significativos, garantindo a emissão correta das notas fiscais e o alinhamento com as exigências fiscais dos clientes.\n    \n",
   "[PRJ}-Criação Chamados na plataforma HALO (Portal Fast)": "As áreas Tributária, Fiscal e Paralegal recebem diversas demandas de outros departamentos internos na Fast Shop com a necessidade de realizar ajustes em sistema, regularizações jurídicas, ajustes para liberações de documentos Fiscais, além rastreabilidade e eficiência dos atendimentos destes pedidos, podendo ser registrados em um único ambiente, garantindo maior controle dos prazos, definição de responsabilidades, histórico centralizado das interações e melhor visibilidade sobre o volume e status dos atendimentos.\nO portal reduzirá riscos de perda das informações com uma melhora de governança nos processos, facilitando a geração de indicadores de desempenho e proporcionando uma experiência mais ágil e transparente tanto para o solicitante quanto para a equipe fiscal.\n    \n",
   "[PRJ:DMND2148]-Reforma Tributária Devolução FinNfe= 4 DfeReferencia": "Com a reforma tributária são necessários ajustes nos processos de emissão de Notas Fiscais Eletrônicas. \nDe acordo com a publicação da NT_2025.002_v1.50, será necessário antecipar algumas funcionalidades previstas na PPM da Reforma Tributária em desenvolvimento, que passará a vigorar em ambiente de produção a partir de 05/10/2026. Uma delas é o referenciamento de chave origem a nível de item. Se não ocorrer a implementação as notas serão rejeitadas.\n    \n",
@@ -575,7 +620,7 @@ const resumosMap = {
   "[PRJ:]-Reforma Tributária - NFSe Nacional GAN Fase 2": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
   "[PRJ]-DIMP Atendimento a Fiscalização": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
   "[PRJ]-Reestruturar processo de cancelamento NFCe": "  Objetivo: Reestruturar conceito de chamada de cancelamento ou inutilização das NFCe no Gan.\nEstamos identificando ocorrências em que a NFC-e consta como cancelada no Gan, embora permaneça aprovada/autorizada na Sefaz.\nEssa situação ocorre em razão do atraso na comunicação entre Gan e NDD, o que pode levar o sistema a interpretar incorretamente o status final do documento fiscal. Quando uma NFC-e é emitida, existe um tempo limite para retorno do processamento. Se esse prazo for excedido, o Gan pode acionar automaticamente o cancelamento da NFC-e. No entanto, em determinados casos, a nota já foi autorizada pela Sefaz, gerando divergência entre o status registrado no Gan e a situação real do documento fiscal.\nO impacto dessa falha se reflete em diversas etapas de ajuste interno, entre elas:\n·         Abertura de chamado para que o Gan volte a considerar a NFC-e como ativa.\n·         Ajuste de estoque. Caso esse processo não seja realizado, o saldo permanece incorreto.\n·         Em determinadas situações, o Gan cancela a nota e é realizado um refaturamento. Nesses casos, duas notas ficam autorizadas para o mesmo SKU vendido. Para regularização, torna-se necessário gerar uma DV ficta para neutralizar a venda da NFC-e original, processo que atualmente não faz parte da rotina do time fiscal.\nTodo esse processo consome tempo do time fiscal, embora essa área não seja a responsável por executar ajustes sistêmicos nem por realizar abertura de chamados.\nCaso real: em 04/2026, fomos notificados pela BA em razão de confronto de estoque, no qual foram identificadas divergências entre a movimentação das notas fiscais e a declaração do SPED. Na análise de um dos casos, verificou-se que a nota fiscal estava aprovada na Sefaz, porém permanecia cancelada no Gan. Como o sistema manteve o status incorreto, o estoque final do mês foi fechado com 1 peça a maior. Consequentemente, foi declarado no SPED Fiscal, bloco H, o saldo de 1 peça em estoque, quando o correto seria saldo zero. Considerando o conjunto de SKUs afetados, houve notificação no valor aproximado de R$ 9 mil relacionada a essas ocorrências.\nO aumento dessas ocorrências está relacionado à implementação do projeto que direcionou todas as notas de vendas presenciais para emissão via NFC-e. Como o Estado de São Paulo não estava contemplado originalmente na regra, houve ampliação da exposição a esse tipo de falha.\nPrecisamos efetuar ajuste no Gan + NDD para identificar a falha.\nNa análise realizada, identificamos casos em que a autorização da Sefaz ocorreu cerca de 2 minutos após o envio do pedido de cancelamento, evidenciando a defasagem de comunicação que origina a inconsistência de status.\n    \n",
-  "[PRJ]-Reforma Tributária SAP - Fase 2": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
+  "[PRJ]-Reforma Tributária SAP - Fase 2 (GAN)": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
   "[PRJ]-Operador Logístico Fase 2 - Cajamar Abastacer": "Efetuar abastecimento dos operadores logisticos pela filial Cajamar 1 (63)\n",
   "[PRJ]:Atacadistas São Paulo Cajamar": "Cajamar 1 efetuar venda por Atacado\n",
   "[PRJ]-Importação por encomenda 2026": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
