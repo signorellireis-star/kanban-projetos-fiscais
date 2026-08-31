@@ -80,9 +80,9 @@
     "status_updated_at": "19/08/2026 20:59"
   },
   "86a88zqpx": {
-    "date_updated": "1787915599881",
-    "ultimo_status": "Cronograma de TI estabelecido com validação da EF e plano de testes iniciando em 31/08, restando a definição dos Key Users pelas áreas até 27/08.\nEm paralelo, avança a especificação técnica para viabilizar a entrada de NFe complementar junto à Trading, mapeando impactos tributários e financeiros no MVP.",
-    "status_updated_at": "28/08/2026 21:58"
+    "date_updated": "1788185906743",
+    "ultimo_status": "Plano de testes enviado para validação das áreas de negócio em 31/08, com prazo até 04/09 e pendência de indicação dos Key Users.\nComo ponto de atenção e próximo passo, será necessário alinhar com a Trading o fluxo de entrada e impactos fiscais da NF-e complementar.",
+    "status_updated_at": "31/08/2026 20:04"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
@@ -90,9 +90,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "864ee7nrp": {
-    "date_updated": "1787167808607",
-    "ultimo_status": "A homologação encontra-se suspensa devido a alterações de processos logísticos e divergências cadastrais nos centros de distribuição da Amazon.\nA equipe técnica atualmente atua na tratativa de inconsistências fiscais relacionadas à parametrização de tags de ICMS ST (CST 60) nas notas de venda.",
-    "status_updated_at": "19/08/2026 20:59"
+    "date_updated": "1788199877986",
+    "ultimo_status": "Cancelamento do projeto após alinhamento com as áreas de negócio e TI, motivado por gaps sistêmicos insolúveis na plataforma da Amazon.\nA descontinuação ocorre após tentativas frustradas de homologação e identificação de impedimentos técnicos críticos para a operação.",
+    "status_updated_at": "31/08/2026 20:04"
   },
   "864e98d8y": {
     "date_updated": "1787148957675",

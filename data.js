@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 31/08/2026 15:04:41
-const lastUpdate = '31/08/2026 15:04:41';
+// Gerado automaticamente via ClickUp API + Gemini em 31/08/2026 20:04:50
+const lastUpdate = '31/08/2026 20:04:50';
 const rawData = [
   {
     "id": "86ak7un50",
@@ -460,8 +460,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Plano de testes enviado para validação das áreas de negócio em 31/08, com prazo até 04/09 e pendência de indicação dos Key Users.\nComo ponto de atenção e próximo passo, será necessário alinhar com a Trading o fluxo de entrada e impactos fiscais da NF-e complementar.",
+    "status_updated_at": "31/08/2026 20:04"
   },
   {
     "id": "86a7p7uwv",
@@ -572,8 +572,8 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Terceiros",
     "resumo_raw": " A adoção do modelo de Fulfillment no marketplace Amazon (FBA) consiste no envio de parte do estoque da Fast Shop para os centros de distribuição da Amazon, que passa a ser responsável por toda a operação logística — incluindo armazenamento, separação, expedição, entrega, atendimento ao cliente (SAC logístico) e logística reversa.\nEsse modelo potencializa a competitividade ao proporcionar melhores níveis de serviço (SLA), elegibilidade ao programa Prime, aumento da taxa de conversão nas vitrines e fortalecimento da reputação nas plataformas, além de possibilitar ganhos de eficiência operacional e otimização de custos logísticos. A adoção do modelo FBA visa ganho de competitividade (Prime, SLA, conversão), porém o modelo atual apresenta inviabilidade tributária no cenário SP (CJ63 → CJ05), exigindo revisão da malha logística e do modelo fiscal para viabilização econômica. Diante disso, foi aprovada a utilização de Santa Catarina (SC) como centro consolidador logístico, com o objetivo de viabilizar economicamente o modelo FBA.\n    \n",
-    "ultimo_status": "A homologação encontra-se suspensa devido a alterações de processos logísticos e divergências cadastrais nos centros de distribuição da Amazon.\nA equipe técnica atualmente atua na tratativa de inconsistências fiscais relacionadas à parametrização de tags de ICMS ST (CST 60) nas notas de venda.",
-    "status_updated_at": "19/08/2026 20:59"
+    "ultimo_status": "Cancelamento do projeto após alinhamento com as áreas de negócio e TI, motivado por gaps sistêmicos insolúveis na plataforma da Amazon.\nA descontinuação ocorre após tentativas frustradas de homologação e identificação de impedimentos técnicos críticos para a operação.",
+    "status_updated_at": "31/08/2026 20:04"
   },
   {
     "id": "864e98d8y",
