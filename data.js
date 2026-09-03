@@ -1,6 +1,20 @@
-// Gerado automaticamente via ClickUp API + Gemini em 03/09/2026 10:08:42
-const lastUpdate = '03/09/2026 10:08:42';
+// Gerado automaticamente via ClickUp API + Gemini em 03/09/2026 15:08:22
+const lastUpdate = '03/09/2026 15:08:22';
 const rawData = [
+  {
+    "id": "86akb93n8",
+    "name": "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe",
+    "status": "AGUARDO INICIO HOMOL",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "Out/2026",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Fiscal",
+    "resumo_raw": "Fase 2 da Reforma tributária fase 2.1\n",
+    "ultimo_status": "Realizado alinhamento com a TI via novo identificador de tarefa e atualizado o escopo para inclusão de notas manuais de Serviço com o novo caractere.\nO fluxo segue em desenvolvimento técnico para parametrização da NFe, sem registro de impedimentos até o momento.",
+    "status_updated_at": "03/09/2026 15:08"
+  },
   {
     "id": "86ak7un50",
     "name": "[PRJ]-Projeto para emissão de NFSe sobre Locação",
@@ -12,8 +26,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
-    "ultimo_status": "Ausência de informações de escopo, justificativa ou histórico de interações registradas no sistema até o momento.\nPróximas etapas requerem a estruturação inicial da proposta, definição de cronograma e alinhamento para kickoff.",
-    "status_updated_at": "28/08/2026 21:57"
+    "ultimo_status": "Fase de iniciação sem registros de interações ou detalhamento de justificativa no histórico atual do projeto.\nPróximos passos requerem o alinhamento de escopo com as partes interessadas para estruturação do cronograma e kickoff.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   {
     "id": "86ak7tejr",
@@ -96,8 +110,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "",
-    "ultimo_status": "Sem registros de justificativa, histórico de interações ou progresso documentados para a iniciativa até o momento.\nRecomenda-se a definição imediata do escopo estrutural e o alinhamento com os stakeholders para a realização do kick-off.",
-    "status_updated_at": "03/08/2026 17:14"
+    "ultimo_status": "Iniciativa em estágio preliminar de planejamento, sem registros de interações, progresso ou impedimentos até a presente data.\nAguardam-se as definições de escopo e o detalhamento da justificativa para a formalização do kick-off das atividades.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   {
     "id": "86ajn2bf9",
@@ -256,16 +270,16 @@ const rawData = [
   {
     "id": "86ahe92c9",
     "name": "[PRJ]-DIMP Atendimento a Fiscalização",
-    "status": "T.I TRABALHANDO",
+    "status": "EM HOMOLOGACAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
-    "golive": "",
+    "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
-    "ultimo_status": "Iniciada a fase de testes e geração de dados no ambiente SAP-QA (transação ZFI165) com base nos parâmetros acordados de filial e mês.\nParalelamente, segue em andamento o alinhamento conduzido por Alexander junto a Medeiros para mitigar o risco de bloqueio da PPM.",
-    "status_updated_at": "28/08/2026 21:58"
+    "ultimo_status": "A homologação das entregas no ambiente SAP-QA está em andamento, com previsão de implantação para a próxima semana.\nTratativas internas com a coordenação seguem em curso para mitigar o risco de bloqueio da PPM e assegurar o cronograma.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   {
     "id": "86ah40j3y",
@@ -446,8 +460,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "Concluída a análise de impacto com identificação de inconsistências fiscais no GAN, avançando para abertura de PPM para ajustes sistêmicos nas Regras 1, 2 e 7.\nO time de Planejamento iniciará as adequações de parametrização das regras de exceção de entrada para PE, com entrega prevista para 10/11/2023.",
-    "status_updated_at": "28/08/2026 21:58"
+    "ultimo_status": "Concluída a análise das regras de entrada em PE com identificação de inconsistências fiscais no GAN, cujos arquivos de evidências foram compartilhados no canal.\nInicia-se a abertura de PPM para correções sistêmicas nas regras 1, 2 e 7, seguida da reparametrização das NCMs planejada para até 10/11/2023.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   {
     "id": "86a88zqpx",
@@ -606,6 +620,7 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe": "Fase 2 da Reforma tributária fase 2.1\n",
   "[PRJ]-Projeto para emissão de NFSe sobre Locação": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
   "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
   "[PRJ}-Apple Pay": "Objetivo:\n\nPermitir que clientes realizem pagamentos utilizando a carteira digital da Apple, promovendo agilidade, segurança e\nmodernização no atendimento. A orquestração do pagamento será realizada pela solução nativa (Tuna), garantindo\nconformidade e redução de atrito.\n\n1.1. PROCESSO AS IS e TO BE:\n\nAtualmente, a empresa não disponibiliza carteiras digitais como método de pagamento. As transações são realizadas apenas\npor meio de cartões de crédito, lista de casamento, voucher e PIX.\n\nAS IS: Empresa não disponibiliza carteiras digitais. Pagamentos limitados a cartão, PIX, voucher e lista de casamento. Impacto\nna conversão devido à fricção na digitação de dados.\nTO BE: Apple Pay disponível nativamente no Safari e via QR Code em outros navegadores/dispositivos, com jornada de\ncheckout otimizada.\n",

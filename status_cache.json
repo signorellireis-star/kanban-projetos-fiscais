@@ -5,9 +5,9 @@
     "status_updated_at": "18/08/2026 20:54"
   },
   "86ajnr5t7": {
-    "date_updated": "1785766232109",
-    "ultimo_status": "Sem registros de justificativa, histórico de interações ou progresso documentados para a iniciativa até o momento.\nRecomenda-se a definição imediata do escopo estrutural e o alinhamento com os stakeholders para a realização do kick-off.",
-    "status_updated_at": "03/08/2026 17:14"
+    "date_updated": "1788440747543",
+    "ultimo_status": "Iniciativa em estágio preliminar de planejamento, sem registros de interações, progresso ou impedimentos até a presente data.\nAguardam-se as definições de escopo e o detalhamento da justificativa para a formalização do kick-off das atividades.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   "86ajn2bf9": {
     "date_updated": "1787929465711",
@@ -55,9 +55,9 @@
     "status_updated_at": "28/08/2026 21:58"
   },
   "86ahe92c9": {
-    "date_updated": "1787932792109",
-    "ultimo_status": "Iniciada a fase de testes e geração de dados no ambiente SAP-QA (transação ZFI165) com base nos parâmetros acordados de filial e mês.\nParalelamente, segue em andamento o alinhamento conduzido por Alexander junto a Medeiros para mitigar o risco de bloqueio da PPM.",
-    "status_updated_at": "28/08/2026 21:58"
+    "date_updated": "1788442369356",
+    "ultimo_status": "A homologação das entregas no ambiente SAP-QA está em andamento, com previsão de implantação para a próxima semana.\nTratativas internas com a coordenação seguem em curso para mitigar o risco de bloqueio da PPM e assegurar o cronograma.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   "86aghx74e": {
     "date_updated": "1787171162448",
@@ -145,9 +145,9 @@
     "status_updated_at": "21/08/2026 11:02"
   },
   "86a8tt4p9": {
-    "date_updated": "1787932842608",
-    "ultimo_status": "Concluída a análise de impacto com identificação de inconsistências fiscais no GAN, avançando para abertura de PPM para ajustes sistêmicos nas Regras 1, 2 e 7.\nO time de Planejamento iniciará as adequações de parametrização das regras de exceção de entrada para PE, com entrega prevista para 10/11/2023.",
-    "status_updated_at": "28/08/2026 21:58"
+    "date_updated": "1788440731618",
+    "ultimo_status": "Concluída a análise das regras de entrada em PE com identificação de inconsistências fiscais no GAN, cujos arquivos de evidências foram compartilhados no canal.\nInicia-se a abertura de PPM para correções sistêmicas nas regras 1, 2 e 7, seguida da reparametrização das NCMs planejada para até 10/11/2023.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   "86a1fhjcb": {
     "date_updated": "1787932787050",
@@ -155,9 +155,9 @@
     "status_updated_at": "28/08/2026 21:59"
   },
   "86ak7un50": {
-    "date_updated": "1787934809638",
-    "ultimo_status": "Ausência de informações de escopo, justificativa ou histórico de interações registradas no sistema até o momento.\nPróximas etapas requerem a estruturação inicial da proposta, definição de cronograma e alinhamento para kickoff.",
-    "status_updated_at": "28/08/2026 21:57"
+    "date_updated": "1788440741368",
+    "ultimo_status": "Fase de iniciação sem registros de interações ou detalhamento de justificativa no histórico atual do projeto.\nPróximos passos requerem o alinhamento de escopo com as partes interessadas para estruturação do cronograma e kickoff.",
+    "status_updated_at": "03/09/2026 15:08"
   },
   "86ak7tejr": {
     "date_updated": "1787933062670",
@@ -168,5 +168,10 @@
     "date_updated": "1787929706806",
     "ultimo_status": "Fase preliminar de estruturação iniciada sem histórico de interações ou documentação de escopo registradas até o momento.\nPróximos passos requerem a definição formal da justificativa de negócio e o alinhamento inicial com as partes interessadas.",
     "status_updated_at": "28/08/2026 21:57"
+  },
+  "86akb93n8": {
+    "date_updated": "1788442505719",
+    "ultimo_status": "Realizado alinhamento com a TI via novo identificador de tarefa e atualizado o escopo para inclusão de notas manuais de Serviço com o novo caractere.\nO fluxo segue em desenvolvimento técnico para parametrização da NFe, sem registro de impedimentos até o momento.",
+    "status_updated_at": "03/09/2026 15:08"
   }
 }
