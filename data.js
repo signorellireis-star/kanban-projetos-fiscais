@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 03/09/2026 15:08:22
-const lastUpdate = '03/09/2026 15:08:22';
+// Gerado automaticamente via ClickUp API + Gemini em 03/09/2026 20:07:39
+const lastUpdate = '03/09/2026 20:07:39';
 const rawData = [
   {
     "id": "86akb93n8",
@@ -474,8 +474,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "Plano de testes enviado para validação das áreas de negócio em 31/08, com prazo até 04/09 e pendência de indicação dos Key Users.\nComo ponto de atenção e próximo passo, será necessário alinhar com a Trading o fluxo de entrada e impactos fiscais da NF-e complementar.",
-    "status_updated_at": "31/08/2026 20:04"
+    "ultimo_status": "Com a especificação funcional validada, o plano de testes do MVP foi enviado em 31/08 para homologação das áreas de negócio com prazo final em 04/09.\nOs próximos passos englobam a indicação dos Key Users pelas áreas e o alinhamento com a Trading sobre o fluxo de Notas Fiscais complementares.",
+    "status_updated_at": "03/09/2026 20:07"
   },
   {
     "id": "86a7p7uwv",
