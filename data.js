@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 04/09/2026 10:08:29
-const lastUpdate = '04/09/2026 10:08:29';
+// Gerado automaticamente via ClickUp API + Gemini em 04/09/2026 15:07:44
+const lastUpdate = '04/09/2026 15:07:44';
 const rawData = [
   {
     "id": "86akb93n8",
@@ -600,8 +600,8 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Fiscal",
     "resumo_raw": "Permitir que a Filial X3 Atacadista efetue vendas para revenda.\nAtualmente apenas efetua transferência.\n\n",
-    "ultimo_status": "Finalização da revisão de emissão de notas (Fiscal/IBM) em 19/08 para viabilizar o início dos testes homologatórios corporativos em 20/08, com suporte de canal no Teams.\nA inclusão das áreas de Logística e Supply no plano de testes consolidado e a validação de cenários adicionais seguem sob avaliação.",
-    "status_updated_at": "19/08/2026 16:02"
+    "ultimo_status": "Alinhamento fiscal em finalização para início dos testes corporativos em 20/08, suportado por plano de testes atualizado e repositório centralizado no Teams.\nO cronograma foi revisado, definindo a conclusão da homologação e o Go Live para 15/09, com a fase de Hypercare estendendo-se até 16/10.",
+    "status_updated_at": "04/09/2026 15:07"
   },
   {
     "id": "3d3hxfr",
