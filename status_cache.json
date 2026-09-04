@@ -40,9 +40,9 @@
     "status_updated_at": "28/08/2026 21:58"
   },
   "86ajc7hu3": {
-    "date_updated": "1786833198162",
-    "ultimo_status": "A homologação encontra-se suspensa devido a inconsistências identificadas nos testes recentes, demandando correções sistêmicas imediatas da equipe de desenvolvimento.\nO avanço do cronograma depende também da emissão do parecer jurídico sobre a coexistência tributária e da definição do CNPJ da Dark Store de Cajamar.",
-    "status_updated_at": "17/08/2026 11:01"
+    "date_updated": "1788544630107",
+    "ultimo_status": "A homologação está suspensa devido à identificação de que vendas do tipo \"Ultra Fast\" (entrega) não aplicam a regra de Sangria, que atualmente contempla apenas a modalidade \"Retira\".\nO desenvolvimento atua no ajuste sistêmico corretivo como complemento de escopo para posterior liberação e reteste do processo de faturamento com destaque de ICMS.",
+    "status_updated_at": "04/09/2026 20:07"
   },
   "86ahw2uge": {
     "date_updated": "1786833231043",
@@ -80,9 +80,9 @@
     "status_updated_at": "19/08/2026 20:59"
   },
   "86a88zqpx": {
-    "date_updated": "1788462830750",
-    "ultimo_status": "Com a especificação funcional validada, o plano de testes do MVP foi enviado em 31/08 para homologação das áreas de negócio com prazo final em 04/09.\nOs próximos passos englobam a indicação dos Key Users pelas áreas e o alinhamento com a Trading sobre o fluxo de Notas Fiscais complementares.",
-    "status_updated_at": "03/09/2026 20:07"
+    "date_updated": "1788544503071",
+    "ultimo_status": "Com cronograma de go-live reprogramado para 25/09/2026, a homologação avança sob atenção devido a limitações sistêmicas no processamento de Notas Fiscais Complementares.\nComo ação mitigadora, a equipe estuda uma solução de contorno para o MVP e negocia com a Trading a contratação de hedge cambial para evitar distorções de custos.",
+    "status_updated_at": "04/09/2026 20:08"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
@@ -90,14 +90,14 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "864ee7nrp": {
-    "date_updated": "1788199877986",
-    "ultimo_status": "Cancelamento do projeto após alinhamento com as áreas de negócio e TI, motivado por gaps sistêmicos insolúveis na plataforma da Amazon.\nA descontinuação ocorre após tentativas frustradas de homologação e identificação de impedimentos técnicos críticos para a operação.",
-    "status_updated_at": "31/08/2026 20:04"
+    "date_updated": "1788538663258",
+    "ultimo_status": "Após análise de viabilidade e alinhamento com as áreas de negócio, o projeto foi descontinuado e oficialmente encerrado pelas equipes.\nA decisão definitiva de cancelamento decorreu de limitações técnicas e gaps críticos identificados pela TI no sistema do parceiro.",
+    "status_updated_at": "04/09/2026 20:08"
   },
   "864e98d8y": {
-    "date_updated": "1788530777080",
-    "ultimo_status": "Alinhamento fiscal em finalização para início dos testes corporativos em 20/08, suportado por plano de testes atualizado e repositório centralizado no Teams.\nO cronograma foi revisado, definindo a conclusão da homologação e o Go Live para 15/09, com a fase de Hypercare estendendo-se até 16/10.",
-    "status_updated_at": "04/09/2026 15:07"
+    "date_updated": "1788535709464",
+    "ultimo_status": "Alinhamento fiscal em finalização para início dos testes de homologação em 20/08, sob pendência de validação de escopo com Logística e Supply.\nCronograma atualizado posterga o prazo de homologação e Go Live para 15/09, com encerramento do período de Hypercare previsto para 16/10.",
+    "status_updated_at": "04/09/2026 20:09"
   },
   "86ajqc9ph": {
     "date_updated": "1786823197698",
@@ -130,9 +130,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "86ak2jcnd": {
-    "date_updated": "1787233442867",
-    "ultimo_status": "Alinhamento concluído com as áreas Fiscal e B2B para inclusão dos cenários de escrituração de NFSe e relatórios (Req. 14 e 15) no plano de testes.\nO cronograma do projeto segue mantido, com a etapa de homologação confirmada para o período de 17/09 a 02/10.",
-    "status_updated_at": "20/08/2026 16:04"
+    "date_updated": "1788534467410",
+    "ultimo_status": "Alinhamento do plano de testes concluído com as áreas Fiscal e B2B, garantindo a inclusão de cenários de tarifas, comissões e relatórios de NFSe no escopo.\nA homologação está programada para o período de 21/09 a 02/10, com Go-Live previsto para 13/10 e início imediato do Hypercare.",
+    "status_updated_at": "04/09/2026 20:07"
   },
   "86ae39wp7": {
     "date_updated": "1787263282880",
@@ -173,5 +173,15 @@
     "date_updated": "1788442505719",
     "ultimo_status": "Realizado alinhamento com a TI via novo identificador de tarefa e atualizado o escopo para inclusão de notas manuais de Serviço com o novo caractere.\nO fluxo segue em desenvolvimento técnico para parametrização da NFe, sem registro de impedimentos até o momento.",
     "status_updated_at": "03/09/2026 15:08"
+  },
+  "86akcbua7": {
+    "date_updated": "1788547174571",
+    "ultimo_status": "Ausência de registros de atividades, histórico de comunicação ou detalhamento de escopo no sistema até o momento.\nNecessário realizar o preenchimento da justificativa e alinhar os próximos passos para o início do planejamento.",
+    "status_updated_at": "04/09/2026 20:07"
+  },
+  "86addvj0j": {
+    "date_updated": "1788547181654",
+    "ultimo_status": "Disponibilizadas as minutas do memorando técnico, da opinião legal e da proposta de oportunidades tributárias para a Fast Shop.\nAs atividades avançam para a fase de revisão interna desses entregáveis e posterior validação com o cliente.",
+    "status_updated_at": "04/09/2026 20:08"
   }
 }

@@ -1,6 +1,20 @@
-// Gerado automaticamente via ClickUp API + Gemini em 04/09/2026 15:07:44
-const lastUpdate = '04/09/2026 15:07:44';
+// Gerado automaticamente via ClickUp API + Gemini em 04/09/2026 20:09:18
+const lastUpdate = '04/09/2026 20:09:18';
 const rawData = [
+  {
+    "id": "86akcbua7",
+    "name": "[PRJ]-RVC_ Documentos para Ressarcimento",
+    "status": "INICIAR DESENVOLVIMENTO",
+    "status_ppm": "Sem PPM",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Fiscal",
+    "resumo_raw": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
+    "ultimo_status": "Ausência de registros de atividades, histórico de comunicação ou detalhamento de escopo no sistema até o momento.\nNecessário realizar o preenchimento da justificativa e alinhar os próximos passos para o início do planejamento.",
+    "status_updated_at": "04/09/2026 20:07"
+  },
   {
     "id": "86akb93n8",
     "name": "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe",
@@ -68,8 +82,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Terceiros",
     "resumo_raw": "Atualmente, o canal B2B realiza vendas de produtos 1P Fast Shop utilizando os canais online (via site/jornada do cliente) como também o offline (via GAN ou site na função Sales Representative, este último é operado pelo time de backoffice B2B). Os meios de pagamento mais utilizados são Cartão de Crédito, Depósito à Vista, Faturado e Boleto. A opção de pagamento pelo Cartão de Crédito só é possível ocorrer pela plataforma Vtex, por intermediação do time de backoffice do B2B que realiza a venda de forma “assistida ou personalizada”. Todas as vendas do B2B são atribuídas à Tab.74.\n As vendas B2B consomem os estoques disponíveis da Fast Shop, entretanto as notas fiscais são emitidas com a finalidade “uso e consumo”, o que não reflete corretamente a natureza da operação.\n Essa limitação faz com que clientes B2B — especialmente de médio e grande porte, com maior rigor nos seus processos fiscais — deixem de comprar da Fast Shop por não receberem a nota fiscal com a finalidade “revenda”.\n Além disso, há um direcionamento estratégico na Fast Shop para priorizar a captura de benefícios fiscais oferecidos pelos Estados. Atualmente, os pedidos B2B não utilizam a operação do CD do Espírito Santo (filial 2F), mesmo sendo esse Estado um importante polo de benefícios fiscais mediante a ampliação de novas operações fiscais e de transporte.\n O CD Atacadista filial 2F possui regime especial de atacadista, mas desde sua implementação e parametrização no sistema GAN, apenas foram liberadas operações de recebimento de mercadorias (compras) e abastecimento para lojas ou outros CDs (transferências).\n Esta próxima fase será focada na liberação para que a filial 2F possa efetuar vendas na forma de atacadista, ou seja, com característica de revenda.\n Apenas o CD Paraíba já realizou vendas para revenda anteriormente, mas há tempos essa operação não é realizada e não se tem clareza sobre o comportamento atual do sistema.\n Para o CD ES, poderão ser copiadas as regras existentes e atualizados os pontos conforme definidos nesta PPM.\n A Fast Shop estabeleceu como um dos pilares para este ano o fortalecimento da operação B2B, com foco em atrair novos negócios e adequar os sistemas para atender com excelência as necessidades desse segmento. O modelo atacadista é um destes pilares e parte fundamental dessa estratégia, e a decisão de implementar a operação de revenda no Estado do ES é estratégica para evitar a perda de vendas em volumes significativos, garantindo a emissão correta das notas fiscais e o alinhamento com as exigências fiscais dos clientes.\n    \n",
-    "ultimo_status": "Alinhamento concluído com as áreas Fiscal e B2B para inclusão dos cenários de escrituração de NFSe e relatórios (Req. 14 e 15) no plano de testes.\nO cronograma do projeto segue mantido, com a etapa de homologação confirmada para o período de 17/09 a 02/10.",
-    "status_updated_at": "20/08/2026 16:04"
+    "ultimo_status": "Alinhamento do plano de testes concluído com as áreas Fiscal e B2B, garantindo a inclusão de cenários de tarifas, comissões e relatórios de NFSe no escopo.\nA homologação está programada para o período de 21/09 a 02/10, com Go-Live previsto para 13/10 e início imediato do Hypercare.",
+    "status_updated_at": "04/09/2026 20:07"
   },
   {
     "id": "86ajqc9ph",
@@ -208,8 +222,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": " A Diretoria Fiscal solicitou a criação de uma PPM para implementar a funcionalidade de não calcular o ICMS-ST nas remessas destinadas às lojas do Estado de São Paulo, quando a operação tiver origem na filial ES-Atacadista.\nAS IS\nAtualmente, em uma remessa de transferência da filial ES-Atacadista para qualquer loja localizada no Estado de São Paulo, há obrigatoriedade de recolhimento do ICMS-ST, seja por destaque na nota fiscal, seja por recolhimento na entrada da mercadoria no recebimento. Como não há protocolo firmado entre os Estados do Espírito Santo e de São Paulo, o recolhimento ocorre, em 100% dos casos, na entrada. Esse recolhimento aumenta o custo da mercadoria e impacta o fluxo de caixa. Posteriormente, a venda da mercadoria ocorre sem tributação de ICMS, uma vez que o recolhimento já foi realizado anteriormente.\nTO BE\nO objetivo do projeto é permitir que o sistema interprete essa operação como produto sem regra de ICMS-ST, sem a necessidade de remover ou alterar as regras tributárias dos produtos nos cadastros fiscais.\nEm junho de 2023, foi homologado o projeto “Sangria”, que realiza esse mesmo processo.\nNa ocasião, foram criadas telas de parametrização para vincular as filiais de origem e destino abrangidas pela funcionalidade. Essas telas foram desenvolvidas de forma parametrizável, permitindo novos cadastros conforme a necessidade dos usuários, sem configuração fixa em código. O projeto foi homologado e disponibilizado em produção; porém, em razão de alteração na malha fiscal, acabou não sendo utilizado.\nDessa forma, a presente solicitação já se encontra aproximadamente 80% concluída, restando apenas:\n·         Retestar integralmente o projeto para confirmar se a funcionalidade está 100% utilizável.\n·         Considerar um novo requisito para bloquear a transferência de mercadorias da filial 0063 e Filial 05 para as lojas, para os produtos cadastrados como “Sangria”.\n",
-    "ultimo_status": "A homologação encontra-se suspensa devido a inconsistências identificadas nos testes recentes, demandando correções sistêmicas imediatas da equipe de desenvolvimento.\nO avanço do cronograma depende também da emissão do parecer jurídico sobre a coexistência tributária e da definição do CNPJ da Dark Store de Cajamar.",
-    "status_updated_at": "17/08/2026 11:01"
+    "ultimo_status": "A homologação está suspensa devido à identificação de que vendas do tipo \"Ultra Fast\" (entrega) não aplicam a regra de Sangria, que atualmente contempla apenas a modalidade \"Retira\".\nO desenvolvimento atua no ajuste sistêmico corretivo como complemento de escopo para posterior liberação e reteste do processo de faturamento com destaque de ICMS.",
+    "status_updated_at": "04/09/2026 20:07"
   },
   {
     "id": "86ahw2uge",
@@ -422,6 +436,20 @@ const rawData = [
     "status_updated_at": "21/08/2026 11:02"
   },
   {
+    "id": "86addvj0j",
+    "name": "[PRJ]-RVC Oportun. de Carga Liquida x Aliquota Nominal",
+    "status": "NOVO",
+    "status_ppm": "PPM não iniciada",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2025",
+    "area": "Fiscal",
+    "resumo_raw": "",
+    "ultimo_status": "Disponibilizadas as minutas do memorando técnico, da opinião legal e da proposta de oportunidades tributárias para a Fast Shop.\nAs atividades avançam para a fase de revisão interna desses entregáveis e posterior validação com o cliente.",
+    "status_updated_at": "04/09/2026 20:08"
+  },
+  {
     "id": "86abvcamy",
     "name": "[PRJ]-Somatória_TAG_vPag_x_vNF_NT 2025.001",
     "status": "IDEIA CONGELADA",
@@ -474,8 +502,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "Com a especificação funcional validada, o plano de testes do MVP foi enviado em 31/08 para homologação das áreas de negócio com prazo final em 04/09.\nOs próximos passos englobam a indicação dos Key Users pelas áreas e o alinhamento com a Trading sobre o fluxo de Notas Fiscais complementares.",
-    "status_updated_at": "03/09/2026 20:07"
+    "ultimo_status": "Com cronograma de go-live reprogramado para 25/09/2026, a homologação avança sob atenção devido a limitações sistêmicas no processamento de Notas Fiscais Complementares.\nComo ação mitigadora, a equipe estuda uma solução de contorno para o MVP e negocia com a Trading a contratação de hedge cambial para evitar distorções de custos.",
+    "status_updated_at": "04/09/2026 20:08"
   },
   {
     "id": "86a7p7uwv",
@@ -581,27 +609,27 @@ const rawData = [
     "status": "EM HOMOLOGACAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
-    "golive": "Jul/2026",
+    "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2023",
     "area": "Terceiros",
     "resumo_raw": " A adoção do modelo de Fulfillment no marketplace Amazon (FBA) consiste no envio de parte do estoque da Fast Shop para os centros de distribuição da Amazon, que passa a ser responsável por toda a operação logística — incluindo armazenamento, separação, expedição, entrega, atendimento ao cliente (SAC logístico) e logística reversa.\nEsse modelo potencializa a competitividade ao proporcionar melhores níveis de serviço (SLA), elegibilidade ao programa Prime, aumento da taxa de conversão nas vitrines e fortalecimento da reputação nas plataformas, além de possibilitar ganhos de eficiência operacional e otimização de custos logísticos. A adoção do modelo FBA visa ganho de competitividade (Prime, SLA, conversão), porém o modelo atual apresenta inviabilidade tributária no cenário SP (CJ63 → CJ05), exigindo revisão da malha logística e do modelo fiscal para viabilização econômica. Diante disso, foi aprovada a utilização de Santa Catarina (SC) como centro consolidador logístico, com o objetivo de viabilizar economicamente o modelo FBA.\n    \n",
-    "ultimo_status": "Cancelamento do projeto após alinhamento com as áreas de negócio e TI, motivado por gaps sistêmicos insolúveis na plataforma da Amazon.\nA descontinuação ocorre após tentativas frustradas de homologação e identificação de impedimentos técnicos críticos para a operação.",
-    "status_updated_at": "31/08/2026 20:04"
+    "ultimo_status": "Após análise de viabilidade e alinhamento com as áreas de negócio, o projeto foi descontinuado e oficialmente encerrado pelas equipes.\nA decisão definitiva de cancelamento decorreu de limitações técnicas e gaps críticos identificados pela TI no sistema do parceiro.",
+    "status_updated_at": "04/09/2026 20:08"
   },
   {
     "id": "864e98d8y",
     "name": "[PRJ:]-Projeto X3 Atacadista Revenda",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "EM HOMOLOGACAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
-    "golive": "Ago/2026",
+    "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2023",
     "area": "Fiscal",
     "resumo_raw": "Permitir que a Filial X3 Atacadista efetue vendas para revenda.\nAtualmente apenas efetua transferência.\n\n",
-    "ultimo_status": "Alinhamento fiscal em finalização para início dos testes corporativos em 20/08, suportado por plano de testes atualizado e repositório centralizado no Teams.\nO cronograma foi revisado, definindo a conclusão da homologação e o Go Live para 15/09, com a fase de Hypercare estendendo-se até 16/10.",
-    "status_updated_at": "04/09/2026 15:07"
+    "ultimo_status": "Alinhamento fiscal em finalização para início dos testes de homologação em 20/08, sob pendência de validação de escopo com Logística e Supply.\nCronograma atualizado posterga o prazo de homologação e Go Live para 15/09, com encerramento do período de Hypercare previsto para 16/10.",
+    "status_updated_at": "04/09/2026 20:09"
   },
   {
     "id": "3d3hxfr",
@@ -620,6 +648,7 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-RVC_ Documentos para Ressarcimento": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
   "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe": "Fase 2 da Reforma tributária fase 2.1\n",
   "[PRJ]-Projeto para emissão de NFSe sobre Locação": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
   "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
