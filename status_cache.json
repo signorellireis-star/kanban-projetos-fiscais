@@ -130,9 +130,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "86ak2jcnd": {
-    "date_updated": "1788534467410",
-    "ultimo_status": "Alinhamento do plano de testes concluído com as áreas Fiscal e B2B, garantindo a inclusão de cenários de tarifas, comissões e relatórios de NFSe no escopo.\nA homologação está programada para o período de 21/09 a 02/10, com Go-Live previsto para 13/10 e início imediato do Hypercare.",
-    "status_updated_at": "04/09/2026 20:07"
+    "date_updated": "1788746384780",
+    "ultimo_status": "Após o alinhamento de requisitos fiscais e a consolidação do plano de testes, o projeto avança para as etapas de apresentação do desenvolvimento e preparação da homologação.\nA fase de testes (UAT) está programada de 21/09 a 02/10, priorizando as validações de GAN e SAP, com Go-Live confirmado para 13/10/26.",
+    "status_updated_at": "07/09/2026 10:08"
   },
   "86ae39wp7": {
     "date_updated": "1787263282880",
