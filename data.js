@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 08/09/2026 10:08:57
-const lastUpdate = '08/09/2026 10:08:57';
+// Gerado automaticamente via ClickUp API + Gemini em 08/09/2026 15:09:16
+const lastUpdate = '08/09/2026 15:09:16';
 const rawData = [
   {
     "id": "86akcbua7",
@@ -54,8 +54,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
-    "ultimo_status": "Realizado alinhamento de escopo com a ELO para refinamento da proposta da Reforma Tributária 2027, identificando-se riscos de prazo frente ao *freeze* de fim de ano e alta complexidade na automação de notas.\nComo próximos passos, a Fast Shop enviará cenários de negócio complementares para que a ELO consolide a estimativa de esforço e apresente a proposta comercial até o fim desta semana.",
-    "status_updated_at": "28/08/2026 21:57"
+    "ultimo_status": "Alinhamento de escopo com a consultoria ELO mapeou alta complexidade em automações fiscais e risco de prazo frente ao *freeze* de fim de ano.\nA Fast Shop detalhará cenários de negócio adicionais para subsidiar a estimativa de esforço e a apresentação da proposta comercial até o final da semana.",
+    "status_updated_at": "08/09/2026 15:09"
   },
   {
     "id": "86ak7rpe7",
