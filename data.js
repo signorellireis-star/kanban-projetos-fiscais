@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 09/09/2026 15:07:47
-const lastUpdate = '09/09/2026 15:07:47';
+// Gerado automaticamente via ClickUp API + Gemini em 09/09/2026 20:08:31
+const lastUpdate = '09/09/2026 20:08:31';
 const rawData = [
   {
     "id": "86akcbua7",
@@ -334,8 +334,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "O escopo atual seguirá com a infraestrutura existente para integração da NFS-e, estando a proposta comercial em validação no departamento jurídico (Projuris).\nOs próximos passos prioritários envolvem a definição do cronograma do projeto e o retorno da Addvisor sobre a negociação do contrato de suporte.",
-    "status_updated_at": "19/08/2026 20:58"
+    "ultimo_status": "Alinhado o prosseguimento do projeto focado no Portal Nacional da NFS-e sob a arquitetura atual, com a migração Cloud postergada para uma segunda fase.\nO processo contratual segue em aprovação no Projuris, aguardando a definição do cronograma e o retorno da Addvisor sobre a proposta do piloto de suporte.",
+    "status_updated_at": "09/09/2026 20:08"
   },
   {
     "id": "86afkdv17",
