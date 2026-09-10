@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 09/09/2026 20:08:31
-const lastUpdate = '09/09/2026 20:08:31';
+// Gerado automaticamente via ClickUp API + Gemini em 10/09/2026 10:08:28
+const lastUpdate = '10/09/2026 10:08:28';
 const rawData = [
   {
     "id": "86akcbua7",
@@ -576,6 +576,20 @@ const rawData = [
     "status_updated_at": ""
   },
   {
+    "id": "86a2b93g9",
+    "name": "[PRJ:]-NT 2023.004 v1.11 - tags de pagamentos",
+    "status": "PRIORIZADAS",
+    "status_ppm": "PPM Finalizada - Está no portal",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2024",
+    "area": "Fiscal",
+    "resumo_raw": "Este projeto irá tratar a correção e melhoria de 4 situações (documentos fiscais), impactadas pela NT 2023.004 v1.11 Regra de validação (YA04-10) que entrou em vigor a partir de 01.07.2024.\n\nA Fast Shop está recebendo diversos autos de infração por não conseguir explicar corretamente onde os valores pagos eletronicamente pelos clientes estão sendo processados, e as tags mencionada nesta PPM, irão esclarecer essas situações para evitarmos questionamentos.\n\nLegislação: NT 2023.004 v1.11 \n\n",
+    "ultimo_status": "A adequação das tags de pagamento (NT 2023.004) encontra-se suspensa pela TI, conforme diretriz de suspensão de projetos.\nOs esforços anteriores estavam focados na revisão do escopo da PPM e na consolidação de referências regulatórias da Sefaz-CE.",
+    "status_updated_at": "10/09/2026 10:08"
+  },
+  {
     "id": "86a214c63",
     "name": "[PRJ:]-Ressarcimento - Rio de Janeiro (Empresa RVC)",
     "status": "EM REUNIOES",
@@ -670,6 +684,7 @@ const resumosMap = {
   "[PRJ]-Importação por encomenda 2026": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
   "[PRJ:]-CNPJ Alfanumérico": "Esta PPM tem como objetivo regulatório atender mudança na regra de criação de CNPJ que passarão ser criados com caracteres alfanuméricos para a Receita Federal ampliar a capacidade de números de CNPJ para abertura de novas empresas devido o esgotamento do modelo atual.\nA Publicação da Nota Técnica 2025.001 Versão 1.00 de 25 de abril de 2025, abrange os ambientes de autorização de documentos fiscais eletrônicos sob a coordenaçãomdo ENCAT: NFe, NFCe, CTe, CTe OS, GTVe, MDFe, BPe, BPe TM, NF3e e NFCom.\nAs adequações dos sistemas se fazem necessário devido o CNPJ ser responsável pela identificação do emitente/destinatário além de compor a chave de acesso do documento fiscal.\nEsta alteração já está prevista na nova estrutura no schema XML conforme nota técnica da Reforma Tributária.\n",
   "[PRJ:]-Destacar ICMS PRÓPRIO FL 63 para Fl 05 (Pacote)": "Na operação de transferência entre 63 e 05, não está sendo destacado o ICMS ST.\nFoi identificado uma falha na regra. Inicialmente foi aberto um chamado que será usado para montar a PPM.\n\nO Impacto é a falta de recolhimento de Imposto. Precisamos ajustar o quanto antes.\n\n\n",
+  "[PRJ:]-NT 2023.004 v1.11 - tags de pagamentos": "Este projeto irá tratar a correção e melhoria de 4 situações (documentos fiscais), impactadas pela NT 2023.004 v1.11 Regra de validação (YA04-10) que entrou em vigor a partir de 01.07.2024.\n\nA Fast Shop está recebendo diversos autos de infração por não conseguir explicar corretamente onde os valores pagos eletronicamente pelos clientes estão sendo processados, e as tags mencionada nesta PPM, irão esclarecer essas situações para evitarmos questionamentos.\n\nLegislação: NT 2023.004 v1.11 \n\n",
   "[PRJ:]-Fullfilment Amazon (FBA)": " A adoção do modelo de Fulfillment no marketplace Amazon (FBA) consiste no envio de parte do estoque da Fast Shop para os centros de distribuição da Amazon, que passa a ser responsável por toda a operação logística — incluindo armazenamento, separação, expedição, entrega, atendimento ao cliente (SAC logístico) e logística reversa.\nEsse modelo potencializa a competitividade ao proporcionar melhores níveis de serviço (SLA), elegibilidade ao programa Prime, aumento da taxa de conversão nas vitrines e fortalecimento da reputação nas plataformas, além de possibilitar ganhos de eficiência operacional e otimização de custos logísticos. A adoção do modelo FBA visa ganho de competitividade (Prime, SLA, conversão), porém o modelo atual apresenta inviabilidade tributária no cenário SP (CJ63 → CJ05), exigindo revisão da malha logística e do modelo fiscal para viabilização econômica. Diante disso, foi aprovada a utilização de Santa Catarina (SC) como centro consolidador logístico, com o objetivo de viabilizar economicamente o modelo FBA.\n    \n",
   "[PRJ:]-Projeto X3 Atacadista Revenda": "Permitir que a Filial X3 Atacadista efetue vendas para revenda.\nAtualmente apenas efetua transferência.\n\n",
   "[PRJ]-Substituição do Mastersaf-DW (TaxOne)": "Data fim de atualização do MSAF 31/12/2025. Após isso não teremos mais atualizações\nno MSAF DW. Sendo necessário migrar para TAXOne. \nEm conversar com o Marcio TI, a definição/decisão de continuar ou não com MSAF\nserá dele.\n\n"
