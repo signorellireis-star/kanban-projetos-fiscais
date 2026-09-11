@@ -175,9 +175,9 @@
     "status_updated_at": "03/09/2026 15:08"
   },
   "86akcbua7": {
-    "date_updated": "1788547174571",
-    "ultimo_status": "Ausência de registros de atividades, histórico de comunicação ou detalhamento de escopo no sistema até o momento.\nNecessário realizar o preenchimento da justificativa e alinhar os próximos passos para o início do planejamento.",
-    "status_updated_at": "04/09/2026 20:07"
+    "date_updated": "1789142931662",
+    "ultimo_status": "Sem descrição cadastrada ou histórico de interações, o projeto apresenta-se em estágio de estruturação inicial sem atividades reportadas.\nNecessário realizar o alinhamento de escopo e kick-off com as partes interessadas para definição do plano de trabalho e cronograma.",
+    "status_updated_at": "11/09/2026 20:08"
   },
   "86addvj0j": {
     "date_updated": "1788547181654",
@@ -193,5 +193,10 @@
     "date_updated": "1789136640654",
     "ultimo_status": "Iniciativa sem registro de interações ou atualizações recentes no histórico de comunicações.\nO status atual requer o alinhamento inicial do escopo e o kick-off formal das atividades pela equipe.",
     "status_updated_at": "11/09/2026 15:07"
+  },
+  "86akgxvzn": {
+    "date_updated": "1789140303614",
+    "ultimo_status": "Iniciativa cadastrada sem detalhamento de escopo ou histórico de interações registradas até a presente data.\nFaz-se necessária a definição de requisitos e o alinhamento inicial com os stakeholders para início do planejamento.",
+    "status_updated_at": "11/09/2026 20:08"
   }
 }

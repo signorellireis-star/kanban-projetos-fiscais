@@ -1,6 +1,20 @@
-// Gerado automaticamente via ClickUp API + Gemini em 11/09/2026 15:07:48
-const lastUpdate = '11/09/2026 15:07:48';
+// Gerado automaticamente via ClickUp API + Gemini em 11/09/2026 20:08:05
+const lastUpdate = '11/09/2026 20:08:05';
 const rawData = [
+  {
+    "id": "86akgxvzn",
+    "name": "[PRJ]-Incluir o Frete no custo da mercadoria (Ex: MG que pagamos Frete ST por fora)",
+    "status": "INICIAR DESENVOLVIMENTO",
+    "status_ppm": "PPM não iniciada",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Fiscal",
+    "resumo_raw": "FOi levantado a necessidade do custo do frete ser incorporado ao custo da mercadoria média móvel.\nAtualmente apenas o Estado de MG se pronunciou e exigiu o recolhimento do ICMS ST sobre o frete que muitas empresas não incorporam ao seu custo.\n\n",
+    "ultimo_status": "Iniciativa cadastrada sem detalhamento de escopo ou histórico de interações registradas até a presente data.\nFaz-se necessária a definição de requisitos e o alinhamento inicial com os stakeholders para início do planejamento.",
+    "status_updated_at": "11/09/2026 20:08"
+  },
   {
     "id": "86akgweuf",
     "name": "[PRJ]-Projeto Substituto Tributário RJ - FL 0027",
@@ -17,7 +31,7 @@ const rawData = [
   },
   {
     "id": "86akcbua7",
-    "name": "[PRJ]-RVC_ Documentos para Ressarcimento",
+    "name": "[PRJ]-MARC_ Documentos para Ressarcimento",
     "status": "INICIAR DESENVOLVIMENTO",
     "status_ppm": "Sem PPM",
     "kanban_status": "A FAZER",
@@ -26,8 +40,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
-    "ultimo_status": "Ausência de registros de atividades, histórico de comunicação ou detalhamento de escopo no sistema até o momento.\nNecessário realizar o preenchimento da justificativa e alinhar os próximos passos para o início do planejamento.",
-    "status_updated_at": "04/09/2026 20:07"
+    "ultimo_status": "Sem descrição cadastrada ou histórico de interações, o projeto apresenta-se em estágio de estruturação inicial sem atividades reportadas.\nNecessário realizar o alinhamento de escopo e kick-off com as partes interessadas para definição do plano de trabalho e cronograma.",
+    "status_updated_at": "11/09/2026 20:08"
   },
   {
     "id": "86akb93n8",
@@ -676,8 +690,9 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-Incluir o Frete no custo da mercadoria (Ex: MG que pagamos Frete ST por fora)": "FOi levantado a necessidade do custo do frete ser incorporado ao custo da mercadoria média móvel.\nAtualmente apenas o Estado de MG se pronunciou e exigiu o recolhimento do ICMS ST sobre o frete que muitas empresas não incorporam ao seu custo.\n\n",
   "[PRJ]-Projeto Substituto Tributário RJ - FL 0027": "O processo nº 040006/009771/2025, referente ao pedido de Regime Especial de ICMS-ST para o Centro de Distribuição da Fast Shop no RJ (CNPJ 43.708.379/0027-30), avançou com pareceres favoráveis da área técnica e da assessoria jurídica da SEFAZ-RJ. O parecer técnico propôs a concessão do Regime Especial ST nº 010/26, com validade até 31/05/2031, transferindo para a Fast Shop a responsabilidade pelo recolhimento do ICMS-ST das mercadorias destinadas ao CD do Rio de Janeiro.\n",
-  "[PRJ]-RVC_ Documentos para Ressarcimento": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
+  "[PRJ]-MARC_ Documentos para Ressarcimento": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
   "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe": "Fase 2 da Reforma tributária fase 2.1\n",
   "[PRJ]-Projeto para emissão de NFSe sobre Locação": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
   "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
