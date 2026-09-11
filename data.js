@@ -1,6 +1,20 @@
-// Gerado automaticamente via ClickUp API + Gemini em 11/09/2026 10:08:16
-const lastUpdate = '11/09/2026 10:08:16';
+// Gerado automaticamente via ClickUp API + Gemini em 11/09/2026 15:07:48
+const lastUpdate = '11/09/2026 15:07:48';
 const rawData = [
+  {
+    "id": "86akgweuf",
+    "name": "[PRJ]-Projeto Substituto Tributário RJ - FL 0027",
+    "status": "EM REUNIOES",
+    "status_ppm": "Sem PPM",
+    "kanban_status": "EM ANDAMENTO",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Fiscal",
+    "resumo_raw": "O processo nº 040006/009771/2025, referente ao pedido de Regime Especial de ICMS-ST para o Centro de Distribuição da Fast Shop no RJ (CNPJ 43.708.379/0027-30), avançou com pareceres favoráveis da área técnica e da assessoria jurídica da SEFAZ-RJ. O parecer técnico propôs a concessão do Regime Especial ST nº 010/26, com validade até 31/05/2031, transferindo para a Fast Shop a responsabilidade pelo recolhimento do ICMS-ST das mercadorias destinadas ao CD do Rio de Janeiro.\n",
+    "ultimo_status": "Iniciativa sem registro de interações ou atualizações recentes no histórico de comunicações.\nO status atual requer o alinhamento inicial do escopo e o kick-off formal das atividades pela equipe.",
+    "status_updated_at": "11/09/2026 15:07"
+  },
   {
     "id": "86akcbua7",
     "name": "[PRJ]-RVC_ Documentos para Ressarcimento",
@@ -662,6 +676,7 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-Projeto Substituto Tributário RJ - FL 0027": "O processo nº 040006/009771/2025, referente ao pedido de Regime Especial de ICMS-ST para o Centro de Distribuição da Fast Shop no RJ (CNPJ 43.708.379/0027-30), avançou com pareceres favoráveis da área técnica e da assessoria jurídica da SEFAZ-RJ. O parecer técnico propôs a concessão do Regime Especial ST nº 010/26, com validade até 31/05/2031, transferindo para a Fast Shop a responsabilidade pelo recolhimento do ICMS-ST das mercadorias destinadas ao CD do Rio de Janeiro.\n",
   "[PRJ]-RVC_ Documentos para Ressarcimento": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
   "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe": "Fase 2 da Reforma tributária fase 2.1\n",
   "[PRJ]-Projeto para emissão de NFSe sobre Locação": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
