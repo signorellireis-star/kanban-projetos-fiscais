@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 14/09/2026 15:10:44
-const lastUpdate = '14/09/2026 15:10:44';
+// Gerado automaticamente via ClickUp API + Gemini em 14/09/2026 20:08:42
+const lastUpdate = '14/09/2026 20:08:42';
 const rawData = [
   {
     "id": "86akhjw3d",
@@ -40,8 +40,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "O processo nº 040006/009771/2025, referente ao pedido de Regime Especial de ICMS-ST para o Centro de Distribuição da Fast Shop no RJ (CNPJ 43.708.379/0027-30), avançou com pareceres favoráveis da área técnica e da assessoria jurídica da SEFAZ-RJ. O parecer técnico propôs a concessão do Regime Especial ST nº 010/26, com validade até 31/05/2031, transferindo para a Fast Shop a responsabilidade pelo recolhimento do ICMS-ST das mercadorias destinadas ao CD do Rio de Janeiro.\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Sem registros de interações ou histórico de atividades, o projeto encontra-se em fase preliminar de estruturação.\nAguardam-se as definições de escopo, justificativa e o planejamento das entregas iniciais para o início do cronograma.",
+    "status_updated_at": "14/09/2026 20:08"
   },
   {
     "id": "86akcbua7",
