@@ -80,9 +80,9 @@
     "status_updated_at": "19/08/2026 20:59"
   },
   "86a88zqpx": {
-    "date_updated": "1788544503071",
-    "ultimo_status": "Com cronograma de go-live reprogramado para 25/09/2026, a homologação avança sob atenção devido a limitações sistêmicas no processamento de Notas Fiscais Complementares.\nComo ação mitigadora, a equipe estuda uma solução de contorno para o MVP e negocia com a Trading a contratação de hedge cambial para evitar distorções de custos.",
-    "status_updated_at": "04/09/2026 20:08"
+    "date_updated": "1789387684752",
+    "ultimo_status": "O plano de testes do MVP segue em validação e a definição de responsabilidades fiscais sobre a base do IPI aguarda alinhamento da gestão até 15/09/26.\nIdentificou-se risco crítico na ausência de suporte sistêmico para Notas Fiscais Complementares, cuja mitigação está sendo tratada via proposta de hedge ou fluxo de contorno.",
+    "status_updated_at": "14/09/2026 15:10"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
@@ -198,5 +198,10 @@
     "date_updated": "1789140303614",
     "ultimo_status": "Iniciativa cadastrada sem detalhamento de escopo ou histórico de interações registradas até a presente data.\nFaz-se necessária a definição de requisitos e o alinhamento inicial com os stakeholders para início do planejamento.",
     "status_updated_at": "11/09/2026 20:08"
+  },
+  "86akhjw3d": {
+    "date_updated": "1789393374307",
+    "ultimo_status": "A última interação registrada limita-se ao compartilhamento de um arquivo de imagem, sem detalhamento de progresso ou escopo definido.\nRecomenda-se a atualização imediata do status e o alinhamento das próximas entregas para viabilizar o acompanhamento gerencial.",
+    "status_updated_at": "14/09/2026 15:10"
   }
 }
