@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 15/09/2026 10:08:47
-const lastUpdate = '15/09/2026 10:08:47';
+// Gerado automaticamente via ClickUp API + Gemini em 15/09/2026 18:41:13
+const lastUpdate = '15/09/2026 18:41:13';
 const rawData = [
   {
     "id": "86akhjw3d",
@@ -214,7 +214,7 @@ const rawData = [
   {
     "id": "86ajmpzkk",
     "name": "[PRJ]-Venda com entrega em Operador Logístico",
-    "status": "ENVIADO AO REQUISITANTE",
+    "status": "AGUARDO INICIO HOMOL",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -222,8 +222,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "A implementação do processo de Venda com entrega em Operador Logístico representa uma evolução estratégica para o canal B2B, ampliando significativamente a capacidade comercial da empresa sem a necessidade de aumento proporcional dos estoques ou da complexidade logística. Esse modelo permite que a empresa atue como fornecedora de mercadorias para parceiros comerciais que solicitam entrega diretamente em operadores logísticos como a operação Full do Mercado Livre e Amazon. Além de expandir o alcance comercial e possibilitar novos modelos de parceria, essa operação simplifica a operação logística da cadeia de suprimento, diminuindo custos de movimentação e armazenamento. Por se tratar de uma operação com requisitos fiscais e logísticos específicos, sua implantação exige a adequação de processos, sistemas e controles internos, garantindo conformidade tributária, rastreabilidade das operações e escalabilidade para suportar o crescimento futuro do canal B2B. \nBenefícios Esperados:\n• Expansão do alcance comercial; \n• Aumento do faturamento B2B sem ampliação relevante da estrutura;\n• Criação de novos modelos de negócio; \n• Maior competitividade e velocidade de atendimento. \n",
-    "ultimo_status": "A proposta de projeto (PPM) com as premissas e os requisitos fiscais foi enviada ao requisitante em 27/07/2026 para análise.\nO projeto aguarda o retorno da área demandante para validação das condições propostas e posterior avanço no planejamento do fluxo logístico B2B.",
-    "status_updated_at": "15/08/2026 22:56"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ajd31ab",
@@ -670,8 +670,8 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Terceiros",
     "resumo_raw": " A adoção do modelo de Fulfillment no marketplace Amazon (FBA) consiste no envio de parte do estoque da Fast Shop para os centros de distribuição da Amazon, que passa a ser responsável por toda a operação logística — incluindo armazenamento, separação, expedição, entrega, atendimento ao cliente (SAC logístico) e logística reversa.\nEsse modelo potencializa a competitividade ao proporcionar melhores níveis de serviço (SLA), elegibilidade ao programa Prime, aumento da taxa de conversão nas vitrines e fortalecimento da reputação nas plataformas, além de possibilitar ganhos de eficiência operacional e otimização de custos logísticos. A adoção do modelo FBA visa ganho de competitividade (Prime, SLA, conversão), porém o modelo atual apresenta inviabilidade tributária no cenário SP (CJ63 → CJ05), exigindo revisão da malha logística e do modelo fiscal para viabilização econômica. Diante disso, foi aprovada a utilização de Santa Catarina (SC) como centro consolidador logístico, com o objetivo de viabilizar economicamente o modelo FBA.\n    \n",
-    "ultimo_status": "Após análise de viabilidade e alinhamento com as áreas de negócio, o projeto foi descontinuado e oficialmente encerrado pelas equipes.\nA decisão definitiva de cancelamento decorreu de limitações técnicas e gaps críticos identificados pela TI no sistema do parceiro.",
-    "status_updated_at": "04/09/2026 20:08"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "864e98d8y",
