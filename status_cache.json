@@ -80,9 +80,9 @@
     "status_updated_at": "19/08/2026 20:59"
   },
   "86a88zqpx": {
-    "date_updated": "1789387684752",
-    "ultimo_status": "O plano de testes do MVP segue em validação e a definição de responsabilidades fiscais sobre a base do IPI aguarda alinhamento da gestão até 15/09/26.\nIdentificou-se risco crítico na ausência de suporte sistêmico para Notas Fiscais Complementares, cuja mitigação está sendo tratada via proposta de hedge ou fluxo de contorno.",
-    "status_updated_at": "14/09/2026 15:10"
+    "date_updated": "1790348975056",
+    "ultimo_status": "A definição de responsabilidades pelo REQ 12 (base do IPI) segue pendente de validação executiva após recusa da área Fiscal por governança, adotando-se temporariamente a base do preço de venda.\nEm paralelo, a equipe mitiga os impactos sistêmicos de notas complementares por variação cambial por meio de propostas de hedge contratual junto à Trading.",
+    "status_updated_at": "25/09/2026 23:02"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
