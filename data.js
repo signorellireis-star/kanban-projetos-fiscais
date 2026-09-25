@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 25/09/2026 14:57:35
-const lastUpdate = '25/09/2026 14:57:35';
+// Gerado automaticamente via ClickUp API + Gemini em 25/09/2026 19:09:53
+const lastUpdate = '25/09/2026 19:09:53';
 const rawData = [
   {
     "id": "86akhjw3d",
@@ -544,8 +544,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "O plano de testes do MVP segue em validação e a definição de responsabilidades fiscais sobre a base do IPI aguarda alinhamento da gestão até 15/09/26.\nIdentificou-se risco crítico na ausência de suporte sistêmico para Notas Fiscais Complementares, cuja mitigação está sendo tratada via proposta de hedge ou fluxo de contorno.",
-    "status_updated_at": "14/09/2026 15:10"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86a7p7uwv",
