@@ -1,10 +1,10 @@
-// Gerado automaticamente via ClickUp API + Gemini em 25/09/2026 23:02:57
-const lastUpdate = '25/09/2026 23:02:57';
+// Gerado automaticamente via ClickUp API + Gemini em 28/09/2026 17:56:14
+const lastUpdate = '28/09/2026 17:56:14';
 const rawData = [
   {
     "id": "86akhjw3d",
     "name": "[PRJ]-Dark Store",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "EM HOMOLOGACAO",
     "status_ppm": "Sem PPM",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -12,8 +12,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "Estou sem os detalhes\n",
-    "ultimo_status": "A última interação registrada limita-se ao compartilhamento de um arquivo de imagem, sem detalhamento de progresso ou escopo definido.\nRecomenda-se a atualização imediata do status e o alinhamento das próximas entregas para viabilizar o acompanhamento gerencial.",
-    "status_updated_at": "14/09/2026 15:10"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86akgxvzn",
@@ -116,7 +116,7 @@ const rawData = [
   {
     "id": "86ak2jcnd",
     "name": "[PRJ]-Cessão de crédito TradeMaster",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "EM HOMOLOGACAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -124,8 +124,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Terceiros",
     "resumo_raw": "Atualmente, o canal B2B realiza vendas de produtos 1P Fast Shop utilizando os canais online (via site/jornada do cliente) como também o offline (via GAN ou site na função Sales Representative, este último é operado pelo time de backoffice B2B). Os meios de pagamento mais utilizados são Cartão de Crédito, Depósito à Vista, Faturado e Boleto. A opção de pagamento pelo Cartão de Crédito só é possível ocorrer pela plataforma Vtex, por intermediação do time de backoffice do B2B que realiza a venda de forma “assistida ou personalizada”. Todas as vendas do B2B são atribuídas à Tab.74.\n As vendas B2B consomem os estoques disponíveis da Fast Shop, entretanto as notas fiscais são emitidas com a finalidade “uso e consumo”, o que não reflete corretamente a natureza da operação.\n Essa limitação faz com que clientes B2B — especialmente de médio e grande porte, com maior rigor nos seus processos fiscais — deixem de comprar da Fast Shop por não receberem a nota fiscal com a finalidade “revenda”.\n Além disso, há um direcionamento estratégico na Fast Shop para priorizar a captura de benefícios fiscais oferecidos pelos Estados. Atualmente, os pedidos B2B não utilizam a operação do CD do Espírito Santo (filial 2F), mesmo sendo esse Estado um importante polo de benefícios fiscais mediante a ampliação de novas operações fiscais e de transporte.\n O CD Atacadista filial 2F possui regime especial de atacadista, mas desde sua implementação e parametrização no sistema GAN, apenas foram liberadas operações de recebimento de mercadorias (compras) e abastecimento para lojas ou outros CDs (transferências).\n Esta próxima fase será focada na liberação para que a filial 2F possa efetuar vendas na forma de atacadista, ou seja, com característica de revenda.\n Apenas o CD Paraíba já realizou vendas para revenda anteriormente, mas há tempos essa operação não é realizada e não se tem clareza sobre o comportamento atual do sistema.\n Para o CD ES, poderão ser copiadas as regras existentes e atualizados os pontos conforme definidos nesta PPM.\n A Fast Shop estabeleceu como um dos pilares para este ano o fortalecimento da operação B2B, com foco em atrair novos negócios e adequar os sistemas para atender com excelência as necessidades desse segmento. O modelo atacadista é um destes pilares e parte fundamental dessa estratégia, e a decisão de implementar a operação de revenda no Estado do ES é estratégica para evitar a perda de vendas em volumes significativos, garantindo a emissão correta das notas fiscais e o alinhamento com as exigências fiscais dos clientes.\n    \n",
-    "ultimo_status": "Após o alinhamento de requisitos fiscais e a consolidação do plano de testes, o projeto avança para as etapas de apresentação do desenvolvimento e preparação da homologação.\nA fase de testes (UAT) está programada de 21/09 a 02/10, priorizando as validações de GAN e SAP, com Go-Live confirmado para 13/10/26.",
-    "status_updated_at": "07/09/2026 10:08"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ajqc9ph",
@@ -214,16 +214,16 @@ const rawData = [
   {
     "id": "86ajmpzkk",
     "name": "[PRJ]-Venda com entrega em Operador Logístico",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
-    "golive": "",
+    "kanban_status": "CONCLUIDO",
+    "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "A implementação do processo de Venda com entrega em Operador Logístico representa uma evolução estratégica para o canal B2B, ampliando significativamente a capacidade comercial da empresa sem a necessidade de aumento proporcional dos estoques ou da complexidade logística. Esse modelo permite que a empresa atue como fornecedora de mercadorias para parceiros comerciais que solicitam entrega diretamente em operadores logísticos como a operação Full do Mercado Livre e Amazon. Além de expandir o alcance comercial e possibilitar novos modelos de parceria, essa operação simplifica a operação logística da cadeia de suprimento, diminuindo custos de movimentação e armazenamento. Por se tratar de uma operação com requisitos fiscais e logísticos específicos, sua implantação exige a adequação de processos, sistemas e controles internos, garantindo conformidade tributária, rastreabilidade das operações e escalabilidade para suportar o crescimento futuro do canal B2B. \nBenefícios Esperados:\n• Expansão do alcance comercial; \n• Aumento do faturamento B2B sem ampliação relevante da estrutura;\n• Criação de novos modelos de negócio; \n• Maior competitividade e velocidade de atendimento. \n",
-    "ultimo_status": "Envio da Proposta de Projeto (PPM) realizado ao requisitante em 27/07/2026, contemplando as considerações gerais e os requisitos fiscais necessários.\nAguarda-se o retorno da área solicitante para validação das diretrizes enviadas e definição dos próximos passos para o início da implantação.",
-    "status_updated_at": "15/09/2026 22:40"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86ajd31ab",
@@ -676,7 +676,7 @@ const rawData = [
   {
     "id": "864e98d8y",
     "name": "[PRJ:]-Projeto X3 Atacadista Revenda",
-    "status": "EM HOMOLOGACAO",
+    "status": "AGUARDO SUBIDA PRODUCAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "Set/2026",
@@ -684,8 +684,8 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Fiscal",
     "resumo_raw": "Permitir que a Filial X3 Atacadista efetue vendas para revenda.\nAtualmente apenas efetua transferência.\n\n",
-    "ultimo_status": "Alinhamento fiscal em finalização para início dos testes de homologação em 20/08, sob pendência de validação de escopo com Logística e Supply.\nCronograma atualizado posterga o prazo de homologação e Go Live para 15/09, com encerramento do período de Hypercare previsto para 16/10.",
-    "status_updated_at": "04/09/2026 20:09"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "3d3hxfr",
