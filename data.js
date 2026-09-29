@@ -1,19 +1,33 @@
-// Gerado automaticamente via ClickUp API + Gemini em 29/09/2026 16:19:15
-const lastUpdate = '29/09/2026 16:19:15';
+// Gerado automaticamente via ClickUp API + Gemini em 29/09/2026 23:24:51
+const lastUpdate = '29/09/2026 23:24:51';
 const rawData = [
+  {
+    "id": "86akqv1mt",
+    "name": "[PRJ]-Allied Venda em Loja",
+    "status": "EM REUNIOES",
+    "status_ppm": "Sem PPM",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Terceiros",
+    "resumo_raw": "Visão Geral do Projeto\n      Parceria Allied (Live) + Fast Shop para venda de Samsung e Apple em lojas físicas\n      Dois modelos de operação desenhados: CIS/Retira (azul) e Mostruário + entrega (vermelho)\n      Premissa central: cliente não percebe que está comprando da Allied e não da Fast Shop\n",
+    "ultimo_status": "",
+    "status_updated_at": ""
+  },
   {
     "id": "86akhjw3d",
     "name": "[PRJ]-Dark Store",
     "status": "EM HOMOLOGACAO",
     "status_ppm": "Sem PPM",
     "kanban_status": "EM ANDAMENTO",
-    "golive": "",
+    "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "Estou sem os detalhes\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "O envio de um arquivo de imagem por Felipe Signorelli Reis constitui o registro mais recente na plataforma de comunicação.\nDevido à ausência de descritivos ou textos explicativos, o status atual e os próximos passos dependem de alinhamento com a equipe.",
+    "status_updated_at": "29/09/2026 23:24"
   },
   {
     "id": "86akgxvzn",
@@ -124,8 +138,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Terceiros",
     "resumo_raw": "Atualmente, o canal B2B realiza vendas de produtos 1P Fast Shop utilizando os canais online (via site/jornada do cliente) como também o offline (via GAN ou site na função Sales Representative, este último é operado pelo time de backoffice B2B). Os meios de pagamento mais utilizados são Cartão de Crédito, Depósito à Vista, Faturado e Boleto. A opção de pagamento pelo Cartão de Crédito só é possível ocorrer pela plataforma Vtex, por intermediação do time de backoffice do B2B que realiza a venda de forma “assistida ou personalizada”. Todas as vendas do B2B são atribuídas à Tab.74.\n As vendas B2B consomem os estoques disponíveis da Fast Shop, entretanto as notas fiscais são emitidas com a finalidade “uso e consumo”, o que não reflete corretamente a natureza da operação.\n Essa limitação faz com que clientes B2B — especialmente de médio e grande porte, com maior rigor nos seus processos fiscais — deixem de comprar da Fast Shop por não receberem a nota fiscal com a finalidade “revenda”.\n Além disso, há um direcionamento estratégico na Fast Shop para priorizar a captura de benefícios fiscais oferecidos pelos Estados. Atualmente, os pedidos B2B não utilizam a operação do CD do Espírito Santo (filial 2F), mesmo sendo esse Estado um importante polo de benefícios fiscais mediante a ampliação de novas operações fiscais e de transporte.\n O CD Atacadista filial 2F possui regime especial de atacadista, mas desde sua implementação e parametrização no sistema GAN, apenas foram liberadas operações de recebimento de mercadorias (compras) e abastecimento para lojas ou outros CDs (transferências).\n Esta próxima fase será focada na liberação para que a filial 2F possa efetuar vendas na forma de atacadista, ou seja, com característica de revenda.\n Apenas o CD Paraíba já realizou vendas para revenda anteriormente, mas há tempos essa operação não é realizada e não se tem clareza sobre o comportamento atual do sistema.\n Para o CD ES, poderão ser copiadas as regras existentes e atualizados os pontos conforme definidos nesta PPM.\n A Fast Shop estabeleceu como um dos pilares para este ano o fortalecimento da operação B2B, com foco em atrair novos negócios e adequar os sistemas para atender com excelência as necessidades desse segmento. O modelo atacadista é um destes pilares e parte fundamental dessa estratégia, e a decisão de implementar a operação de revenda no Estado do ES é estratégica para evitar a perda de vendas em volumes significativos, garantindo a emissão correta das notas fiscais e o alinhamento com as exigências fiscais dos clientes.\n    \n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Com os requisitos fiscais e cenários de testes validados, o projeto avança para a apresentação do desenvolvimento pela IBM e preparação para homologação.\nA fase de testes (GAN e SAP) ocorrerá de 21/09 a 02/10, mantendo o cronograma para o Go-Live em 13/10/2026.",
+    "status_updated_at": "29/09/2026 23:24"
   },
   {
     "id": "86ajqc9ph",
@@ -144,16 +158,16 @@ const rawData = [
   {
     "id": "86ajp65xa",
     "name": "[PRJ:DMND2148]-Reforma Tributária Devolução FinNfe= 4 DfeReferencia",
-    "status": "AGUARDO SUBIDA PRODUCAO",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "Ago/2026",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Com a reforma tributária são necessários ajustes nos processos de emissão de Notas Fiscais Eletrônicas. \nDe acordo com a publicação da NT_2025.002_v1.50, será necessário antecipar algumas funcionalidades previstas na PPM da Reforma Tributária em desenvolvimento, que passará a vigorar em ambiente de produção a partir de 05/10/2026. Uma delas é o referenciamento de chave origem a nível de item. Se não ocorrer a implementação as notas serão rejeitadas.\n    \n",
-    "ultimo_status": "A homologação foi concluída e validada com sucesso, tendo as evidências e o e-mail de aprovação já direcionados à gestão.\nO projeto agora aguarda aprovação no CAB (19/08) para seguir para o Go-Live em 25/08/2026, com parametrização inicial para 01/01/2027.",
-    "status_updated_at": "18/08/2026 20:54"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86ajnr5t7",
@@ -256,16 +270,16 @@ const rawData = [
   {
     "id": "86ajc7hu3",
     "name": "[PRJ]-Exclusão do ICMS ST Antecipação nas Lojas de SP (Sangria 2)",
-    "status": "AGUARDO SUBIDA PRODUCAO",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "Ago/2026",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": " A Diretoria Fiscal solicitou a criação de uma PPM para implementar a funcionalidade de não calcular o ICMS-ST nas remessas destinadas às lojas do Estado de São Paulo, quando a operação tiver origem na filial ES-Atacadista.\nAS IS\nAtualmente, em uma remessa de transferência da filial ES-Atacadista para qualquer loja localizada no Estado de São Paulo, há obrigatoriedade de recolhimento do ICMS-ST, seja por destaque na nota fiscal, seja por recolhimento na entrada da mercadoria no recebimento. Como não há protocolo firmado entre os Estados do Espírito Santo e de São Paulo, o recolhimento ocorre, em 100% dos casos, na entrada. Esse recolhimento aumenta o custo da mercadoria e impacta o fluxo de caixa. Posteriormente, a venda da mercadoria ocorre sem tributação de ICMS, uma vez que o recolhimento já foi realizado anteriormente.\nTO BE\nO objetivo do projeto é permitir que o sistema interprete essa operação como produto sem regra de ICMS-ST, sem a necessidade de remover ou alterar as regras tributárias dos produtos nos cadastros fiscais.\nEm junho de 2023, foi homologado o projeto “Sangria”, que realiza esse mesmo processo.\nNa ocasião, foram criadas telas de parametrização para vincular as filiais de origem e destino abrangidas pela funcionalidade. Essas telas foram desenvolvidas de forma parametrizável, permitindo novos cadastros conforme a necessidade dos usuários, sem configuração fixa em código. O projeto foi homologado e disponibilizado em produção; porém, em razão de alteração na malha fiscal, acabou não sendo utilizado.\nDessa forma, a presente solicitação já se encontra aproximadamente 80% concluída, restando apenas:\n·         Retestar integralmente o projeto para confirmar se a funcionalidade está 100% utilizável.\n·         Considerar um novo requisito para bloquear a transferência de mercadorias da filial 0063 e Filial 05 para as lojas, para os produtos cadastrados como “Sangria”.\n",
-    "ultimo_status": "A homologação está suspensa devido à identificação de que vendas do tipo \"Ultra Fast\" (entrega) não aplicam a regra de Sangria, que atualmente contempla apenas a modalidade \"Retira\".\nO desenvolvimento atua no ajuste sistêmico corretivo como complemento de escopo para posterior liberação e reteste do processo de faturamento com destaque de ICMS.",
-    "status_updated_at": "04/09/2026 20:07"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86ahw2uge",
@@ -368,7 +382,7 @@ const rawData = [
   {
     "id": "86aghx74e",
     "name": "[PRJ]-Melhoria monitor SAP ADDVISOR",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "EM HOMOLOGACAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -376,8 +390,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "Alinhado o prosseguimento do projeto focado no Portal Nacional da NFS-e sob a arquitetura atual, com a migração Cloud postergada para uma segunda fase.\nO processo contratual segue em aprovação no Projuris, aguardando a definição do cronograma e o retorno da Addvisor sobre a proposta do piloto de suporte.",
-    "status_updated_at": "09/09/2026 20:08"
+    "ultimo_status": "O projeto segue com proposta em aprovação jurídica (Projuris) aguardando cronograma, com escopo definido para integrar o Portal Nacional NFS-e mantendo a arquitetura atual.\nA migração integral para a plataforma Cloud foi postergada para uma segunda fase, restando pendente o retorno da Addvisor sobre a proposta de suporte e o piloto de 30 dias.",
+    "status_updated_at": "29/09/2026 23:24"
   },
   {
     "id": "86afkdv17",
@@ -578,16 +592,16 @@ const rawData = [
   {
     "id": "86a3vz587",
     "name": "[PRJ:]-CNPJ Alfanumérico",
-    "status": "AGUARDO SUBIDA PRODUCAO",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "Ago/2026",
     "prazo": "",
     "ano_ppm": "2024",
     "area": "Fiscal",
     "resumo_raw": "Esta PPM tem como objetivo regulatório atender mudança na regra de criação de CNPJ que passarão ser criados com caracteres alfanuméricos para a Receita Federal ampliar a capacidade de números de CNPJ para abertura de novas empresas devido o esgotamento do modelo atual.\nA Publicação da Nota Técnica 2025.001 Versão 1.00 de 25 de abril de 2025, abrange os ambientes de autorização de documentos fiscais eletrônicos sob a coordenaçãomdo ENCAT: NFe, NFCe, CTe, CTe OS, GTVe, MDFe, BPe, BPe TM, NF3e e NFCom.\nAs adequações dos sistemas se fazem necessário devido o CNPJ ser responsável pela identificação do emitente/destinatário além de compor a chave de acesso do documento fiscal.\nEsta alteração já está prevista na nova estrutura no schema XML conforme nota técnica da Reforma Tributária.\n",
-    "ultimo_status": "Frentes SAP ECC e AddTax enfrentam impedimentos na geração da SAFX e na integração com o Mercado Eletrônico, atualmente sob análise técnica.\nO cronograma foca na conclusão dos testes homologatórios até 24/07 para garantir a aprovação no CAB (29/07) e a implantação em produção em 04/08.",
-    "status_updated_at": "18/08/2026 20:56"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86a359uda",
@@ -704,6 +718,7 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-Allied Venda em Loja": "Visão Geral do Projeto\n      Parceria Allied (Live) + Fast Shop para venda de Samsung e Apple em lojas físicas\n      Dois modelos de operação desenhados: CIS/Retira (azul) e Mostruário + entrega (vermelho)\n      Premissa central: cliente não percebe que está comprando da Allied e não da Fast Shop\n",
   "[PRJ]-Dark Store": "Estou sem os detalhes\n",
   "[PRJ]-Incluir o Frete no custo da mercadoria (Ex: MG que pagamos Frete ST por fora)": "FOi levantado a necessidade do custo do frete ser incorporado ao custo da mercadoria média móvel.\nAtualmente apenas o Estado de MG se pronunciou e exigiu o recolhimento do ICMS ST sobre o frete que muitas empresas não incorporam ao seu custo.\n\n",
   "[PRJ]-Projeto Substituto Tributário RJ - FL 0027": "O processo nº 040006/009771/2025, referente ao pedido de Regime Especial de ICMS-ST para o Centro de Distribuição da Fast Shop no RJ (CNPJ 43.708.379/0027-30), avançou com pareceres favoráveis da área técnica e da assessoria jurídica da SEFAZ-RJ. O parecer técnico propôs a concessão do Regime Especial ST nº 010/26, com validade até 31/05/2031, transferindo para a Fast Shop a responsabilidade pelo recolhimento do ICMS-ST das mercadorias destinadas ao CD do Rio de Janeiro.\n",

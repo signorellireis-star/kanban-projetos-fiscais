@@ -60,9 +60,9 @@
     "status_updated_at": "03/09/2026 15:08"
   },
   "86aghx74e": {
-    "date_updated": "1788973903342",
-    "ultimo_status": "Alinhado o prosseguimento do projeto focado no Portal Nacional da NFS-e sob a arquitetura atual, com a migração Cloud postergada para uma segunda fase.\nO processo contratual segue em aprovação no Projuris, aguardando a definição do cronograma e o retorno da Addvisor sobre a proposta do piloto de suporte.",
-    "status_updated_at": "09/09/2026 20:08"
+    "date_updated": "1790710572885",
+    "ultimo_status": "O projeto segue com proposta em aprovação jurídica (Projuris) aguardando cronograma, com escopo definido para integrar o Portal Nacional NFS-e mantendo a arquitetura atual.\nA migração integral para a plataforma Cloud foi postergada para uma segunda fase, restando pendente o retorno da Addvisor sobre a proposta de suporte e o piloto de 30 dias.",
+    "status_updated_at": "29/09/2026 23:24"
   },
   "86af3zqga": {
     "date_updated": "1787932237617",
@@ -130,9 +130,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "86ak2jcnd": {
-    "date_updated": "1788746384780",
-    "ultimo_status": "Após o alinhamento de requisitos fiscais e a consolidação do plano de testes, o projeto avança para as etapas de apresentação do desenvolvimento e preparação da homologação.\nA fase de testes (UAT) está programada de 21/09 a 02/10, priorizando as validações de GAN e SAP, com Go-Live confirmado para 13/10/26.",
-    "status_updated_at": "07/09/2026 10:08"
+    "date_updated": "1790603323293",
+    "ultimo_status": "Com os requisitos fiscais e cenários de testes validados, o projeto avança para a apresentação do desenvolvimento pela IBM e preparação para homologação.\nA fase de testes (GAN e SAP) ocorrerá de 21/09 a 02/10, mantendo o cronograma para o Go-Live em 13/10/2026.",
+    "status_updated_at": "29/09/2026 23:24"
   },
   "86ae39wp7": {
     "date_updated": "1787263282880",
@@ -200,8 +200,8 @@
     "status_updated_at": "11/09/2026 20:08"
   },
   "86akhjw3d": {
-    "date_updated": "1789393374307",
-    "ultimo_status": "A última interação registrada limita-se ao compartilhamento de um arquivo de imagem, sem detalhamento de progresso ou escopo definido.\nRecomenda-se a atualização imediata do status e o alinhamento das próximas entregas para viabilizar o acompanhamento gerencial.",
-    "status_updated_at": "14/09/2026 15:10"
+    "date_updated": "1790710771608",
+    "ultimo_status": "O envio de um arquivo de imagem por Felipe Signorelli Reis constitui o registro mais recente na plataforma de comunicação.\nDevido à ausência de descritivos ou textos explicativos, o status atual e os próximos passos dependem de alinhamento com a equipe.",
+    "status_updated_at": "29/09/2026 23:24"
   }
 }
