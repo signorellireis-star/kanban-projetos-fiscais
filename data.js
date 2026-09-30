@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 29/09/2026 23:24:51
-const lastUpdate = '29/09/2026 23:24:51';
+// Gerado automaticamente via ClickUp API + Gemini em 30/09/2026 16:14:07
+const lastUpdate = '30/09/2026 16:14:07';
 const rawData = [
   {
     "id": "86akqv1mt",
@@ -12,8 +12,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "Visão Geral do Projeto\n      Parceria Allied (Live) + Fast Shop para venda de Samsung e Apple em lojas físicas\n      Dois modelos de operação desenhados: CIS/Retira (azul) e Mostruário + entrega (vermelho)\n      Premissa central: cliente não percebe que está comprando da Allied e não da Fast Shop\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Definidos os modelos de operação (Retira e Showroom), o foco atual está no envio de requisitos de infraestrutura e no desenho de três alternativas de integração técnica.\nA prioridade imediata é a implantação do modelo Mobicon no Iguatemi Goiânia para 1º de outubro, dependendo do envio de referências técnicas para validação interna.",
+    "status_updated_at": "30/09/2026 16:14"
   },
   {
     "id": "86akhjw3d",
