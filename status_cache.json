@@ -55,9 +55,9 @@
     "status_updated_at": "28/08/2026 21:58"
   },
   "86ahe92c9": {
-    "date_updated": "1788442369356",
-    "ultimo_status": "A homologação das entregas no ambiente SAP-QA está em andamento, com previsão de implantação para a próxima semana.\nTratativas internas com a coordenação seguem em curso para mitigar o risco de bloqueio da PPM e assegurar o cronograma.",
-    "status_updated_at": "03/09/2026 15:08"
+    "date_updated": "1790796272463",
+    "ultimo_status": "Em fase de homologação de testes no ambiente SAP-QA (transação ZFI165), com previsão de entrega final para a próxima semana.\nAlinhamentos com Alexander e Medeiros sobre possível bloqueio da PPM estão em andamento para mitigar riscos ao cronograma.",
+    "status_updated_at": "30/09/2026 23:24"
   },
   "86aghx74e": {
     "date_updated": "1790710572885",

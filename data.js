@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 30/09/2026 16:14:07
-const lastUpdate = '30/09/2026 16:14:07';
+// Gerado automaticamente via ClickUp API + Gemini em 30/09/2026 23:24:31
+const lastUpdate = '30/09/2026 23:24:31';
 const rawData = [
   {
     "id": "86akqv1mt",
@@ -348,8 +348,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
-    "ultimo_status": "A homologação das entregas no ambiente SAP-QA está em andamento, com previsão de implantação para a próxima semana.\nTratativas internas com a coordenação seguem em curso para mitigar o risco de bloqueio da PPM e assegurar o cronograma.",
-    "status_updated_at": "03/09/2026 15:08"
+    "ultimo_status": "Em fase de homologação de testes no ambiente SAP-QA (transação ZFI165), com previsão de entrega final para a próxima semana.\nAlinhamentos com Alexander e Medeiros sobre possível bloqueio da PPM estão em andamento para mitigar riscos ao cronograma.",
+    "status_updated_at": "30/09/2026 23:24"
   },
   {
     "id": "86ah40j3y",
