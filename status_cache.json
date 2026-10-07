@@ -75,9 +75,9 @@
     "status_updated_at": "17/08/2026 11:04"
   },
   "86ae39yjg": {
-    "date_updated": "1787167865818",
-    "ultimo_status": "Com o CNPJ constituído, o projeto de abertura do CD Cajamar está suspenso temporariamente em agosto de 2026 devido à concorrência de outras prioridades fiscais.\nA retomada das atividades, incluindo a implementação do regime de substituto tributário e o setup dos sistemas, está agendada para setembro de 2026.",
-    "status_updated_at": "19/08/2026 20:59"
+    "date_updated": "1791392524149",
+    "ultimo_status": "Com o CNPJ constituído e o desenho técnico da ideia concluído, a TI inicia o dimensionamento do esforço para gerar a especificação (TD) da PPM.\nAs frentes fiscais estão temporariamente suspensas devido à indisponibilidade de agenda em agosto, com retomada programada para setembro de 2026.",
+    "status_updated_at": "07/10/2026 23:59"
   },
   "86a88zqpx": {
     "date_updated": "1790348975056",
@@ -130,9 +130,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "86ak2jcnd": {
-    "date_updated": "1790603323293",
-    "ultimo_status": "Com os requisitos fiscais e cenários de testes validados, o projeto avança para a apresentação do desenvolvimento pela IBM e preparação para homologação.\nA fase de testes (GAN e SAP) ocorrerá de 21/09 a 02/10, mantendo o cronograma para o Go-Live em 13/10/2026.",
-    "status_updated_at": "29/09/2026 23:24"
+    "date_updated": "1791292481951",
+    "ultimo_status": "A pedido da área de negócios, a fase de homologação foi postergada para o período de 05/10/26 a 19/10/26, após o alinhamento dos cenários de testes fiscais e de sistemas.\nEm decorrência desse ajuste no cronograma, a previsão de implantação (Go Live) foi reprogramada para o dia 27/10/26.",
+    "status_updated_at": "07/10/2026 23:59"
   },
   "86ae39wp7": {
     "date_updated": "1787263282880",
