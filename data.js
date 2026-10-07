@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 06/10/2026 23:31:54
-const lastUpdate = '06/10/2026 23:31:54';
+// Gerado automaticamente via ClickUp API + Gemini em 07/10/2026 17:11:38
+const lastUpdate = '07/10/2026 17:11:38';
 const rawData = [
   {
     "id": "86akqv1mt",
@@ -474,8 +474,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Cajamar 1 efetuar venda por Atacado\n",
-    "ultimo_status": "Com o CNPJ constituído, o projeto de abertura do CD Cajamar está suspenso temporariamente em agosto de 2026 devido à concorrência de outras prioridades fiscais.\nA retomada das atividades, incluindo a implementação do regime de substituto tributário e o setup dos sistemas, está agendada para setembro de 2026.",
-    "status_updated_at": "19/08/2026 20:59"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ae39wp7",
