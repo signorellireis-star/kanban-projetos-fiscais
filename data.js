@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 16/10/2026 18:35:07
-const lastUpdate = '16/10/2026 18:35:07';
+// Gerado automaticamente via ClickUp API + Gemini em 16/10/2026 22:27:22
+const lastUpdate = '16/10/2026 22:27:22';
 const rawData = [
   {
     "id": "86akqv1mt",
