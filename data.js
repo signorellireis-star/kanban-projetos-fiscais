@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 20/10/2026 22:54:09
-const lastUpdate = '20/10/2026 22:54:09';
+// Gerado automaticamente via ClickUp API + Gemini em 21/10/2026 14:49:18
+const lastUpdate = '21/10/2026 14:49:18';
 const rawData = [
   {
     "id": "86akqv1mt",
@@ -382,16 +382,16 @@ const rawData = [
   {
     "id": "86aghx74e",
     "name": "[PRJ]-Melhoria monitor SAP ADDVISOR",
-    "status": "EM HOMOLOGACAO",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "",
-    "ultimo_status": "O projeto segue com proposta em aprovação jurídica (Projuris) aguardando cronograma, com escopo definido para integrar o Portal Nacional NFS-e mantendo a arquitetura atual.\nA migração integral para a plataforma Cloud foi postergada para uma segunda fase, restando pendente o retorno da Addvisor sobre a proposta de suporte e o piloto de 30 dias.",
-    "status_updated_at": "29/09/2026 23:24"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86afkdv17",
