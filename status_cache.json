@@ -5,9 +5,9 @@
     "status_updated_at": "18/08/2026 20:54"
   },
   "86ajnr5t7": {
-    "date_updated": "1788440747543",
-    "ultimo_status": "Iniciativa em estágio preliminar de planejamento, sem registros de interações, progresso ou impedimentos até a presente data.\nAguardam-se as definições de escopo e o detalhamento da justificativa para a formalização do kick-off das atividades.",
-    "status_updated_at": "03/09/2026 15:08"
+    "date_updated": "1792972138904",
+    "ultimo_status": "Ausência de registros de andamento, impedimentos ou detalhamento formal da justificativa cadastrados até o momento.\nNecessária a inclusão do escopo inicial e o direcionamento das primeiras etapas operacionais para acompanhamento.",
+    "status_updated_at": "26/10/2026 16:26"
   },
   "86ajn2bf9": {
     "date_updated": "1787929465711",
@@ -80,9 +80,9 @@
     "status_updated_at": "07/10/2026 23:59"
   },
   "86a88zqpx": {
-    "date_updated": "1790348975056",
-    "ultimo_status": "A definição de responsabilidades pelo REQ 12 (base do IPI) segue pendente de validação executiva após recusa da área Fiscal por governança, adotando-se temporariamente a base do preço de venda.\nEm paralelo, a equipe mitiga os impactos sistêmicos de notas complementares por variação cambial por meio de propostas de hedge contratual junto à Trading.",
-    "status_updated_at": "25/09/2026 23:02"
+    "date_updated": "1792964473717",
+    "ultimo_status": "Adotou-se o preço de venda para determinar a BC do IPI (REQ 12), permanecendo pendente a alocação da responsabilidade de lançamento entre Fiscal e Comercial. \nParalelamente, recomendou-se a contratação de hedge com a Trading para evitar a emissão de NF Complementar por variação cambial e mitigar impactos sistêmicos.",
+    "status_updated_at": "26/10/2026 16:27"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
@@ -100,9 +100,9 @@
     "status_updated_at": "29/09/2026 00:09"
   },
   "86ajqc9ph": {
-    "date_updated": "1786823197698",
-    "ultimo_status": "Solicitada a elaboração do Documento Técnico (TD) para estruturação do fluxo de chamados fiscais e paralegais na plataforma HALO.\nO próximo passo consiste no desenho da solução para centralizar as demandas de e-mails e do sistema FCchamados, visando gerar indicadores da área.",
-    "status_updated_at": "15/08/2026 17:00"
+    "date_updated": "1792964496540",
+    "ultimo_status": "Solicitada a elaboração da Documentação Técnica (TD) para estruturação do novo fluxo de chamados das áreas Fiscal e Paralegal na plataforma HALO.\nA iniciativa prevê a substituição de canais legados e a construção da árvore de atendimento para centralização do histórico e geração de indicadores.",
+    "status_updated_at": "26/10/2026 16:26"
   },
   "86ah3zc5g": {
     "date_updated": "1786832640027",
@@ -185,9 +185,9 @@
     "status_updated_at": "04/09/2026 20:08"
   },
   "86a2b93g9": {
-    "date_updated": "1789000778437",
-    "ultimo_status": "A adequação das tags de pagamento (NT 2023.004) encontra-se suspensa pela TI, conforme diretriz de suspensão de projetos.\nOs esforços anteriores estavam focados na revisão do escopo da PPM e na consolidação de referências regulatórias da Sefaz-CE.",
-    "status_updated_at": "10/09/2026 10:08"
+    "date_updated": "1792964577384",
+    "ultimo_status": "Com as especificações técnicas mapeadas para conciliação fiscal, o projeto teve suas atividades oficialmente suspensas pela área de TI antes do envio da proposta ao Portal.\nA implementação das novas regras das tags de pagamento da NFe permanece paralisada, aguardando alinhamento estratégico e decisão sobre a retomada dos trabalhos.",
+    "status_updated_at": "26/10/2026 16:27"
   },
   "86akgweuf": {
     "date_updated": "1789393553619",
@@ -208,5 +208,10 @@
     "date_updated": "1790706400099",
     "ultimo_status": "Definidos os modelos de operação (Retira e Showroom), o foco atual está no envio de requisitos de infraestrutura e no desenho de três alternativas de integração técnica.\nA prioridade imediata é a implantação do modelo Mobicon no Iguatemi Goiânia para 1º de outubro, dependendo do envio de referências técnicas para validação interna.",
     "status_updated_at": "30/09/2026 16:14"
+  },
+  "17tw8yvcejj": {
+    "date_updated": "1792970023678",
+    "ultimo_status": "Sem registros de movimentação recente no histórico e com a documentação de justificativa pendente de preenchimento.\nNecessário alinhamento inicial com os stakeholders para formalização do escopo, cronograma e definição dos próximos passos.",
+    "status_updated_at": "26/10/2026 16:26"
   }
 }

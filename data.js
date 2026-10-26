@@ -1,6 +1,20 @@
-// Gerado automaticamente via ClickUp API + Gemini em 23/10/2026 22:51:22
-const lastUpdate = '23/10/2026 22:51:22';
+// Gerado automaticamente via ClickUp API + Gemini em 26/10/2026 16:27:17
+const lastUpdate = '26/10/2026 16:27:17';
 const rawData = [
+  {
+    "id": "17tw8yvcejj",
+    "name": "[PRJ]-Allied_Venda_Produto_Terceiro",
+    "status": "NOVO",
+    "status_ppm": "PPM não iniciada",
+    "kanban_status": "A FAZER",
+    "golive": "",
+    "prazo": "",
+    "ano_ppm": "2026",
+    "area": "Terceiros",
+    "resumo_raw": "Allied deixar produto em loja e vender com estoque próprio\n",
+    "ultimo_status": "Sem registros de movimentação recente no histórico e com a documentação de justificativa pendente de preenchimento.\nNecessário alinhamento inicial com os stakeholders para formalização do escopo, cronograma e definição dos próximos passos.",
+    "status_updated_at": "26/10/2026 16:26"
+  },
   {
     "id": "86akqv1mt",
     "name": "[PRJ]-Allied Venda em Loja",
@@ -18,16 +32,16 @@ const rawData = [
   {
     "id": "86akhjw3d",
     "name": "[PRJ]-Dark Store",
-    "status": "EM HOMOLOGACAO",
+    "status": "CONCLUIDO",
     "status_ppm": "Sem PPM",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "Estou sem os detalhes\n",
-    "ultimo_status": "O envio de um arquivo de imagem por Felipe Signorelli Reis constitui o registro mais recente na plataforma de comunicação.\nDevido à ausência de descritivos ou textos explicativos, o status atual e os próximos passos dependem de alinhamento com a equipe.",
-    "status_updated_at": "29/09/2026 23:24"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86akgxvzn",
@@ -130,21 +144,21 @@ const rawData = [
   {
     "id": "86ak2jcnd",
     "name": "[PRJ]-Cessão de crédito TradeMaster",
-    "status": "EM HOMOLOGACAO",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "",
     "prazo": "",
     "ano_ppm": "2025",
     "area": "Terceiros",
     "resumo_raw": "Atualmente, o canal B2B realiza vendas de produtos 1P Fast Shop utilizando os canais online (via site/jornada do cliente) como também o offline (via GAN ou site na função Sales Representative, este último é operado pelo time de backoffice B2B). Os meios de pagamento mais utilizados são Cartão de Crédito, Depósito à Vista, Faturado e Boleto. A opção de pagamento pelo Cartão de Crédito só é possível ocorrer pela plataforma Vtex, por intermediação do time de backoffice do B2B que realiza a venda de forma “assistida ou personalizada”. Todas as vendas do B2B são atribuídas à Tab.74.\n As vendas B2B consomem os estoques disponíveis da Fast Shop, entretanto as notas fiscais são emitidas com a finalidade “uso e consumo”, o que não reflete corretamente a natureza da operação.\n Essa limitação faz com que clientes B2B — especialmente de médio e grande porte, com maior rigor nos seus processos fiscais — deixem de comprar da Fast Shop por não receberem a nota fiscal com a finalidade “revenda”.\n Além disso, há um direcionamento estratégico na Fast Shop para priorizar a captura de benefícios fiscais oferecidos pelos Estados. Atualmente, os pedidos B2B não utilizam a operação do CD do Espírito Santo (filial 2F), mesmo sendo esse Estado um importante polo de benefícios fiscais mediante a ampliação de novas operações fiscais e de transporte.\n O CD Atacadista filial 2F possui regime especial de atacadista, mas desde sua implementação e parametrização no sistema GAN, apenas foram liberadas operações de recebimento de mercadorias (compras) e abastecimento para lojas ou outros CDs (transferências).\n Esta próxima fase será focada na liberação para que a filial 2F possa efetuar vendas na forma de atacadista, ou seja, com característica de revenda.\n Apenas o CD Paraíba já realizou vendas para revenda anteriormente, mas há tempos essa operação não é realizada e não se tem clareza sobre o comportamento atual do sistema.\n Para o CD ES, poderão ser copiadas as regras existentes e atualizados os pontos conforme definidos nesta PPM.\n A Fast Shop estabeleceu como um dos pilares para este ano o fortalecimento da operação B2B, com foco em atrair novos negócios e adequar os sistemas para atender com excelência as necessidades desse segmento. O modelo atacadista é um destes pilares e parte fundamental dessa estratégia, e a decisão de implementar a operação de revenda no Estado do ES é estratégica para evitar a perda de vendas em volumes significativos, garantindo a emissão correta das notas fiscais e o alinhamento com as exigências fiscais dos clientes.\n    \n",
-    "ultimo_status": "A pedido da área de negócios, a fase de homologação foi postergada para o período de 05/10/26 a 19/10/26, após o alinhamento dos cenários de testes fiscais e de sistemas.\nEm decorrência desse ajuste no cronograma, a previsão de implantação (Go Live) foi reprogramada para o dia 27/10/26.",
-    "status_updated_at": "07/10/2026 23:59"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86ajqc9ph",
     "name": "[PRJ}-Criação Chamados na plataforma HALO (Portal Fast)",
-    "status": "CRIANDO PPM",
+    "status": "AGUARDO INICIO HOMOL",
     "status_ppm": "PPM não iniciada",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -152,8 +166,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "As áreas Tributária, Fiscal e Paralegal recebem diversas demandas de outros departamentos internos na Fast Shop com a necessidade de realizar ajustes em sistema, regularizações jurídicas, ajustes para liberações de documentos Fiscais, além rastreabilidade e eficiência dos atendimentos destes pedidos, podendo ser registrados em um único ambiente, garantindo maior controle dos prazos, definição de responsabilidades, histórico centralizado das interações e melhor visibilidade sobre o volume e status dos atendimentos.\nO portal reduzirá riscos de perda das informações com uma melhora de governança nos processos, facilitando a geração de indicadores de desempenho e proporcionando uma experiência mais ágil e transparente tanto para o solicitante quanto para a equipe fiscal.\n    \n",
-    "ultimo_status": "Solicitada a elaboração do Documento Técnico (TD) para estruturação do fluxo de chamados fiscais e paralegais na plataforma HALO.\nO próximo passo consiste no desenho da solução para centralizar as demandas de e-mails e do sistema FCchamados, visando gerar indicadores da área.",
-    "status_updated_at": "15/08/2026 17:00"
+    "ultimo_status": "Solicitada a elaboração da Documentação Técnica (TD) para estruturação do novo fluxo de chamados das áreas Fiscal e Paralegal na plataforma HALO.\nA iniciativa prevê a substituição de canais legados e a construção da árvore de atendimento para centralização do histórico e geração de indicadores.",
+    "status_updated_at": "26/10/2026 16:26"
   },
   {
     "id": "86ajp65xa",
@@ -180,8 +194,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Terceiros",
     "resumo_raw": "",
-    "ultimo_status": "Iniciativa em estágio preliminar de planejamento, sem registros de interações, progresso ou impedimentos até a presente data.\nAguardam-se as definições de escopo e o detalhamento da justificativa para a formalização do kick-off das atividades.",
-    "status_updated_at": "03/09/2026 15:08"
+    "ultimo_status": "Ausência de registros de andamento, impedimentos ou detalhamento formal da justificativa cadastrados até o momento.\nNecessária a inclusão do escopo inicial e o direcionamento das primeiras etapas operacionais para acompanhamento.",
+    "status_updated_at": "26/10/2026 16:26"
   },
   {
     "id": "86ajn2bf9",
@@ -550,7 +564,7 @@ const rawData = [
   {
     "id": "86a88zqpx",
     "name": "[PRJ]-Importação por encomenda 2026",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "AGUARDO SUBIDA PRODUCAO",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -558,8 +572,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "A definição de responsabilidades pelo REQ 12 (base do IPI) segue pendente de validação executiva após recusa da área Fiscal por governança, adotando-se temporariamente a base do preço de venda.\nEm paralelo, a equipe mitiga os impactos sistêmicos de notas complementares por variação cambial por meio de propostas de hedge contratual junto à Trading.",
-    "status_updated_at": "25/09/2026 23:02"
+    "ultimo_status": "Adotou-se o preço de venda para determinar a BC do IPI (REQ 12), permanecendo pendente a alocação da responsabilidade de lançamento entre Fiscal e Comercial. \nParalelamente, recomendou-se a contratação de hedge com a Trading para evitar a emissão de NF Complementar por variação cambial e mitigar impactos sistêmicos.",
+    "status_updated_at": "26/10/2026 16:27"
   },
   {
     "id": "86a7p7uwv",
@@ -642,8 +656,8 @@ const rawData = [
     "ano_ppm": "2024",
     "area": "Fiscal",
     "resumo_raw": "Este projeto irá tratar a correção e melhoria de 4 situações (documentos fiscais), impactadas pela NT 2023.004 v1.11 Regra de validação (YA04-10) que entrou em vigor a partir de 01.07.2024.\n\nA Fast Shop está recebendo diversos autos de infração por não conseguir explicar corretamente onde os valores pagos eletronicamente pelos clientes estão sendo processados, e as tags mencionada nesta PPM, irão esclarecer essas situações para evitarmos questionamentos.\n\nLegislação: NT 2023.004 v1.11 \n\n",
-    "ultimo_status": "A adequação das tags de pagamento (NT 2023.004) encontra-se suspensa pela TI, conforme diretriz de suspensão de projetos.\nOs esforços anteriores estavam focados na revisão do escopo da PPM e na consolidação de referências regulatórias da Sefaz-CE.",
-    "status_updated_at": "10/09/2026 10:08"
+    "ultimo_status": "Com as especificações técnicas mapeadas para conciliação fiscal, o projeto teve suas atividades oficialmente suspensas pela área de TI antes do envio da proposta ao Portal.\nA implementação das novas regras das tags de pagamento da NFe permanece paralisada, aguardando alinhamento estratégico e decisão sobre a retomada dos trabalhos.",
+    "status_updated_at": "26/10/2026 16:27"
   },
   {
     "id": "86a214c63",
@@ -718,6 +732,7 @@ const rawData = [
 ];
 
 const resumosMap = {
+  "[PRJ]-Allied_Venda_Produto_Terceiro": "Allied deixar produto em loja e vender com estoque próprio\n",
   "[PRJ]-Allied Venda em Loja": "Visão Geral do Projeto\n      Parceria Allied (Live) + Fast Shop para venda de Samsung e Apple em lojas físicas\n      Dois modelos de operação desenhados: CIS/Retira (azul) e Mostruário + entrega (vermelho)\n      Premissa central: cliente não percebe que está comprando da Allied e não da Fast Shop\n",
   "[PRJ]-Dark Store": "Estou sem os detalhes\n",
   "[PRJ]-Incluir o Frete no custo da mercadoria (Ex: MG que pagamos Frete ST por fora)": "FOi levantado a necessidade do custo do frete ser incorporado ao custo da mercadoria média móvel.\nAtualmente apenas o Estado de MG se pronunciou e exigiu o recolhimento do ICMS ST sobre o frete que muitas empresas não incorporam ao seu custo.\n\n",
