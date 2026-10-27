@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 27/10/2026 15:43:32
-const lastUpdate = '27/10/2026 15:43:32';
+// Gerado automaticamente via ClickUp API + Gemini em 27/10/2026 23:26:32
+const lastUpdate = '27/10/2026 23:26:32';
 const rawData = [
   {
     "id": "17tw8yvcejj",
@@ -166,8 +166,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "As áreas Tributária, Fiscal e Paralegal recebem diversas demandas de outros departamentos internos na Fast Shop com a necessidade de realizar ajustes em sistema, regularizações jurídicas, ajustes para liberações de documentos Fiscais, além rastreabilidade e eficiência dos atendimentos destes pedidos, podendo ser registrados em um único ambiente, garantindo maior controle dos prazos, definição de responsabilidades, histórico centralizado das interações e melhor visibilidade sobre o volume e status dos atendimentos.\nO portal reduzirá riscos de perda das informações com uma melhora de governança nos processos, facilitando a geração de indicadores de desempenho e proporcionando uma experiência mais ágil e transparente tanto para o solicitante quanto para a equipe fiscal.\n    \n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Solicitada a elaboração da Documentação Técnica (TD) ao responsável técnico para viabilizar a migração dos fluxos Fiscal e Paralegal para a plataforma HALO.\nA construção da árvore de chamados e a substituição do sistema legado ocorrerão ao longo do ciclo de desenvolvimento do projeto.",
+    "status_updated_at": "27/10/2026 23:26"
   },
   {
     "id": "86ajp65xa",
@@ -334,8 +334,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "A documentação do projeto (PPM) está sendo estruturada com base no resumo dos ajustes validados junto à Neogrid.\nParalelamente, avalia-se a viabilidade técnica do webservice de Barueri para garantir a automação completa do envio e retorno das NFS-e.",
+    "status_updated_at": "27/10/2026 23:26"
   },
   {
     "id": "86ahfj7dm",

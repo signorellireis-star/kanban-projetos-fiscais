@@ -50,9 +50,9 @@
     "status_updated_at": "17/08/2026 11:02"
   },
   "86ahfje7y": {
-    "date_updated": "1787932794109",
-    "ultimo_status": "Elaboração da PPM em andamento com base no resumo de ajustes da Neogrid, pendendo de validação técnica sobre a automatização do webservice de Barueri.\nA viabilidade do projeto está condicionada à confirmação do retorno automático da NFS-e, eliminando o risco de processos manuais de download de XMLs.",
-    "status_updated_at": "28/08/2026 21:58"
+    "date_updated": "1793113214930",
+    "ultimo_status": "A documentação do projeto (PPM) está sendo estruturada com base no resumo dos ajustes validados junto à Neogrid.\nParalelamente, avalia-se a viabilidade técnica do webservice de Barueri para garantir a automação completa do envio e retorno das NFS-e.",
+    "status_updated_at": "27/10/2026 23:26"
   },
   "86ahe92c9": {
     "date_updated": "1793113235244",
@@ -100,9 +100,9 @@
     "status_updated_at": "29/09/2026 00:09"
   },
   "86ajqc9ph": {
-    "date_updated": "1792964496540",
-    "ultimo_status": "Solicitada a elaboração da Documentação Técnica (TD) para estruturação do novo fluxo de chamados das áreas Fiscal e Paralegal na plataforma HALO.\nA iniciativa prevê a substituição de canais legados e a construção da árvore de atendimento para centralização do histórico e geração de indicadores.",
-    "status_updated_at": "26/10/2026 16:26"
+    "date_updated": "1793114674904",
+    "ultimo_status": "Solicitada a elaboração da Documentação Técnica (TD) ao responsável técnico para viabilizar a migração dos fluxos Fiscal e Paralegal para a plataforma HALO.\nA construção da árvore de chamados e a substituição do sistema legado ocorrerão ao longo do ciclo de desenvolvimento do projeto.",
+    "status_updated_at": "27/10/2026 23:26"
   },
   "86ah3zc5g": {
     "date_updated": "1793112889312",
