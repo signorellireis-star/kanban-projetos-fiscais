@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 26/10/2026 23:32:54
-const lastUpdate = '26/10/2026 23:32:54';
+// Gerado automaticamente via ClickUp API + Gemini em 27/10/2026 15:43:32
+const lastUpdate = '27/10/2026 15:43:32';
 const rawData = [
   {
     "id": "17tw8yvcejj",
@@ -87,7 +87,7 @@ const rawData = [
   },
   {
     "id": "86akb93n8",
-    "name": "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe",
+    "name": "[PRJ]-Reforma Tributária NFE/NFCe",
     "status": "AGUARDO INICIO HOMOL",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
@@ -96,8 +96,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Fase 2 da Reforma tributária fase 2.1\n",
-    "ultimo_status": "Realizado alinhamento com a TI via novo identificador de tarefa e atualizado o escopo para inclusão de notas manuais de Serviço com o novo caractere.\nO fluxo segue em desenvolvimento técnico para parametrização da NFe, sem registro de impedimentos até o momento.",
-    "status_updated_at": "03/09/2026 15:08"
+    "ultimo_status": "Criado novo ID de acompanhamento para alinhamento operacional com a TI e segregação das atividades do projeto.\nRequisitos atualizados para contemplar as novas diretrizes tributárias na emissão de notas manuais de serviço.",
+    "status_updated_at": "27/10/2026 15:41"
   },
   {
     "id": "86ak7un50",
@@ -116,16 +116,16 @@ const rawData = [
   {
     "id": "86ak7tejr",
     "name": "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO",
-    "status": "EM REUNIOES",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM em Andamento",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "",
     "prazo": "",
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
-    "ultimo_status": "Alinhamento de escopo com a consultoria ELO mapeou alta complexidade em automações fiscais e risco de prazo frente ao *freeze* de fim de ano.\nA Fast Shop detalhará cenários de negócio adicionais para subsidiar a estimativa de esforço e a apresentação da proposta comercial até o final da semana.",
-    "status_updated_at": "08/09/2026 15:09"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "86ak7rpe7",
@@ -158,7 +158,7 @@ const rawData = [
   {
     "id": "86ajqc9ph",
     "name": "[PRJ}-Criação Chamados na plataforma HALO (Portal Fast)",
-    "status": "AGUARDO INICIO HOMOL",
+    "status": "IDEIA CONGELADA",
     "status_ppm": "PPM não iniciada",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -166,8 +166,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "As áreas Tributária, Fiscal e Paralegal recebem diversas demandas de outros departamentos internos na Fast Shop com a necessidade de realizar ajustes em sistema, regularizações jurídicas, ajustes para liberações de documentos Fiscais, além rastreabilidade e eficiência dos atendimentos destes pedidos, podendo ser registrados em um único ambiente, garantindo maior controle dos prazos, definição de responsabilidades, histórico centralizado das interações e melhor visibilidade sobre o volume e status dos atendimentos.\nO portal reduzirá riscos de perda das informações com uma melhora de governança nos processos, facilitando a geração de indicadores de desempenho e proporcionando uma experiência mais ágil e transparente tanto para o solicitante quanto para a equipe fiscal.\n    \n",
-    "ultimo_status": "Solicitada a elaboração da Documentação Técnica (TD) para estruturação do novo fluxo de chamados das áreas Fiscal e Paralegal na plataforma HALO.\nA iniciativa prevê a substituição de canais legados e a construção da árvore de atendimento para centralização do histórico e geração de indicadores.",
-    "status_updated_at": "26/10/2026 16:26"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ajp65xa",
@@ -326,7 +326,7 @@ const rawData = [
   {
     "id": "86ahfje7y",
     "name": "[PRJ:]-Reforma Tributária - NFSe Nacional GAN Fase 2",
-    "status": "T.I TRABALHANDO",
+    "status": "AGUARDO INICIO HOMOL",
     "status_ppm": "PPM em Andamento",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -334,8 +334,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
-    "ultimo_status": "Elaboração da PPM em andamento com base no resumo de ajustes da Neogrid, pendendo de validação técnica sobre a automatização do webservice de Barueri.\nA viabilidade do projeto está condicionada à confirmação do retorno automático da NFS-e, eliminando o risco de processos manuais de download de XMLs.",
-    "status_updated_at": "28/08/2026 21:58"
+    "ultimo_status": "",
+    "status_updated_at": ""
   },
   {
     "id": "86ahfj7dm",
@@ -362,8 +362,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
-    "ultimo_status": "Em fase de homologação de testes no ambiente SAP-QA (transação ZFI165), com previsão de entrega final para a próxima semana.\nAlinhamentos com Alexander e Medeiros sobre possível bloqueio da PPM estão em andamento para mitigar riscos ao cronograma.",
-    "status_updated_at": "30/09/2026 23:24"
+    "ultimo_status": "Homologação em andamento no ambiente SAP-QA (transação ZFI165), com previsão de entrega para a próxima semana.\nEm paralelo, tratativas internas estão sendo conduzidas para solucionar a pendência da PPM e evitar impedimentos no fluxo.",
+    "status_updated_at": "27/10/2026 15:41"
   },
   {
     "id": "86ah40j3y",
@@ -382,7 +382,7 @@ const rawData = [
   {
     "id": "86ah3zc5g",
     "name": "[PRJ]-Reestruturar processo de cancelamento NFCe",
-    "status": "EM REUNIOES",
+    "status": "AGUARDO INICIO HOMOL",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -390,8 +390,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "  Objetivo: Reestruturar conceito de chamada de cancelamento ou inutilização das NFCe no Gan.\nEstamos identificando ocorrências em que a NFC-e consta como cancelada no Gan, embora permaneça aprovada/autorizada na Sefaz.\nEssa situação ocorre em razão do atraso na comunicação entre Gan e NDD, o que pode levar o sistema a interpretar incorretamente o status final do documento fiscal. Quando uma NFC-e é emitida, existe um tempo limite para retorno do processamento. Se esse prazo for excedido, o Gan pode acionar automaticamente o cancelamento da NFC-e. No entanto, em determinados casos, a nota já foi autorizada pela Sefaz, gerando divergência entre o status registrado no Gan e a situação real do documento fiscal.\nO impacto dessa falha se reflete em diversas etapas de ajuste interno, entre elas:\n·         Abertura de chamado para que o Gan volte a considerar a NFC-e como ativa.\n·         Ajuste de estoque. Caso esse processo não seja realizado, o saldo permanece incorreto.\n·         Em determinadas situações, o Gan cancela a nota e é realizado um refaturamento. Nesses casos, duas notas ficam autorizadas para o mesmo SKU vendido. Para regularização, torna-se necessário gerar uma DV ficta para neutralizar a venda da NFC-e original, processo que atualmente não faz parte da rotina do time fiscal.\nTodo esse processo consome tempo do time fiscal, embora essa área não seja a responsável por executar ajustes sistêmicos nem por realizar abertura de chamados.\nCaso real: em 04/2026, fomos notificados pela BA em razão de confronto de estoque, no qual foram identificadas divergências entre a movimentação das notas fiscais e a declaração do SPED. Na análise de um dos casos, verificou-se que a nota fiscal estava aprovada na Sefaz, porém permanecia cancelada no Gan. Como o sistema manteve o status incorreto, o estoque final do mês foi fechado com 1 peça a maior. Consequentemente, foi declarado no SPED Fiscal, bloco H, o saldo de 1 peça em estoque, quando o correto seria saldo zero. Considerando o conjunto de SKUs afetados, houve notificação no valor aproximado de R$ 9 mil relacionada a essas ocorrências.\nO aumento dessas ocorrências está relacionado à implementação do projeto que direcionou todas as notas de vendas presenciais para emissão via NFC-e. Como o Estado de São Paulo não estava contemplado originalmente na regra, houve ampliação da exposição a esse tipo de falha.\nPrecisamos efetuar ajuste no Gan + NDD para identificar a falha.\nNa análise realizada, identificamos casos em que a autorização da Sefaz ocorreu cerca de 2 minutos após o envio do pedido de cancelamento, evidenciando a defasagem de comunicação que origina a inconsistência de status.\n    \n",
-    "ultimo_status": "O projeto registra como última movimentação o compartilhamento de uma imagem por Sergio Sanchez, sem detalhamento textual de progresso no histórico.\nAguardam-se a definição da justificativa formal e a análise do arquivo enviado para o direcionamento das próximas etapas e alinhamento do escopo.",
-    "status_updated_at": "17/08/2026 11:03"
+    "ultimo_status": "A reestruturação do processo de cancelamento da NFCe consta sem justificativa cadastrada e com última interação limitada ao envio de uma imagem por Sergio Sanchez.\nInexistem registros formais sobre o andamento atual das etapas, impedimentos ou definições dos próximos passos.",
+    "status_updated_at": "27/10/2026 15:42"
   },
   {
     "id": "86aghx74e",
@@ -437,8 +437,8 @@ const rawData = [
   },
   {
     "id": "86af3zqga",
-    "name": "[PRJ]-Reforma Tributária SAP - Fase 2 (GAN)",
-    "status": "T.I TRABALHANDO",
+    "name": "[PRJ]-Reforma Tributária SAP - NFE / NFSE​",
+    "status": "AGUARDO INICIO HOMOL",
     "status_ppm": "PPM Finalizada - Está no portal",
     "kanban_status": "EM ANDAMENTO",
     "golive": "",
@@ -446,8 +446,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
-    "ultimo_status": "Ajustes para emissão de documentos de transferência foram implantados e a proposta técnica da ELO para a Fase I foi validada pela área de negócios.\nOs próximos passos pendentes envolvem o envio à ELO das definições de eventos de NF-e no SAP e dos layouts dos relatórios para o livro fiscal.",
-    "status_updated_at": "28/08/2026 21:58"
+    "ultimo_status": "Promovidos os ajustes de transferências (CST/cClassTrib) e alinhado o escopo da Reforma Tributária (NT 002.2025) contemplando os módulos MM, FI e CO.\nPendente o envio à fornecedora ELO das especificações dos eventos de NFe no SAP, modelos de layouts fiscais e devolutiva formal à ata.",
+    "status_updated_at": "27/10/2026 15:42"
   },
   {
     "id": "86af3zj95",
@@ -572,8 +572,8 @@ const rawData = [
     "ano_ppm": "2025",
     "area": "Fiscal",
     "resumo_raw": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",
-    "ultimo_status": "Adotou-se o preço de venda para determinar a BC do IPI (REQ 12), permanecendo pendente a alocação da responsabilidade de lançamento entre Fiscal e Comercial. \nParalelamente, recomendou-se a contratação de hedge com a Trading para evitar a emissão de NF Complementar por variação cambial e mitigar impactos sistêmicos.",
-    "status_updated_at": "26/10/2026 16:27"
+    "ultimo_status": "Adotou-se a regra legal alternativa para cálculo da base do IPI (REQ 12) e estruturou-se contornamento temporário para as notas complementares de variação cambial.\nA definição de responsabilidade pelo lançamento de valores no GAN permanece pendente entre Fiscal e Comercial, sendo escalada para a próxima reunião de status.",
+    "status_updated_at": "27/10/2026 15:43"
   },
   {
     "id": "86a7p7uwv",
@@ -698,22 +698,22 @@ const rawData = [
     "ano_ppm": "2023",
     "area": "Terceiros",
     "resumo_raw": " A adoção do modelo de Fulfillment no marketplace Amazon (FBA) consiste no envio de parte do estoque da Fast Shop para os centros de distribuição da Amazon, que passa a ser responsável por toda a operação logística — incluindo armazenamento, separação, expedição, entrega, atendimento ao cliente (SAC logístico) e logística reversa.\nEsse modelo potencializa a competitividade ao proporcionar melhores níveis de serviço (SLA), elegibilidade ao programa Prime, aumento da taxa de conversão nas vitrines e fortalecimento da reputação nas plataformas, além de possibilitar ganhos de eficiência operacional e otimização de custos logísticos. A adoção do modelo FBA visa ganho de competitividade (Prime, SLA, conversão), porém o modelo atual apresenta inviabilidade tributária no cenário SP (CJ63 → CJ05), exigindo revisão da malha logística e do modelo fiscal para viabilização econômica. Diante disso, foi aprovada a utilização de Santa Catarina (SC) como centro consolidador logístico, com o objetivo de viabilizar economicamente o modelo FBA.\n    \n",
-    "ultimo_status": "Homologação avançou para a definição do Go-Live do FBA e da filial 05 em 15/09, após ajustes operacionais e fiscais com o parceiro.\nA coordenação concentra-se atualmente na validação e mitigação dos requisitos impeditivos finais para assegurar a implantação segura.",
-    "status_updated_at": "15/09/2026 22:40"
+    "ultimo_status": "Análise dos requisitos impeditivos em andamento para viabilizar a implantação da operação FBA e da Filial 05.\nA entrada em produção (Go-Live) de ambas as frentes está confirmada e agendada para o dia 15/09.",
+    "status_updated_at": "27/10/2026 15:43"
   },
   {
     "id": "864e98d8y",
     "name": "[PRJ:]-Projeto X3 Atacadista Revenda",
-    "status": "AGUARDO SUBIDA PRODUCAO",
+    "status": "CONCLUIDO",
     "status_ppm": "PPM Finalizada - Está no portal",
-    "kanban_status": "EM ANDAMENTO",
+    "kanban_status": "CONCLUIDO",
     "golive": "Set/2026",
     "prazo": "",
     "ano_ppm": "2023",
     "area": "Fiscal",
     "resumo_raw": "Permitir que a Filial X3 Atacadista efetue vendas para revenda.\nAtualmente apenas efetua transferência.\n\n",
-    "ultimo_status": "Fase de testes inicia em 20/08 após revisão fiscal conjunta (Fiscal/IBM) de emissão de notas e estruturação do plano de testes no Teams.\nCronograma foi replanejado com homologação e Go-Live previstos para 15/09, estendendo o período de Hypercare até 16/10.",
-    "status_updated_at": "29/09/2026 00:09"
+    "ultimo_status": "Concluido",
+    "status_updated_at": ""
   },
   {
     "id": "3d3hxfr",
@@ -738,7 +738,7 @@ const resumosMap = {
   "[PRJ]-Incluir o Frete no custo da mercadoria (Ex: MG que pagamos Frete ST por fora)": "FOi levantado a necessidade do custo do frete ser incorporado ao custo da mercadoria média móvel.\nAtualmente apenas o Estado de MG se pronunciou e exigiu o recolhimento do ICMS ST sobre o frete que muitas empresas não incorporam ao seu custo.\n\n",
   "[PRJ]-Projeto Substituto Tributário RJ - FL 0027": "O processo nº 040006/009771/2025, referente ao pedido de Regime Especial de ICMS-ST para o Centro de Distribuição da Fast Shop no RJ (CNPJ 43.708.379/0027-30), avançou com pareceres favoráveis da área técnica e da assessoria jurídica da SEFAZ-RJ. O parecer técnico propôs a concessão do Regime Especial ST nº 010/26, com validade até 31/05/2031, transferindo para a Fast Shop a responsabilidade pelo recolhimento do ICMS-ST das mercadorias destinadas ao CD do Rio de Janeiro.\n",
   "[PRJ]-MARC_ Documentos para Ressarcimento": "Enviar documentos para geração de ressarcimento de Outras UFs (Direferente de SP)\n\n",
-  "[PRJ]-Reforma Tributária Fase 2.1 Gan NFe": "Fase 2 da Reforma tributária fase 2.1\n",
+  "[PRJ]-Reforma Tributária NFE/NFCe": "Fase 2 da Reforma tributária fase 2.1\n",
   "[PRJ]-Projeto para emissão de NFSe sobre Locação": "Possibilitar emissão de NFSe sobre Locação. Necessário entender as Regras de legislação e como informar na NFSe as tags corretas\n",
   "[PRJ]-Proposta SAP - Reforma Tributaria 2027 - ELO": "Ajudar o SAP para emissão de notas com IBS/CBS somado a nota. \nRecebimentos de notas\nDevoluções de notas a fornecedores\n",
   "[PRJ}-Apple Pay": "Objetivo:\n\nPermitir que clientes realizem pagamentos utilizando a carteira digital da Apple, promovendo agilidade, segurança e\nmodernização no atendimento. A orquestração do pagamento será realizada pela solução nativa (Tuna), garantindo\nconformidade e redução de atrito.\n\n1.1. PROCESSO AS IS e TO BE:\n\nAtualmente, a empresa não disponibiliza carteiras digitais como método de pagamento. As transações são realizadas apenas\npor meio de cartões de crédito, lista de casamento, voucher e PIX.\n\nAS IS: Empresa não disponibiliza carteiras digitais. Pagamentos limitados a cartão, PIX, voucher e lista de casamento. Impacto\nna conversão devido à fricção na digitação de dados.\nTO BE: Apple Pay disponível nativamente no Safari e via QR Code em outros navegadores/dispositivos, com jornada de\ncheckout otimizada.\n",
@@ -753,7 +753,7 @@ const resumosMap = {
   "[PRJ:]-Reforma Tributária - NFSe Nacional GAN Fase 2": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
   "[PRJ]-DIMP Atendimento a Fiscalização": "Corriqueiramente a Fast Shop é notificada pela Secretaria da Fazenda a prestar informações sobre diferenças identificas entre o arquivo DIMP enviado pelas operadoras de cartão e as notas fiscais emitidas de vendas de mercadorias. O que é a DIMP: A DIMP (Declaração de Informações de Meios de Pagamentos) é uma obrigação acessória digital exigida pelas Secretarias de Fazenda estaduais (Sefaz) desde 2020. Ela reúne informações de todas as transações feitas por cartões (crédito/débito), PIX, e outros meios eletrônicos, enviadas por intermediadores de pagamentos para cruzar com a receita declarada pelas empresas e combater a sonegação fiscal. Exemplo da operação: Quando ocorre uma venda de mercadoria e o cliente efetua o pagamento por meio de pagamento por cartões o PIX (meios eletrônicos), a operadora de cartão consolida todas as operações do mês e envia o documento DIMP. A Sefaz recebe esse arquivo e compara com os documentos emitidos.\nExemplo da comparação: Supondo que ocorra uma venda em loja, o cliente efetue o pagamento por cartão de crédito no valor de 1.500,00. Via de regra, haveria uma emissão da nota de venda subsequente no valor de 1.000,00.\nNo fechamento do mês a operadora de cartão enviará a DIMP com esse documento mencionado no arquivo e seu valor.\nA nota fiscal de venda emitida será declarada no SPED FISCAL na apuração de imposto referente ao mês de emissão. \nO fisco irá pegar o arquivo da DIMP e todas as notas emitidas e comparar se resultará em saldo ZERO.\nSe os valores declarados na DIMP forem os mesmos valores das emissões dos documentos, então não haverá diferenças.\n",
   "[PRJ]-Reestruturar processo de cancelamento NFCe": "  Objetivo: Reestruturar conceito de chamada de cancelamento ou inutilização das NFCe no Gan.\nEstamos identificando ocorrências em que a NFC-e consta como cancelada no Gan, embora permaneça aprovada/autorizada na Sefaz.\nEssa situação ocorre em razão do atraso na comunicação entre Gan e NDD, o que pode levar o sistema a interpretar incorretamente o status final do documento fiscal. Quando uma NFC-e é emitida, existe um tempo limite para retorno do processamento. Se esse prazo for excedido, o Gan pode acionar automaticamente o cancelamento da NFC-e. No entanto, em determinados casos, a nota já foi autorizada pela Sefaz, gerando divergência entre o status registrado no Gan e a situação real do documento fiscal.\nO impacto dessa falha se reflete em diversas etapas de ajuste interno, entre elas:\n·         Abertura de chamado para que o Gan volte a considerar a NFC-e como ativa.\n·         Ajuste de estoque. Caso esse processo não seja realizado, o saldo permanece incorreto.\n·         Em determinadas situações, o Gan cancela a nota e é realizado um refaturamento. Nesses casos, duas notas ficam autorizadas para o mesmo SKU vendido. Para regularização, torna-se necessário gerar uma DV ficta para neutralizar a venda da NFC-e original, processo que atualmente não faz parte da rotina do time fiscal.\nTodo esse processo consome tempo do time fiscal, embora essa área não seja a responsável por executar ajustes sistêmicos nem por realizar abertura de chamados.\nCaso real: em 04/2026, fomos notificados pela BA em razão de confronto de estoque, no qual foram identificadas divergências entre a movimentação das notas fiscais e a declaração do SPED. Na análise de um dos casos, verificou-se que a nota fiscal estava aprovada na Sefaz, porém permanecia cancelada no Gan. Como o sistema manteve o status incorreto, o estoque final do mês foi fechado com 1 peça a maior. Consequentemente, foi declarado no SPED Fiscal, bloco H, o saldo de 1 peça em estoque, quando o correto seria saldo zero. Considerando o conjunto de SKUs afetados, houve notificação no valor aproximado de R$ 9 mil relacionada a essas ocorrências.\nO aumento dessas ocorrências está relacionado à implementação do projeto que direcionou todas as notas de vendas presenciais para emissão via NFC-e. Como o Estado de São Paulo não estava contemplado originalmente na regra, houve ampliação da exposição a esse tipo de falha.\nPrecisamos efetuar ajuste no Gan + NDD para identificar a falha.\nNa análise realizada, identificamos casos em que a autorização da Sefaz ocorreu cerca de 2 minutos após o envio do pedido de cancelamento, evidenciando a defasagem de comunicação que origina a inconsistência de status.\n    \n",
-  "[PRJ]-Reforma Tributária SAP - Fase 2 (GAN)": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
+  "[PRJ]-Reforma Tributária SAP - NFE / NFSE​": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Recebimento de notas de serviço por terceiros. Configurar o SAP para estar preparado para recebimento destes documentos fiscais. Tanto para NFe e NFSe\n",
   "[PRJ]-Operador Logístico Fase 2 - Cajamar Abastacer": "Efetuar abastecimento dos operadores logisticos pela filial Cajamar 1 (63)\n",
   "[PRJ]:Atacadistas São Paulo Cajamar": "Cajamar 1 efetuar venda por Atacado\n",
   "[PRJ]-Importação por encomenda 2026": " O objetivo desta demanda é adaptar os sistemas da Fast Shop para atender o processo de venda de produtos importados por encomenda. Com a implantação do processo de venda com exclusividade para estes produtos, os sistemas envolvidos devem ser adaptados para proporcionar o controle sobre o IPI, que deve ser recolhido sempre na primeira movimentação do produto após seu recebimento no Centro de Distribuição (CD) Cajamar 1 – filial , ou seja, só ocorrerá nas saídas de transferências para as Lojas ou CDs, incluído o Cajamar 2 (filial 33)\nO que é importação por encomenda:\nA importação por encomenda ocorre quando uma empresa (encomendante) contrata outra (importadora) para importar bens em seu nome. A importadora compra com seus próprios recursos e revende ao encomendante após o desembaraço aduaneiro.\nFuncionamento: Contrato define termos; importadora compra; realiza o despacho aduaneiro em seu nome; e revende as mercadorias.\nCaracterísticas: A importadora é totalmente responsável e usa seus próprios recursos. A relação é contratual e registrada no Siscomex.\nDiferença da importação por conta e ordem: Na encomenda, a importadora compra e revende com seus recursos; na conta e ordem, a encomendante compra e paga os custos à importadora, que apenas realiza o despacho.\nVantagens: Agilidade, potencial redução de custos e flexibilidade na escolha de fornecedores e condições.\nImportante: Requer registro no Siscomex e habilitação de ambas as empresas no comércio exterior.\nNo processo de importação por encomenda a importadora contratada, após o desembaraço aduaneiro e todos os processos inerentes, emitira uma NFe de venda para a Fast Shop. A partir deste ponto, o processo da Fast Shop seguirá um fluxo comum de entrada de mercadoria.\n",

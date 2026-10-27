@@ -55,9 +55,9 @@
     "status_updated_at": "28/08/2026 21:58"
   },
   "86ahe92c9": {
-    "date_updated": "1790796272463",
-    "ultimo_status": "Em fase de homologação de testes no ambiente SAP-QA (transação ZFI165), com previsão de entrega final para a próxima semana.\nAlinhamentos com Alexander e Medeiros sobre possível bloqueio da PPM estão em andamento para mitigar riscos ao cronograma.",
-    "status_updated_at": "30/09/2026 23:24"
+    "date_updated": "1793113235244",
+    "ultimo_status": "Homologação em andamento no ambiente SAP-QA (transação ZFI165), com previsão de entrega para a próxima semana.\nEm paralelo, tratativas internas estão sendo conduzidas para solucionar a pendência da PPM e evitar impedimentos no fluxo.",
+    "status_updated_at": "27/10/2026 15:41"
   },
   "86aghx74e": {
     "date_updated": "1790710572885",
@@ -65,9 +65,9 @@
     "status_updated_at": "29/09/2026 23:24"
   },
   "86af3zqga": {
-    "date_updated": "1787932237617",
-    "ultimo_status": "Ajustes para emissão de documentos de transferência foram implantados e a proposta técnica da ELO para a Fase I foi validada pela área de negócios.\nOs próximos passos pendentes envolvem o envio à ELO das definições de eventos de NF-e no SAP e dos layouts dos relatórios para o livro fiscal.",
-    "status_updated_at": "28/08/2026 21:58"
+    "date_updated": "1793113241419",
+    "ultimo_status": "Promovidos os ajustes de transferências (CST/cClassTrib) e alinhado o escopo da Reforma Tributária (NT 002.2025) contemplando os módulos MM, FI e CO.\nPendente o envio à fornecedora ELO das especificações dos eventos de NFe no SAP, modelos de layouts fiscais e devolutiva formal à ata.",
+    "status_updated_at": "27/10/2026 15:42"
   },
   "86af3zj95": {
     "date_updated": "1786832696816",
@@ -80,9 +80,9 @@
     "status_updated_at": "07/10/2026 23:59"
   },
   "86a88zqpx": {
-    "date_updated": "1792964473717",
-    "ultimo_status": "Adotou-se o preço de venda para determinar a BC do IPI (REQ 12), permanecendo pendente a alocação da responsabilidade de lançamento entre Fiscal e Comercial. \nParalelamente, recomendou-se a contratação de hedge com a Trading para evitar a emissão de NF Complementar por variação cambial e mitigar impactos sistêmicos.",
-    "status_updated_at": "26/10/2026 16:27"
+    "date_updated": "1793113248376",
+    "ultimo_status": "Adotou-se a regra legal alternativa para cálculo da base do IPI (REQ 12) e estruturou-se contornamento temporário para as notas complementares de variação cambial.\nA definição de responsabilidade pelo lançamento de valores no GAN permanece pendente entre Fiscal e Comercial, sendo escalada para a próxima reunião de status.",
+    "status_updated_at": "27/10/2026 15:43"
   },
   "86a3vz587": {
     "date_updated": "1787081969010",
@@ -90,9 +90,9 @@
     "status_updated_at": "18/08/2026 20:56"
   },
   "864ee7nrp": {
-    "date_updated": "1789478717921",
-    "ultimo_status": "Homologação avançou para a definição do Go-Live do FBA e da filial 05 em 15/09, após ajustes operacionais e fiscais com o parceiro.\nA coordenação concentra-se atualmente na validação e mitigação dos requisitos impeditivos finais para assegurar a implantação segura.",
-    "status_updated_at": "15/09/2026 22:40"
+    "date_updated": "1793113256073",
+    "ultimo_status": "Análise dos requisitos impeditivos em andamento para viabilizar a implantação da operação FBA e da Filial 05.\nA entrada em produção (Go-Live) de ambas as frentes está confirmada e agendada para o dia 15/09.",
+    "status_updated_at": "27/10/2026 15:43"
   },
   "864e98d8y": {
     "date_updated": "1790603210645",
@@ -105,9 +105,9 @@
     "status_updated_at": "26/10/2026 16:26"
   },
   "86ah3zc5g": {
-    "date_updated": "1786832640027",
-    "ultimo_status": "O projeto registra como última movimentação o compartilhamento de uma imagem por Sergio Sanchez, sem detalhamento textual de progresso no histórico.\nAguardam-se a definição da justificativa formal e a análise do arquivo enviado para o direcionamento das próximas etapas e alinhamento do escopo.",
-    "status_updated_at": "17/08/2026 11:03"
+    "date_updated": "1793112889312",
+    "ultimo_status": "A reestruturação do processo de cancelamento da NFCe consta sem justificativa cadastrada e com última interação limitada ao envio de uma imagem por Sergio Sanchez.\nInexistem registros formais sobre o andamento atual das etapas, impedimentos ou definições dos próximos passos.",
+    "status_updated_at": "27/10/2026 15:42"
   },
   "86ahgemnb": {
     "date_updated": "1787081907781",
@@ -170,9 +170,9 @@
     "status_updated_at": "28/08/2026 21:57"
   },
   "86akb93n8": {
-    "date_updated": "1788442505719",
-    "ultimo_status": "Realizado alinhamento com a TI via novo identificador de tarefa e atualizado o escopo para inclusão de notas manuais de Serviço com o novo caractere.\nO fluxo segue em desenvolvimento técnico para parametrização da NFe, sem registro de impedimentos até o momento.",
-    "status_updated_at": "03/09/2026 15:08"
+    "date_updated": "1793113521726",
+    "ultimo_status": "Criado novo ID de acompanhamento para alinhamento operacional com a TI e segregação das atividades do projeto.\nRequisitos atualizados para contemplar as novas diretrizes tributárias na emissão de notas manuais de serviço.",
+    "status_updated_at": "27/10/2026 15:41"
   },
   "86akcbua7": {
     "date_updated": "1789142931662",
