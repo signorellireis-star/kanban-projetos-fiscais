@@ -1,5 +1,5 @@
-// Gerado automaticamente via ClickUp API + Gemini em 28/10/2026 16:24:36
-const lastUpdate = '28/10/2026 16:24:36';
+// Gerado automaticamente via ClickUp API + Gemini em 28/10/2026 23:51:33
+const lastUpdate = '28/10/2026 23:51:33';
 const rawData = [
   {
     "id": "17tw8yvcejj",
@@ -334,8 +334,8 @@ const rawData = [
     "ano_ppm": "2026",
     "area": "Fiscal",
     "resumo_raw": "Projeto de reforma tributária da Nota Fiscal de Serviço NFS-e. Atendimento para destacar IBS e CBS na nota fiscal. emissão dos documentos.\n\n",
-    "ultimo_status": "",
-    "status_updated_at": ""
+    "ultimo_status": "Valida-se a viabilidade técnica do webservice de Barueri para assegurar a automação do fluxo de RPS e NFS-e, evitando processos manuais inviáveis.\nParalelamente, analisa-se o resumo dos ajustes junto à Neogrid para validar o atendimento às premissas e estruturar a PPM.",
+    "status_updated_at": "28/10/2026 23:51"
   },
   {
     "id": "86ahfj7dm",
